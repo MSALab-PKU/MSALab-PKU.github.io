@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jingbo Hu | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/author/jingbo-hu/</link>
+      <atom:link href="https://MSALab-PKU.github.io/author/jingbo-hu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jingbo Hu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright>
+    <image>
+      <url>https://MSALab-PKU.github.io/author/jingbo-hu/avatar_hu9707e05fab5448f721ccb464460a3ba2_31998_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Jingbo Hu</title>
+      <link>https://MSALab-PKU.github.io/author/jingbo-hu/</link>
+    </image>
+    
+  </channel>
+</rss>
