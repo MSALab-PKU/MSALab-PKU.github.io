@@ -8,7 +8,7 @@
 theme: minimal
 day_night: false
 font: native
-font_size: L
+font_size: M
 
 # SEO
 
@@ -20,23 +20,22 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: pkumsalab@gmail.com
+phone: 86-10-62756920
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
+  street: No.5 Yiheyuan Road, Haidian District
+  city: Beijing
+  region: CN
+  postcode: '100871'
+  country: China
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+  latitude: '39.9923'
+  longitude: '116.3044'
+# directions: Enter Building 1 and take the stairs to Office 200 on Floor 3
+# office_hours:
+#   - 'Monday 10:00 to 13:00'
+#   - 'Wednesday 09:00 to 10:00'
+# appointment_url: 'https://calendly.com'
 contact_links:
 #  - icon: comments
 #    icon_pack: fas
@@ -52,7 +51,7 @@ main_menu:
   show_language: false
   show_day_night: true
   show_search: true
-  highlight_active_link: false
+  highlight_active_link: true
 
 # Localization
 
@@ -62,7 +61,7 @@ address_format: en-us
 
 # Site features
 
-highlight: false
+highlight: true
 math: false
 diagram: false
 privacy_pack: false
