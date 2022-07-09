@@ -5,12 +5,38 @@
     <link>https://MSALab-PKU.github.io/author/mingliang-zhang/</link>
       <atom:link href="https://MSALab-PKU.github.io/author/mingliang-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Mingliang Zhang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://MSALab-PKU.github.io/author/mingliang-zhang/avatar_hu77126aad5da2e7257ec1271dfeb2ed71_16619_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://MSALab-PKU.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Mingliang Zhang</title>
       <link>https://MSALab-PKU.github.io/author/mingliang-zhang/</link>
     </image>
+    
+    <item>
+      <title>Competence-based Curriculum Learning for Multilingual Machine Translation</title>
+      <link>https://MSALab-PKU.github.io/publication/ccl-m-2021/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/ccl-m-2021/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evolving attention with residual convolutions</title>
+      <link>https://MSALab-PKU.github.io/publication/evolvingattention-2021/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/evolvingattention-2021/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

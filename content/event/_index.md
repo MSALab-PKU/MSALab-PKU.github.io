@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Events
+title: Weekly Meeting
 
 # View.
 #   1 = List

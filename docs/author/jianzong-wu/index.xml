@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jianzong Wu | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/author/jianzong-wu/</link>
+      <atom:link href="https://MSALab-PKU.github.io/author/jianzong-wu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jianzong Wu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright>
+    <image>
+      <url>https://MSALab-PKU.github.io/author/jianzong-wu/avatar_hu0200f7a719e6b892fc33284cb4b758a4_20450_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Jianzong Wu</title>
+      <link>https://MSALab-PKU.github.io/author/jianzong-wu/</link>
+    </image>
+    
+  </channel>
+</rss>

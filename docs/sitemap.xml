@@ -2,14 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://MSALab-PKU.github.io/event/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>https://MSALab-PKU.github.io/event/meeting22-07-02/</loc>
+    <lastmod>2022-07-02T15:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2022-07-02T15:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/event/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2022-07-02T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/event/meeting22-06-25/</loc>
+    <lastmod>2022-06-25T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/publication-type/1/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
@@ -17,7 +20,10 @@
     <loc>https://MSALab-PKU.github.io/authors/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://MSALab-PKU.github.io/publication/conference-paper2/</loc>
+    <loc>https://MSALab-PKU.github.io/publication/ssa-2021/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/jiangang-bai/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/publication_types/</loc>
@@ -35,44 +41,20 @@
     <loc>https://MSALab-PKU.github.io/author/yiren-chen/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://MSALab-PKU.github.io/author/yujing-wang/</loc>
-    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/publication/conference-paper3/</loc>
+    <loc>https://MSALab-PKU.github.io/publication/ccl-m-2021/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://MSALab-PKU.github.io/author/minglang-zhang/</loc>
+    <loc>https://MSALab-PKU.github.io/author/mingliang-zhang/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://MSALab-PKU.github.io/publication/conference-paper1/</loc>
+    <loc>https://MSALab-PKU.github.io/publication/evolvingattention-2021/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://MSALab-PKU.github.io/post/20-12-02-icml-best-paper/</loc>
-    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+    <loc>https://MSALab-PKU.github.io/author/yaming-yang/</loc>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://MSALab-PKU.github.io/post/</loc>
-    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/post/20-12-01-wowchemy-prize/</loc>
-    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/publication-type/3/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/author/admin/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/publication-type/2/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/publication/journal-article/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/author/robert-ford/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <loc>https://MSALab-PKU.github.io/author/yujing-wang/</loc>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/admin/</loc>
   </url><url>
@@ -82,11 +64,21 @@
   </url><url>
     <loc>https://MSALab-PKU.github.io/categories/</loc>
   </url><url>
+    <loc>https://MSALab-PKU.github.io/author/chang-han/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/chao-sun/</loc>
+  </url><url>
     <loc>https://MSALab-PKU.github.io/author/jiangang-bai/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/jianzong-wu/</loc>
   </url><url>
     <loc>https://MSALab-PKU.github.io/author/jingbo-hu/</loc>
   </url><url>
+    <loc>https://MSALab-PKU.github.io/post/</loc>
+  </url><url>
     <loc>https://MSALab-PKU.github.io/author/mingliang-zhang/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/shilin-xu/</loc>
   </url><url>
     <loc>https://MSALab-PKU.github.io/author/tianmeng-yang/</loc>
   </url><url>
@@ -99,5 +91,9 @@
     <loc>https://MSALab-PKU.github.io/author/yujing-wang/</loc>
   </url><url>
     <loc>https://MSALab-PKU.github.io/author/yunhai-tong/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/zheng-miao/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/zhengjie-lin/</loc>
   </url>
 </urlset>
