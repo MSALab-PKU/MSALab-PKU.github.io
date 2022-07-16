@@ -1,7 +1,6 @@
 ---
 title: "Competence-based Curriculum Learning for Multilingual Machine Translation"
-authors:
-- Mingliang Zhang
+authors: [Mingliang Zhang]
 date: "2021-08-01T00:00:00Z"
 doi: ""
 

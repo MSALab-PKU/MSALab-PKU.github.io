@@ -1,10 +1,6 @@
 ---
 title: "Evolving Attention with Residual Convolutions"
-authors:
-- Yujing Wang
-- Yaming Yang
-- Jiangang Bai
-- Mingliang Zhang
+authors: [Yujing Wang, Yaming Yang, Jiangang Bai, Mingliang Zhang]
 date: "2021-07-01T00:00:00Z"
 doi: ""
 

@@ -1,7 +1,6 @@
 ---
 title: "PointFlow: Flowing Semantics Through Points for Aerial Image Segmentation"
-authors:
-- Xiangtai Li
+authors: [Xiangtai Li]
 date: "2021-06-19T00:00:00Z"
 doi: ""
 

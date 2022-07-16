@@ -1,7 +1,6 @@
 ---
 title: "Towards Efficient Scene Understanding via Squeeze Reasoning"
-authors:
-- Xiangtai Li
+authors: [Xiangtai Li]
 date: "2021-07-30T00:00:00Z"
 doi: ""
 

@@ -1,7 +1,6 @@
 ---
 title: "Enhanced Boundary Learning for Glass-like Object Segmentation Supplementary Material"
-authors:
-- Xiangtai Li
+authors: [Xiangtai Li]
 date: "2021-10-17T00:00:00Z"
 doi: ""
 

@@ -1,8 +1,6 @@
 ---
 title: "Improving BERT with Self-Supervised Attention"
-authors:
-- Yiren Chen
-- Jiangang Bai
+authors: [Yiren Chen, Jiangang Bai]
 date: "2021-10-01T00:00:00Z"
 doi: ""
 

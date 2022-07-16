@@ -1,7 +1,6 @@
 ---
 title: "Global Aggregation then Local Distribution for Scene Parsing"
-authors:
-- Xiangtai Li
+authors: [Xiangtai Li]
 date: "2021-08-03T00:00:00Z"
 doi: ""
 
