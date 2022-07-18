@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Evolving Attention with Residual Convolutions"
-authors: [Yujing Wang, Yaming Yang, Jiangang Bai, Mingliang Zhang]
+authors: [Yujing Wang, Yaming Yang, Jiangang Bai, Mingliang Zhang, Yunhai Tong]
 date: 2021-07-01
 doi: ""
 
