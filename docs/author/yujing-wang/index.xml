@@ -5,7 +5,7 @@
     <link>https://MSALab-PKU.github.io/author/yujing-wang/</link>
       <atom:link href="https://MSALab-PKU.github.io/author/yujing-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Yujing Wang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright><lastBuildDate>Sat, 14 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://MSALab-PKU.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Yujing Wang</title>
@@ -13,10 +13,49 @@
     </image>
     
     <item>
+      <title>DeGNN: Improving Graph Neural Networks with Graph Decomposition</title>
+      <link>https://MSALab-PKU.github.io/publication/degnn-2021/</link>
+      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/degnn-2021/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Evolving Attention with Residual Convolutions</title>
       <link>https://MSALab-PKU.github.io/publication/evolvingattention-2021/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/evolvingattention-2021/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CogTree: Cognition Tree Loss for Unbiased Scene Graph Generation</title>
+      <link>https://MSALab-PKU.github.io/publication/cogtree-2021/</link>
+      <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/cogtree-2021/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syntax-BERT: Improving Pre-trained Transformers with Syntax Trees</title>
+      <link>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.

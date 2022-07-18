@@ -38,5 +38,18 @@
 </description>
     </item>
     
+    <item>
+      <title>Syntax-BERT: Improving Pre-trained Transformers with Syntax Trees</title>
+      <link>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
