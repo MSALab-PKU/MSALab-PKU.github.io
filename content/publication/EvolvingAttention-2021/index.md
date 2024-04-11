@@ -22,7 +22,7 @@ publication_short: "In *ICML 2021*"
 abstract: "Transformer is a ubiquitous model for natural language processing and has attracted wide attentions in computer vision. The attention maps are indispensable for a transformer model to encode the dependencies among input tokens. However, they are learned without explicit interactions in each layer and sometimes fail to capture reasonable patterns. In this paper, we propose a novel and generic mechanism based on evolving attention to improve the performance of transformers. On one hand, the attention maps in different layers share common knowledge, thus the ones in preceding layers can instruct the learning of attention in succeeding layers through residual connections. On the other hand, low-level and high-level attentions vary in the levels of abstraction, so we adopt additional convolutional layers to capture the evolutionary process of attention maps. The proposed evolving attention mechanism achieves significant performance improvement over various state-ofthe-art models for multiple tasks, including image classification, natural language understanding and machine translation."
 
 # Summary. An optional shortened abstract.
-summary: "Evolving attention with residual convolutions"
+summary: ""
 
 tags: []
 categories: []

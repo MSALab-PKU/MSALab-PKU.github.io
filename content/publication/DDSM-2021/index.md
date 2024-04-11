@@ -22,7 +22,7 @@ publication_short: "In *ICIP 2021*"
 abstract: "Representation of semantic context and local details is the essential issue for building modern semantic segmentation models. However, the interrelationship between semantic context and local details is not well explored in previous works. In this paper, we propose a Dynamic Dual Sampling Module (DDSM) to conduct dynamic affinity modeling and propagate semantic context to local details, which yields a more discriminative representation. Specifically, a dynamic sampling strategy is used to sparsely sample representative pixels and channels in the higher layer, forming adaptive compact support for each pixel and channel in the lower layer. The sampled features with high semantics are aggregated according to the affinities and then propagated to detailed lower-layer features, leading to a fine-grained segmentation result with wellpreserved boundaries. Experiment results on both Cityscapes and Camvid datasets validate the effectiveness and efficiency of the proposed approach. Code and models will be available at https://github.com/Fantasticarl/DDSM."
 
 # Summary. An optional shortened abstract.
-summary: "Dynamic dual sampling module for fine-grained semantic segmentation"
+summary: ""
 
 tags: []
 categories: []

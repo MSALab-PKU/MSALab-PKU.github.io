@@ -19,13 +19,13 @@ content:
   - Professors
   - Principal Investigators
   - Researchers
+  - Students
   - Grad Students
   - Administration
   - Visitors
   - Alumni
-  - Students
 design:
   show_interests: false
   show_role: true
-  show_social: true
+  show_social: false
 ---

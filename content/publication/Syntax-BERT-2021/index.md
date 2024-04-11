@@ -22,7 +22,7 @@ publication_short: "In *EACL 2021*"
 abstract: "Pre-trained language models like BERT achieve superior performances in various NLP tasks without explicit consideration of syntactic information. Meanwhile, syntactic information has been proved to be crucial for the success of NLP applications. However, how to incorporate the syntax trees effectively and efficiently into pre-trained Transformers is still unsettled. In this paper, we address this problem by proposing a novel framework named Syntax-BERT. This framework works in a plug-and-play mode and is applicable to an arbitrary pre-trained checkpoint based on Transformer architecture. Experiments on various datasets of natural language understanding verify the effectiveness of syntax trees and achieve consistent improvement over multiple pre-trained models, including BERT, RoBERTa, and T5. At the same time, we also made our experiment code public."
 
 # Summary. An optional shortened abstract.
-summary: "Syntax-BERT: Improving pre-trained Transformers with syntax trees"
+summary: ""
 
 tags: []
 categories: []

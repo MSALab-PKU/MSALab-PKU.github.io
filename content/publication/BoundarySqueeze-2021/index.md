@@ -22,7 +22,7 @@ publication_short: "In *arXiv 2021*"
 abstract: "This paper proposes a novel method for high-quality image segmentation of both objects and scenes. Inspired by the dilation and erosion operations in morphological image processing techniques, the pixel-level image segmentation problems are treated as squeezing object boundaries. From this perspective, a novel and efficient **Boundary Squeeze** module is proposed. This module is used to squeeze the object boundary from both inner and outer directions, which contributes to precise mask representation. A bi-directionally flow-based warping process is proposed to generate such squeezed feature representation, and two specific loss signals are designed to supervise the squeezing process. The Boundary Squeeze module can be easily applied to both instance and semantic segmentation tasks as a plug-and-play module by building on top of some existing methods. Moreover, the proposed module is lightweighted, and thus has potential for practical usage. Experiment results show that our simple yet effective design can produce high-quality results on several different datasets. Besides, several other metrics on the boundary are used to prove the effectiveness of our method over previous work. Our approach yields significant improvement on challenging COCO and Cityscapes datasets for both instance and semantic segmentation, and outperforms previous state-of-the-art PointRend in both accuracy and speed under the same setting. Codes and models will be published at https://github.com/lxtGH/BSSeg."
 
 # Summary. An optional shortened abstract.
-summary: "BoundarySqueeze: Image segmentation as boundary squeezing"
+summary: ""
 
 tags: []
 categories: []

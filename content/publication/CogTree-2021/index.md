@@ -22,9 +22,9 @@ publication_short: "In *IJCAI 2021*"
 abstract: "Scene graphs are semantic abstraction of images that encourage visual understanding and reasoning. However, the performance of Scene Graph Generation (SGG) is unsatisfactory when faced with biased data in real-world scenarios. Conventional debiasing research mainly studies from the view of balancing data distribution or learning unbiased models and representations, ignoring the correlations among the biased classes. In this work, we analyze this problem from a novel cognition perspective: automatically building a hierarchical cognitive structure from the biased predictions and navigating that hierarchy to locate the relationships, making the tail relationships receive more attention in a coarse-to-fine mode. To this end, we propose a novel debiasing Cognition Tree (CogTree) loss for unbiased SGG. We first build a cognitive structure CogTree to organize the relationships based on the prediction of a biased SGG model. The CogTree distinguishes remarkably different relationships at first and then focuses on a small portion of easily confused ones. Then, we propose a debiasing loss specially for this cognitive structure, which supports coarse-to-fine distinction for the correct relationships. The loss is model-agnostic and consistently boosting the performance of several state-of-the-art models. The code is available at: https://github.com/CYVincent/SceneGraph-Transformer-CogTree."
 
 # Summary. An optional shortened abstract.
-summary: "CogTree: Cognition tree loss for unbiased scene graph generation"
+summary: ""
 
-tags: [Source Themes]
+tags: []
 categories: []
 featured: true
 
