@@ -24,7 +24,7 @@ abstract: "Pre-trained language models like BERT achieve superior performances i
 # Summary. An optional shortened abstract.
 summary: "Syntax-BERT: Improving pre-trained Transformers with syntax trees"
 
-tags: [Source Themes]
+tags: []
 categories: []
 featured: true
 
@@ -35,10 +35,6 @@ links:
   url: https://arxiv.org/abs/2103.04350
   icon_pack: fas
   icon: link
-- name: PDF
-  url: https://arxiv.org/pdf/2103.04350.pdf
-  icon_pack: fas
-  icon: file-pdf
 - name: Code
   url: https://github.com/nkh2235/SyntaxBERT
   icon_pack: fab
@@ -75,7 +71,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}

@@ -24,7 +24,7 @@ abstract: "Modelling long-range contextual relationships is critical for pixel-w
 # Summary. An optional shortened abstract.
 summary: "Global aggregation then local distribution for scene parsing"
 
-tags: [Source Themes]
+tags: []
 categories: []
 featured: true
 
@@ -35,10 +35,6 @@ links:
   url: https://ieeexplore.ieee.org/abstract/document/9505259
   icon_pack: fas
   icon: link
-- name: PDF
-  url: https://arxiv.org/pdf/2107.13154.pdf
-  icon_pack: fas
-  icon: file-pdf
 - name: Code
   url: https://github.com/lxtGH/GALD-DGCNet
   icon_pack: fab
@@ -75,7 +71,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}

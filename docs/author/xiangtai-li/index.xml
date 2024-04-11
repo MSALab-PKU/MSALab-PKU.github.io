@@ -5,12 +5,100 @@
     <link>https://MSALab-PKU.github.io/author/xiangtai-li/</link>
       <atom:link href="https://MSALab-PKU.github.io/author/xiangtai-li/index.xml" rel="self" type="application/rss+xml" />
     <description>Xiangtai Li</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright><lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://MSALab-PKU.github.io/author/xiangtai-li/avatar_hu4c34d01f62395abc0e4395ebfb78554f_681696_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://MSALab-PKU.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Xiangtai Li</title>
       <link>https://MSALab-PKU.github.io/author/xiangtai-li/</link>
     </image>
+    
+    <item>
+      <title>Betrayed by captions: Joint caption grounding and generation for open vocabulary instance segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/cgg-2023/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/cgg-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TransVOD: End-to-end Video Object Detection with Spatial-Temporal Transformers</title>
+      <link>https://MSALab-PKU.github.io/publication/transvoc-v2-2021/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/transvoc-v2-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BoundarySqueeze: Image Segmentation as Boundary Squeezing</title>
+      <link>https://MSALab-PKU.github.io/publication/boundarysqueeze-2021/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/boundarysqueeze-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End-to-End Video Object Detection with Spatial-Temporal Transformers</title>
+      <link>https://MSALab-PKU.github.io/publication/transvoc-2021/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/transvoc-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhanced Boundary Learning for Glass-like Object Segmentation Supplementary Material</title>
+      <link>https://MSALab-PKU.github.io/publication/rdm-pgm-2021/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/rdm-pgm-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Global Aggregation then Local Distribution for Scene Parsing</title>
+      <link>https://MSALab-PKU.github.io/publication/gald-2021/</link>
+      <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/gald-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Efficient Scene Understanding via Squeeze Reasoning</title>
+      <link>https://MSALab-PKU.github.io/publication/srnet-2021/</link>
+      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/srnet-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving Video Instance Segmentation via Temporal Pyramid Routing</title>
+      <link>https://MSALab-PKU.github.io/publication/tpr-2021/</link>
+      <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/tpr-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PointFlow: Flowing Semantics Through Points for Aerial Image Segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/pointflow-2021/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/pointflow-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Dual Sampling Module For Fine-Grained Semantic Segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/ddsm-2021/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/ddsm-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast and Accurate Scene Parsing via Bi-Direction Alignment Networks</title>
+      <link>https://MSALab-PKU.github.io/publication/bialignnet-2021/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/bialignnet-2021/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -35,10 +35,6 @@ links:
   url: https://openaccess.thecvf.com/content/ICCV2021/html/He_Enhanced_Boundary_Learning_for_Glass-Like_Object_Segmentation_ICCV_2021_paper.html?ref=https://githubhelp.com
   icon_pack: fas
   icon: link
-- name: PDF
-  url: https://openaccess.thecvf.com/content/ICCV2021/papers/He_Enhanced_Boundary_Learning_for_Glass-Like_Object_Segmentation_ICCV_2021_paper.pdf
-  icon_pack: fas
-  icon: file-pdf
 
 url_pdf: 
 url_code: 
@@ -71,7 +67,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}

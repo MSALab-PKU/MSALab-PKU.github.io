@@ -24,7 +24,7 @@ abstract: "Aerial Image Segmentation is a particular semantic segmentation probl
 # Summary. An optional shortened abstract.
 summary: "PointFlow: Flowing semantics through points for aerial image segmentation"
 
-tags: [Source Themes]
+tags: []
 categories: []
 featured: true
 
@@ -75,7 +75,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}

@@ -24,7 +24,7 @@ abstract: "One of the most popular paradigms of applying large pre-trained NLP m
 # Summary. An optional shortened abstract.
 summary: "Improving BERT with self-Supervised attention"
 
-tags: [Source Themes]
+tags: []
 categories: []
 featured: true
 
@@ -71,7 +71,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}

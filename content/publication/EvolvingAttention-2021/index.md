@@ -24,7 +24,7 @@ abstract: "Transformer is a ubiquitous model for natural language processing and
 # Summary. An optional shortened abstract.
 summary: "Evolving attention with residual convolutions"
 
-tags: [Source Themes]
+tags: []
 categories: []
 featured: true
 
@@ -35,10 +35,6 @@ links:
   url: https://proceedings.mlr.press/v139/wang21ab.html
   icon_pack: fas
   icon: link
-- name: PDF
-  url: http://proceedings.mlr.press/v139/wang21ab/wang21ab.pdf
-  icon_pack: fas
-  icon: file-pdf
 - name: Code
   url: https://github.com/pkuyym/EvolvingAttention
   icon_pack: fab
@@ -75,7 +71,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}

@@ -29,8 +29,8 @@ address:
   postcode: '100871'
   country: China
 coordinates:
-  latitude: '39.9923'
-  longitude: '116.3044'
+  latitude: '39.9895'
+  longitude: '116.3085'
 # directions: Enter Building 1 and take the stairs to Office 200 on Floor 3
 # office_hours:
 #   - 'Monday 10:00 to 13:00'

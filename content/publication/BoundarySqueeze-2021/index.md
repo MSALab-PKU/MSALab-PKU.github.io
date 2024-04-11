@@ -24,7 +24,7 @@ abstract: "This paper proposes a novel method for high-quality image segmentatio
 # Summary. An optional shortened abstract.
 summary: "BoundarySqueeze: Image segmentation as boundary squeezing"
 
-tags: [Source Themes]
+tags: []
 categories: []
 featured: true
 
@@ -35,10 +35,6 @@ links:
   url: https://arxiv.org/abs/2105.11668
   icon_pack: fas
   icon: link
-- name: PDF
-  url: https://arxiv.org/pdf/2105.11668.pdf
-  icon_pack: fas
-  icon: file-pdf
 - name: Code
   url: https://github.com/lxtGH/BSSeg
   icon_pack: fab
@@ -75,7 +71,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}

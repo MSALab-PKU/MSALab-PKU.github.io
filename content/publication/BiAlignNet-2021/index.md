@@ -24,7 +24,7 @@ abstract: "In this paper, we propose an effective method for fast and accurate s
 # Summary. An optional shortened abstract.
 summary: "Fast and accurate scene parsing via bi-direction alignment networks"
 
-tags: [Source Themes]
+tags: []
 categories: []
 featured: true
 
@@ -35,10 +35,6 @@ links:
   url: https://ieeexplore.ieee.org/abstract/document/9506720
   icon_pack: fas
   icon: link
-- name: PDF
-  url: https://arxiv.org/pdf/2105.11651.pdf
-  icon_pack: fas
-  icon: file-pdf
 - name: Code
   url: https://github.com/jojacola/BiAlignNet
   icon_pack: fab
@@ -75,7 +71,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}

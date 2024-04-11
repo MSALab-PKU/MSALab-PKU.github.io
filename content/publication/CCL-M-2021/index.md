@@ -24,7 +24,7 @@ abstract: "Currently, multilingual machine translation is receiving more and mor
 # Summary. An optional shortened abstract.
 summary: "Competence-based curriculum learning for multilingual machine translation"
 
-tags: [Source Themes]
+tags: []
 categories: []
 featured: true
 
@@ -35,10 +35,6 @@ links:
   url: https://arxiv.org/abs/2109.04002
   icon_pack: fas
   icon: link
-- name: PDF
-  url: https://arxiv.org/pdf/2109.04002.pdf
-  icon_pack: fas
-  icon: file-pdf
 - name: Code
   url: https://github.com/zml24/ccl-m
   icon_pack: fab
@@ -75,7 +71,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}

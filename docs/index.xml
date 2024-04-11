@@ -5,7 +5,7 @@
     <link>https://MSALab-PKU.github.io/</link>
       <atom:link href="https://MSALab-PKU.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Multimedia Semantic Analytics Lab</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright><lastBuildDate>Sat, 02 Jul 2022 15:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright><lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://MSALab-PKU.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Multimedia Semantic Analytics Lab</title>
@@ -13,25 +13,11 @@
     </image>
     
     <item>
-      <title>[Weekly Meeting] 07-02</title>
-      <link>https://MSALab-PKU.github.io/event/meeting22-07-02/</link>
-      <pubDate>Sat, 02 Jul 2022 15:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/event/meeting22-07-02/</guid>
-      <description>&lt;p&gt;Jianzong shaved three papers about &lt;strong&gt;Image Segmentation with Text Supervision&lt;/strong&gt;. And the related papers and slides are available at &lt;a href=&#34;https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_GroupViT_Semantic_Segmentation_Emerges_From_Text_Supervision_CVPR_2022_paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;GroupViT&lt;/em&gt;&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/pdf/2205.04725.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;TSEG&lt;/em&gt;&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/pdf/2112.12143.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;OpenSeg&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/MSALab-PKU/weeklymeeting/blob/main/slides/meeting22-07-02/wjz.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Chang shaved two papers about &lt;strong&gt;Semi-Supervised Object Detection&lt;/strong&gt;. And the related papers and slides are available at &lt;a href=&#34;https://proceedings.neurips.cc/paper/2020/file/06964dce9addb1c5cb5d6e3d9838f733-Paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;FixMatch&lt;/em&gt;&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/pdf/2005.04757.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;STAC&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/MSALab-PKU/weeklymeeting/blob/main/slides/meeting22-07-02/hc.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Zhengjie shaved two papers about &lt;strong&gt;Graph Contrastive Learning&lt;/strong&gt;. And the related papers and slides are available at &lt;a href=&#34;https://arxiv.org/pdf/2012.07437.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;TIFA-GCL&lt;/em&gt;&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/pdf/2110.02027.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;ProGCL&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/MSALab-PKU/weeklymeeting/blob/main/slides/meeting22-07-02/lzj.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Zheng presented recent experimental results on &lt;strong&gt;Font Style Transfer&lt;/strong&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>[Weekly Meeting] 06-25</title>
-      <link>https://MSALab-PKU.github.io/event/meeting22-06-25/</link>
-      <pubDate>Sat, 25 Jun 2022 10:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/event/meeting22-06-25/</guid>
-      <description>&lt;p&gt;Tianmeng presented recent research progress on &lt;strong&gt;Graph Active Learning&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Chao shaved a paper about &lt;strong&gt;GNN for Text-Rich Networks&lt;/strong&gt;. And the related paper and slides are available at &lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/9679149&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;AS-GCN&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com/MSALab-PKU/weeklymeeting/blob/main/slides/meeting22-06-25/sc.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>Betrayed by captions: Joint caption grounding and generation for open vocabulary instance segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/cgg-2023/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/cgg-2023/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -39,12 +25,7 @@
       <link>https://MSALab-PKU.github.io/publication/transvoc-v2-2021/</link>
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/transvoc-v2-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -52,12 +33,7 @@
       <link>https://MSALab-PKU.github.io/publication/boundarysqueeze-2021/</link>
       <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/boundarysqueeze-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -65,12 +41,7 @@
       <link>https://MSALab-PKU.github.io/publication/transvoc-2021/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/transvoc-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -78,12 +49,7 @@
       <link>https://MSALab-PKU.github.io/publication/rdm-pgm-2021/</link>
       <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/rdm-pgm-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -91,12 +57,7 @@
       <link>https://MSALab-PKU.github.io/publication/ssa-2021/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/ssa-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -104,12 +65,7 @@
       <link>https://MSALab-PKU.github.io/publication/degnn-2021/</link>
       <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/degnn-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -117,12 +73,7 @@
       <link>https://MSALab-PKU.github.io/publication/gald-2021/</link>
       <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/gald-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -130,12 +81,7 @@
       <link>https://MSALab-PKU.github.io/publication/ccl-m-2021/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/ccl-m-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -143,12 +89,7 @@
       <link>https://MSALab-PKU.github.io/publication/srnet-2021/</link>
       <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/srnet-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -156,12 +97,7 @@
       <link>https://MSALab-PKU.github.io/publication/tpr-2021/</link>
       <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/tpr-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -169,12 +105,7 @@
       <link>https://MSALab-PKU.github.io/publication/evolvingattention-2021/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/evolvingattention-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -182,12 +113,7 @@
       <link>https://MSALab-PKU.github.io/publication/pointflow-2021/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/pointflow-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -195,12 +121,7 @@
       <link>https://MSALab-PKU.github.io/publication/cogtree-2021/</link>
       <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/cogtree-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -208,12 +129,7 @@
       <link>https://MSALab-PKU.github.io/publication/ddsm-2021/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/ddsm-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -221,12 +137,7 @@
       <link>https://MSALab-PKU.github.io/publication/bialignnet-2021/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/bialignnet-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -234,12 +145,7 @@
       <link>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description></description>
     </item>
     
     <item>

@@ -24,7 +24,7 @@ abstract: "Video Instance Segmentation (VIS) is a new and inherently multi-task 
 # Summary. An optional shortened abstract.
 summary: "Improving video instance segmentation via temporal pyramid routing"
 
-tags: [Source Themes]
+tags: []
 categories: []
 featured: true
 
@@ -35,10 +35,6 @@ links:
   url: https://arxiv.org/abs/2107.13155
   icon_pack: fas
   icon: link
-- name: PDF
-  url: https://arxiv.org/pdf/2107.13155.pdf
-  icon_pack: fas
-  icon: file-pdf
 - name: Code
   url: https://github.com/lxtGH/TemporalPyramidRouting
   icon_pack: fab
@@ -75,7 +71,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}

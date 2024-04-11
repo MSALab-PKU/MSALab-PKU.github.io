@@ -24,7 +24,7 @@ abstract: "Recently, DETR and Deformable DETR have been proposed to eliminate th
 # Summary. An optional shortened abstract.
 summary: "End-to-end video object detection with spatial-temporal Transformers"
 
-tags: [Source Themes]
+tags: []
 categories: []
 featured: true
 
@@ -35,10 +35,6 @@ links:
   url: https://dl.acm.org/doi/abs/10.1145/3474085.3475285
   icon_pack: fas
   icon: link
-- name: PDF
-  url: https://dl.acm.org/doi/pdf/10.1145/3474085.3475285
-  icon_pack: fas
-  icon: file-pdf
 - name: Code
   url: https://github.com/SJTU-LuHe/TransVOD
   icon_pack: fab
@@ -75,7 +71,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}

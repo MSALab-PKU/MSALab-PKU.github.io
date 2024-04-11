@@ -24,7 +24,7 @@ abstract: "In this work, we focus on open vocabulary instance segmentation to ex
 # Summary. An optional shortened abstract.
 summary: "Betrayed by captions: Joint caption grounding and generation for open vocabulary instance segmentation"
 
-tags: [Source Themes]
+tags: []
 categories: []
 featured: true
 
@@ -35,10 +35,6 @@ links:
   url: https://openaccess.thecvf.com/content/ICCV2023/html/Wu_Betrayed_by_Captions_Joint_Caption_Grounding_and_Generation_for_Open_ICCV_2023_paper.html
   icon_pack: fas
   icon: link
-- name: PDF
-  url: https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Betrayed_by_Captions_Joint_Caption_Grounding_and_Generation_for_Open_ICCV_2023_paper.pdf
-  icon_pack: fas
-  icon: file-pdf
 - name: Code
   url: https://github.com/jianzongwu/betrayed-by-captions
   icon_pack: fab
@@ -75,7 +71,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}

@@ -24,7 +24,7 @@ abstract: "Mining from graph-structured data is an integral component of graph d
 # Summary. An optional shortened abstract.
 summary: "DeGNN: Improving graph neural networks with graph decomposition"
 
-tags: [Source Themes]
+tags: []
 categories: []
 featured: true
 
@@ -35,10 +35,6 @@ links:
   url: https://dl.acm.org/doi/abs/10.1145/3447548.3467312
   icon_pack: fas
   icon: link
-- name: PDF
-  url: https://dl.acm.org/doi/pdf/10.1145/3447548.3467312
-  icon_pack: fas
-  icon: file-pdf
 
 url_pdf: 
 url_code: 
@@ -71,7 +67,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}

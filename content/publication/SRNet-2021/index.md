@@ -24,7 +24,7 @@ abstract: "Graph-based convolutional model such as non-local block has shown to 
 # Summary. An optional shortened abstract.
 summary: "Towards efficient scene understanding via squeeze reasoning"
 
-tags: [Source Themes]
+tags: []
 categories: []
 featured: true
 
@@ -75,7 +75,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}

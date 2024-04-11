@@ -35,10 +35,6 @@ links:
   url: https://arxiv.org/abs/2009.07526
   icon_pack: fas
   icon: link
-- name: PDF
-  url: https://arxiv.org/pdf/2009.07526.pdf
-  icon_pack: fas
-  icon: file-pdf
 - name: Code
   url: https://github.com/CYVincent/Scene-Graph-Transformer-CogTree
   icon_pack: fab
@@ -75,7 +71,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
