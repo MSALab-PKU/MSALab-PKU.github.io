@@ -66,10 +66,10 @@ math: false
 diagram: false
 privacy_pack: false
 show_related:
-  post: true
-  project: true
-  publication: true
-  talk: true
+  post: false
+  project: false
+  publication: false
+  talk: false
 reading_time: true
 section_pager: false
 sharing: true
