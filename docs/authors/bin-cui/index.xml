@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bin Cui | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/bin-cui/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/bin-cui/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bin Cui</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
+      <title>Bin Cui</title>
+      <link>https://MSALab-PKU.github.io/authors/bin-cui/</link>
+    </image>
+    
+    <item>
+      <title>Mitigating Semantic Confusion from Hostile Neighborhood for Graph Active Learning</title>
+      <link>https://MSALab-PKU.github.io/publication/mitigating-2023/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/mitigating-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DeGNN: Improving Graph Neural Networks with Graph Decomposition</title>
+      <link>https://MSALab-PKU.github.io/publication/degnn-2021/</link>
+      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/degnn-2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

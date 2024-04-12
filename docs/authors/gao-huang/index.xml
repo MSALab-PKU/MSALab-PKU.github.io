@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gao Huang | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/gao-huang/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/gao-huang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gao Huang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
+      <title>Gao Huang</title>
+      <link>https://MSALab-PKU.github.io/authors/gao-huang/</link>
+    </image>
+    
+    <item>
+      <title>Convolution-enhanced evolving attention networks</title>
+      <link>https://MSALab-PKU.github.io/publication/conv-2023/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/conv-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evolving attention with residual convolutions</title>
+      <link>https://MSALab-PKU.github.io/publication/evolving-2021/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/evolving-2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

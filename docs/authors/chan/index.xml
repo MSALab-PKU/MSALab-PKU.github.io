@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chang Han | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/chan/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/chan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chang Han</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright>
+    <image>
+      <url>https://MSALab-PKU.github.io/authors/chan/avatar_huafedca84c4ae6b9e89f1033413dcde16_80876_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Chang Han</title>
+      <link>https://MSALab-PKU.github.io/authors/chan/</link>
+    </image>
+    
+  </channel>
+</rss>

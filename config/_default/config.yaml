@@ -5,7 +5,7 @@
 
 title: Multimedia Semantic Analytics Lab # Website name
 baseurl: 'https://MSALab-PKU.github.io' # Website URL
-copyright: 'Maintained by YoungTimmy' # Footer text, e.g. '© {year} Me'
+copyright: 'Maintained by MSALab' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
@@ -39,11 +39,11 @@ enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
-permalinks:
-  authors: '/author/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
+# permalinks:
+#   authors: '/author/:slug/'
+#   tags: '/tag/:slug/'
+#   categories: '/category/:slug/'
+#   publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
@@ -64,19 +64,19 @@ imaging:
   anchor: smart
 timeout: 600000
 taxonomies:
-  tag: tags
-  category: categories
+  # tag: tags
+  # category: categories
   publication_type: publication_types
   author: authors
-related:
-  threshold: 80
-  includeNewer: true
-  toLower: true
-  indices:
-    - name: tags
-      weight: 100
-    - name: categories
-      weight: 70
+# related:
+#   threshold: 80
+#   includeNewer: false
+#   toLower: true
+#   indices:
+#     - name: tags
+#       weight: 100
+#     - name: categories
+#       weight: 70
 publishDir: docs
 
 security:

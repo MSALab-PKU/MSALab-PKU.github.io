@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guangliang Cheng | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/guangliang-cheng/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/guangliang-cheng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Guangliang Cheng</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
+      <title>Guangliang Cheng</title>
+      <link>https://MSALab-PKU.github.io/authors/guangliang-cheng/</link>
+    </image>
+    
+    <item>
+      <title>Sfnet: Faster and accurate semantic segmentation via semantic flow</title>
+      <link>https://MSALab-PKU.github.io/publication/sfnet-2024/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/sfnet-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dst-det: Simple dynamic self-training for open-vocabulary object detection</title>
+      <link>https://MSALab-PKU.github.io/publication/dst-2024/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/dst-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Betrayed by captions: Joint caption grounding and generation for open vocabulary instance segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/betrayed-2023/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/betrayed-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Panopticpartformer&#43;&#43;: A unified and decoupled view for panoptic part segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/panopticpartformer&#43;&#43;-2022/</link>
+      <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/panopticpartformer&#43;&#43;-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TransVOD: End-to-end Video Object Detection with Spatial-Temporal Transformers</title>
+      <link>https://MSALab-PKU.github.io/publication/transvod-2022/</link>
+      <pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/transvod-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Panoptic-partformer: Learning a unified model for panoptic part segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/partformer-2022/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/partformer-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polyphonicformer: Unified query learning for depth-aware video panoptic segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/polyphonicofrmer-2022/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/polyphonicofrmer-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fashionformer: A simple, effective and unified baseline for human fashion segmentation and recognition</title>
+      <link>https://MSALab-PKU.github.io/publication/fashionformer-2022/</link>
+      <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/fashionformer-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Query Learning of Both Thing and Stuff for Panoptic Segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/query-2022/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/query-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving Video Instance Segmentation via Temporal Pyramid Routing</title>
+      <link>https://MSALab-PKU.github.io/publication/tpr-2021/</link>
+      <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/tpr-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video k-net: A simple, strong, and unified baseline for video segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/video-k-net-2022/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/video-k-net-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BoundarySqueeze: Image Segmentation as Boundary Squeezing</title>
+      <link>https://MSALab-PKU.github.io/publication/boundarysqueeze-2021/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/boundarysqueeze-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End-to-end video object detection with spatial-temporal transformers</title>
+      <link>https://MSALab-PKU.github.io/publication/end-2021/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/end-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Global aggregation then local distribution for scene parsing</title>
+      <link>https://MSALab-PKU.github.io/publication/global-2021/</link>
+      <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/global-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards efficient scene understanding via squeeze reasoning</title>
+      <link>https://MSALab-PKU.github.io/publication/sfsegnets-2021/</link>
+      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/sfsegnets-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PointFlow: Flowing Semantics Through Points for Aerial Image Segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/pointflow-2021/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/pointflow-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhanced boundary learning for glass-like object segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/enhanced-2021/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/enhanced-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving semantic segmentation via decoupled body and edge supervision</title>
+      <link>https://MSALab-PKU.github.io/publication/improving-2020/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/improving-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
