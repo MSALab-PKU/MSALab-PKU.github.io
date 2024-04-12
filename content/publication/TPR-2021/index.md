@@ -3,11 +3,11 @@
 
 title: "Improving Video Instance Segmentation via Temporal Pyramid Routing"
 authors: [Xiangtai Li, Hao He, Yibo Yang, Henghui Ding, Kuiyuan Yang, Guangliang Cheng, Yunhai Tong, Dacheng Tao]
-date:
+date: 2022-10-04
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate:
+publishDate: 2022-10-04
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,7 +16,7 @@ publishDate:
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *IEEE Transactions on Pattern Analysis and Machine Intelligence, 2022*"
+publication: "*IEEE Transactions on Pattern Analysis and Machine Intelligence, 2022*"
 publication_short: "*TPAMI, 2022*"
 
 abstract: "Video Instance Segmentation (VIS) is a new and inherently multi-task problem, which aims to detect, segment and track each instance in a video sequence. Existing approaches are mainly based on single-frame features or single-scale features of multiple frames, where temporal information or multi-scale information is ignored. To incorporate both temporal and scale information, we propose a Temporal Pyramid Routing (TPR) strategy to conditionally align and conduct pixel-level aggregation from a feature pyramid pair of two adjacent frames. Specifically, TPR contains two novel components, including Dynamic Aligned Cell Routing (DACR) and Cross Pyramid Routing (CPR), where DACR is designed for aligning and gating pyramid features across temporal dimension, while CPR transfers temporally aggregated features across scale dimension. Moreover, our approach is a plug-and-play module and can be easily applied to existing instance segmentation methods. Extensive experiments on YouTube-VIS dataset demonstrate the effectiveness and efficiency of the proposed approach on several state-of-the-art instance segmentation methods. Codes and trained models will be publicly available to facilitate future research.(https://github.com/lxtGH/TemporalPyramidRouting)."

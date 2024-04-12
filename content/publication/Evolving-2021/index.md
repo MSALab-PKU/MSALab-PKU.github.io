@@ -3,11 +3,11 @@
 
 title: "Evolving attention with residual convolutions"
 authors: [Yujing Wang, Yaming Yang, Jiangang Bai, Mingliang Zhang, Jing Bai, Jing Yu, Ce Zhang, Gao Huang, Yunhai Tong]
-date: 2021/7/1
+date: 2021-07-01
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2021/7/1
+publishDate: 2021-07-01
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,7 +16,7 @@ publishDate: 2021/7/1
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *International Conference on Machine Learning*"
+publication: "*International Conference on Machine Learning*"
 publication_short: "*ICML, 2021*"
 
 abstract: "Transformer is a ubiquitous model for natural language processing and has attracted wide attentions in computer vision. The attention maps are indispensable for a transformer model to encode the dependencies among input tokens. However, they are learned independently in each layer and sometimes fail to capture precise patterns. In this paper, we propose a novel and generic mechanism based on evolving attention to improve the performance of transformers. On one hand, the attention maps in different layers share common knowledge, thus the ones in preceding layers can instruct the attention in succeeding layers through residual connections. On the other hand, low-level and high-level attentions vary in the level of abstraction, so we adopt convolutional layers to model the evolutionary process of attention maps. The proposed evolving attention mechanism achieves significant performance improvement over various state-of-the-art models for multiple tasks, including image classification, natural language understanding and machine translation."

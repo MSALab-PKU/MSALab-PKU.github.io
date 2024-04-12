@@ -3,11 +3,11 @@
 
 title: "Mitigating Semantic Confusion from Hostile Neighborhood for Graph Active Learning"
 authors: [Tianmeng Yang, Min Zhou, Yujing Wang, Zhengjie Lin, Lujia Pan, Bin Cui, Yunhai Tong]
-date: 2023/10/21
+date: 2023-10-21
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2023/10/21
+publishDate: 2023-10-21
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,7 +16,7 @@ publishDate: 2023/10/21
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Proceedings of the 32nd ACM International Conference on Information and Knowledge Management*"
+publication: "*Proceedings of the 32nd ACM International Conference on Information and Knowledge Management*"
 publication_short: "*CIKM, 2023*"
 
 abstract: "Graph Active Learning (GAL), which aims to find the most informative nodes in graphs for annotation to maximize the Graph Neural Networks (GNNs) performance, has attracted many research efforts but remains non-trivial challenges. One major challenge is that existing GAL strategies may introduce semantic confusion to the selected training set, particularly when graphs are noisy. Specifically, most existing methods assume all aggregating features to be helpful, ignoring the semantically negative effect between inter-class edges under the message-passing mechanism. In this work, we present Semantic-aware Active learning framework for Graphs (SAG) to mitigate the semantic confusion problem. Pairwise similarities and dissimilarities of nodes with semantic features are introduced to jointly evaluate the node influence. A new prototypebased criterion and query policy are also designed to maintain diversity and class balance of the selected nodes, respectively. Extensive experiments on the public benchmark graphs and a real-world financial dataset demonstrate that SAG significantly improves node classification performances and consistently outperforms previous methods. Moreover, comprehensive analysis and ablation study also verify the effectiveness of the proposed framework."

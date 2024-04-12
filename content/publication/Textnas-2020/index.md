@@ -3,11 +3,11 @@
 
 title: "Textnas: A neural architecture search space tailored for text representation"
 authors: [Yujing Wang, Yaming Yang, Yiren Chen, Jing Bai, Ce Zhang, Guinan Su, Xiaoyu Kou, Yunhai Tong, Mao Yang, Lidong Zhou]
-date: 2020/4/3
+date: 2020-04-03
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2020/4/3
+publishDate: 2020-04-03
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,7 +16,7 @@ publishDate: 2020/4/3
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Proceedings of the AAAI conference on artificial intelligence*"
+publication: "*Proceedings of the AAAI conference on artificial intelligence*"
 publication_short: "*AAAI, 2020*"
 
 abstract: "Learning text representation is crucial for text classification and other language related tasks. There are a diverse set of text representation networks in the literature, and how to find the optimal one is a non-trivial problem. Recently, the emerging Neural Architecture Search (NAS) techniques have demonstrated good potential to solve the problem. Nevertheless, most of the existing works of NAS focus on the search algorithms and pay little attention to the search space. In this paper, we argue that the search space is also an important human prior to the success of NAS in different applications. Thus, we propose a novel search space tailored for text representation. Through automatic search, the discovered network architecture outperforms state-of-the-art models on various public datasets on text classification and natural language inference tasks. Furthermore, some of the design principles found in the automatic network agree well with human intuition."

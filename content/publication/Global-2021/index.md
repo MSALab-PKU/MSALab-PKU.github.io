@@ -3,11 +3,11 @@
 
 title: "Global aggregation then local distribution for scene parsing"
 authors: [Xiangtai Li, Li Zhang, Guangliang Cheng, Kuiyuan Yang, Yunhai Tong, Xiatian Zhu, Tao Xiang]
-date: 2021/8/3
+date: 2021-08-03
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2021/8/3
+publishDate: 2021-08-03
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,7 +16,7 @@ publishDate: 2021/8/3
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *IEEE Transactions on Image Processing*"
+publication: "*IEEE Transactions on Image Processing*"
 publication_short: "*TIP, 2021*"
 
 abstract: "Modelling long-range contextual relationships is critical for pixel-wise prediction tasks such as semantic segmentation. However, convolutional neural networks (CNNs) are inherently limited to model such dependencies due to the naive structure in its building modules (e.g., local convolution kernel). While recent global aggregation methods are beneficial for longrange structure information modelling, they would oversmooth and bring noise to the regions contain fine details (e.g., boundaries and small objects), which are very much cared in the semantic segmentation task. To alleviate this problem, we propose to explore the local context for making the aggregated long-range relationship being distributed more accurately in local regions. In particular, we design a novel local distribution module which models the affinity map between global and local relationship for each pixel adaptively. Integrating existing global aggregation modules, we show that our approach can be modularized as an end-to-end trainable block and easily plugged into existing semantic segmentation networks, giving rise to the GALD networks. Despite its simplicity and versatility, our approach allows us to build new state of the art on major semantic segmentation benchmarks including Cityscapes, ADE20K, Pascal Context, Camvid and COCO-stuff. Code and trained models are released at https://github.com/lxtGH/GALD-DGCNet to foster further research."

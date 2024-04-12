@@ -3,11 +3,11 @@
 
 title: "Fast and accurate scene parsing via bi-direction alignment networks"
 authors: [Yanran Wu, Xiangtai Li, Chen Shi, Yunhai Tong, Yang Hua, Tao Song, Ruhui Ma, Haibing Guan]
-date:
+date: 2021-08-23
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate:
+publishDate: 2021-08-23
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,7 +16,7 @@ publishDate:
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *2021 IEEE International Conference on Image Processing (ICIP)*"
+publication: "*2021 IEEE International Conference on Image Processing (ICIP)*"
 publication_short: "*ICIP, 2021*"
 
 abstract: "In this paper, we propose an effective method for fast and accurate scene parsing called Bidirectional Alignment Network (BiAlignNet). Previously, one representative work BiSeNet [1] uses two different paths (Context Path and Spatial Path) to achieve balanced learning of semantics and details, respectively. However, the relationship between the two paths is not well explored. We argue that both paths can benefit each other in a complementary way. Motivated by this, we propose a novel network by aligning two-path information into each other through a learned flow field. To avoid the noise and semantic gaps, we introduce a Gated Flow Alignment Module to align both features in a bidirectional way. Moreover, to make the Spatial Path learn more detailed information, we present an edge-guided hard pixel mining loss to supervise the aligned learning process. Our method achieves 80.1% and 78.5% mIoU in validation and test set of Cityscapes while running at 30 FPS with full resolution inputs. Code and models will be available at https://github.com/jojacola/BiAlignNet."

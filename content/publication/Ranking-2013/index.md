@@ -3,11 +3,11 @@
 
 title: "Ranking scientific articles by exploiting citations, authors, journals, and time information"
 authors: [Yujing Wang, Yunhai Tong, Ming Zeng]
-date: 2013/6/30
+date: 2013-06-30
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2013/6/30
+publishDate: 2013-06-30
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,7 +16,7 @@ publishDate: 2013/6/30
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Proceedings of the AAAI Conference on Artificial Intelligence*"
+publication: "*Proceedings of the AAAI Conference on Artificial Intelligence*"
 publication_short: "*AAAI, 2013*"
 
 abstract: "Ranking scientific articles is an important but challenging task, partly due to the dynamic nature of the evolving publication network. In this paper, we mainly focus on two problems:(1) how to rank articles in the heterogeneous network; and (2) how to use time information in the dynamic network in order to obtain a better ranking result. To tackle the problems, we propose a graph based ranking method, which utilizes citations, authors, journals/conferences and the publication time information collaboratively. The experiments were carried out on two public datasets. The result shows that our approach is practical and ranks scientific articles more accurately than the state-of-art methods."

@@ -3,11 +3,11 @@
 
 title: "Towards language-driven video inpainting via multimodal large language models"
 authors: [Jianzong Wu, Xiangtai Li, Chenyang Si, Shangchen Zhou, Jingkang Yang, Jiangning Zhang, Yining Li, Kai Chen, Yunhai Tong, Ziwei Liu, Chen Change Loy]
-date: 2024
+date: 2024-01-18
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2024
+publishDate: 2024-01-18
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,7 +16,7 @@ publishDate: 2024
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*"
+publication: "*Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*"
 publication_short: "*CVPR, 2024*"
 
 abstract: "We introduce a new task -- language-driven video inpainting, which uses natural language instructions to guide the inpainting process. This approach overcomes the limitations of traditional video inpainting methods that depend on manually labeled binary masks, a process often tedious and labor-intensive. We present the Remove Objects from Videos by Instructions (ROVI) dataset, containing 5,650 videos and 9,091 inpainting results, to support training and evaluation for this task. We also propose a novel diffusion-based language-driven video inpainting framework, the first end-to-end baseline for this task, integrating Multimodal Large Language Models to understand and execute complex language-based inpainting requests effectively. Our comprehensive results showcase the dataset's versatility and the model's effectiveness in various language-instructed inpainting scenarios. We will make datasets, code, and models publicly available."

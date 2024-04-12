@@ -3,11 +3,11 @@
 
 title: "Spectral temporal graph neural network for multivariate time-series forecasting"
 authors: [Defu Cao, Yujing Wang, Juanyong Duan, Ce Zhang, Xia Zhu, Congrui Huang, Yunhai Tong, Bixiong Xu, Jing Bai, Jie Tong, Qi Zhang]
-date: 2020
+date: 2020-09-13
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2020
+publishDate: 2020-09-13
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,7 +16,7 @@ publishDate: 2020
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Advances in *neural information processing systems*"
+publication: "*Advances in neural information processing systems*"
 publication_short: "*NIPS, 2020*"
 
 abstract: "Multivariate time-series forecasting plays a crucial role in many real-world applications. It is a challenging problem as one needs to consider both intra-series temporal correlations and inter-series correlations simultaneously. Recently, there have been multiple works trying to capture both correlations, but most, if not all of them only capture temporal correlations in the time domain and resort to pre-defined priors as inter-series relationships."

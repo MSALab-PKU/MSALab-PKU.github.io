@@ -3,11 +3,11 @@
 
 title: "Heat-RL: Online Model Selection for Streaming Time-Series Anomaly Detection"
 authors: [Yujing Wang, Luoxin Xiong, Mingliang Zhang, Hui Xue, Qi Chen, Yaming Yang, Yunhai Tong, Congrui Huang, Bixiong Xu]
-date:
+date: 2022-07-01
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate:
+publishDate: 2022-07-01
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,7 +16,7 @@ publishDate:
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Conference on Lifelong Learning Agents, 2022*"
+publication: "*Conference on Lifelong Learning Agents, 2022*"
 publication_short: "*CoLLAs, 2022*"
 
 abstract: "Time-series anomaly detection plays an important role in various applications. In a commercial system, anomaly detection models are either unsupervised or pre-trained in a self-supervised manner offline; while in the online serving stage, an appropriate model should be selected to fulfill each customer’s requirement with only a few human interactions. Existing online model selection methods do not have good data efficiency, failing to achieve good performance with limited number of manual feedbacks. In this paper, we propose Heat-RL, a novel reinforcement learning algorithm tailored to online model selection for streaming time-series data. Specifically, we design a new state based on metric-oriented heatmaps and apply ResNet for policy and value networks to capture the correlations among similar model configurations. Experiments demonstrated the effectiveness of Heat-RL on both academic and industrial datasets. On all datasets, the average F1 and last F1 scores have been improved by 5.5% and 14.6% respectively compared to the best state-of-the-art solution."

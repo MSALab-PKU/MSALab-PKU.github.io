@@ -3,11 +3,11 @@
 
 title: "Improving semantic segmentation via decoupled body and edge supervision"
 authors: [Xiangtai Li, Xia Li, Li Zhang, Guangliang Cheng, Jianping Shi, Zhouchen Lin, Shaohua Tan, Yunhai Tong]
-date: 2020
+date: 2020-06-01
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2020
+publishDate: 2020-06-01
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,7 +16,7 @@ publishDate: 2020
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part XVII 16*"
+publication: "*Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part XVII 16*"
 publication_short: "*ECCV, 2020*"
 
 abstract: "Existing semantic segmentation approaches either aim to improve the object’s inner consistency by modeling the global context, or refine objects detail along their boundaries by multi-scale feature fusion. In this paper, a new paradigm for semantic segmentation is proposed. Our insight is that appealing performance of semantic segmentation requires explicitly modeling the object body and edge, which correspond to the high and low frequency of the image. To do so, we first warp the image feature by learning a flow field to make the object part more consistent. The resulting body feature and the residual edge feature are further optimized under decoupled supervision by explicitly sampling different parts (body or edge) pixels. We show that the proposed framework with various baselines or backbone networks leads to better object inner consistency and object boundaries. Extensive experiments on four major road scene semantic segmentation benchmarks including Cityscapes, CamVid , KIITI and BDD show that our proposed approach establishes new state of the art while retaining high efficiency in inference. In particular, we achieve 83.7 mIoU % on Cityscape with only fine-annotated data. Code and models are made available to foster any further research (https://github.com/lxtGH/DecoupleSegNets)."

@@ -3,11 +3,11 @@
 
 title: "Convolution-enhanced evolving attention networks"
 authors: [Yujing Wang, Yaming Yang, Zhuo Li, Jiangang Bai, Mingliang Zhang, Xiangtai Li, Jing Yu, Ce Zhang, Gao Huang, Yunhai Tong]
-date: 2024/2/5
+date: 2024-02-05
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2024/2/5
+publishDate: 2024-02-05
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,7 +16,7 @@ publishDate: 2024/2/5
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *IEEE Transactions on Pattern Analysis and Machine Intelligence, 2023*"
+publication: "*IEEE Transactions on Pattern Analysis and Machine Intelligence, 2023*"
 publication_short: "*TPAMI, 2023*"
 
 abstract: "Attention-based neural networks, such as Transformers, have become ubiquitous in numerous applications, including computer vision, natural language processing, and time-series analysis. In all kinds of attention networks, the attention maps are crucial as they encode semantic dependencies between input tokens. However, most existing attention networks perform modeling or reasoning based on representations, wherein the attention maps of different layers are learned separately without explicit interactions. In this paper, we propose a novel and generic evolving attention mechanism, which directly models the evolution of inter-token relationships through a chain of residual convolutional modules. The major motivations are twofold. On the one hand, the attention maps in different layers share transferable knowledge, thus adding a residual connection can facilitate the information flow of inter-token relationships across layers. On the other hand, there is naturally an evolutionary trend among attention maps at different abstraction levels, so it is beneficial to exploit a dedicated convolution-based module to capture this process. Equipped with the proposed mechanism, the convolution-enhanced evolving attention networks achieve superior performance in various applications, including time-series representation, natural language understanding, machine translation, and image classification. Especially on time-series representation tasks, Evolving Attention-enhanced Dilated Convolutional (EA-DC-) Transformer outperforms state-of-the-art models significantly, achieving an average of 17% improvement compared to the best SOTA. To the best of our knowledge, this is the first work that explicitly models the layer-wise evolution of attention maps. Our implementation is available at https://github.com/pkuyym/EvolvingAttention."

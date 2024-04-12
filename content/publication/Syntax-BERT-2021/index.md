@@ -3,11 +3,11 @@
 
 title: "Syntax-BERT: Improving Pre-trained Transformers with Syntax Trees"
 authors: [Jiangang Bai, Yujing Wang, Yiren Chen, Yaming Yang, Jing Bai, Jing Yu, Yunhai Tong]
-date:
+date: 2021-03-07
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate:
+publishDate: 2021-03-07
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,7 +16,7 @@ publishDate:
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics*"
+publication: "*Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics*"
 publication_short: "*EACL, 2021*"
 
 abstract: "Pre-trained language models like BERT achieve superior performances in various NLP tasks without explicit consideration of syntactic information. Meanwhile, syntactic information has been proved to be crucial for the success of NLP applications. However, how to incorporate the syntax trees effectively and efficiently into pre-trained Transformers is still unsettled. In this paper, we address this problem by proposing a novel framework named Syntax-BERT. This framework works in a plug-and-play mode and is applicable to an arbitrary pre-trained checkpoint based on Transformer architecture. Experiments on various datasets of natural language understanding verify the effectiveness of syntax trees and achieve consistent improvement over multiple pre-trained models, including BERT, RoBERTa, and T5. At the same time, we also made our experiment code public."

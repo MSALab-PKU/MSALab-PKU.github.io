@@ -3,11 +3,11 @@
 
 title: "Towards robust referring image segmentation"
 authors: [Jianzong Wu, Xiangtai Li, Xia Li, Henghui Ding, Yunhai Tong, Dacheng Tao]
-date: 2024/3/5
+date: 2024-03-05
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2019/9/13
+publishDate: 2019-09-03
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,7 +16,7 @@ publishDate: 2019/9/13
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *IEEE Transactions on Image Processing*"
+publication: "*IEEE Transactions on Image Processing*"
 publication_short: "*TIP, 2024*"
 
 abstract: "Referring Image Segmentation (RIS) is a fundamental vision-language task that outputs object masks based on text descriptions. Many works have achieved considerable progress for RIS, including different fusion method designs. In this work, we explore an essential question, “What if the text description is wrong or misleading?” For example, the described objects are not in the image. We term such a sentence as a negative sentence. However, existing solutions for RIS cannot handle such a setting. To this end, we propose a new formulation of RIS, named Robust Referring Image Segmentation (R-RIS). It considers the negative sentence inputs besides the regular positive text inputs. To facilitate this new task, we create three R-RIS datasets by augmenting existing RIS datasets with negative sentences and propose new metrics to evaluate both types of inputs in a unified manner. Furthermore, we propose a new transformer-based model, called RefSegformer, with a token-based vision and language fusion module. Our design can be easily extended to our R-RIS setting by adding extra blank tokens. Our proposed RefSegformer achieves state-of-the-art results on both RIS and R-RIS datasets, establishing a solid baseline for both settings." 
