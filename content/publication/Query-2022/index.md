@@ -1,8 +1,8 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Gated fully fusion for semantic segmentation"
-authors: [Xiangtai Li, Houlong Zhao, Lei Han, Yunhai Tong, Shaohua Tan, Kuiyuan Yang]
+title: "Query Learning of Both Thing and Stuff for Panoptic Segmentation"
+authors: [Shilin Xu, Xiangtai Li, Yibo Yang, Hongyang Li, Guangliang Cheng, Yunhai Tong]
 date:
 doi: ""
 
@@ -16,10 +16,10 @@ publishDate:
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Proceedings of the AAAI conference on artificial intelligence*"
-publication_short: "*AAAI, 2020*"
+publication: "In *2022 IEEE International Conference on Image Processing (ICIP)*"
+publication_short: "*ICIP, 2022*"
 
-abstract: "Semantic segmentation generates comprehensive understanding of scenes through densely predicting the category for each pixel. High-level features from Deep Convolutional Neural Networks already demonstrate their effectiveness in semantic segmentation tasks, however the coarse resolution of high-level features often leads to inferior results for small/thin objects where detailed information is important. It is natural to consider importing low level features to compensate for the lost detailed information in high-level features. Unfortunately, simply combining multi-level features suffers from the semantic gap among them. In this paper, we propose a new architecture, named Gated Fully Fusion (GFF), to selectively fuse features from multiple levels using gates in a fully connected way. Specifically, features at each level are enhanced by higher-level features with stronger semantics and lower-level features with more details, and gates are used to control the propagation of useful information which significantly reduces the noises during fusion. We achieve the state of the art results on four challenging scene parsing datasets including Cityscapes, Pascal Context, COCO-stuff and ADE20K."
+abstract: "Starting from DETR, query based detection and segmentation methods achieve comparable results as previous works with a simplified and elegant pipeline. In this work, a novel, simple and unified baseline, named QueryPanSeg, is proposed for panoptic segmentation. QueryPanSeg represents both things and stuff as learnable queries separately. For thing query, we propose to encode each instance mask into compact mask vectors and perform classification, box regression and mask encoding regression simultaneously. For stuff query, we propose a residual interactive learning where each stuff query is responsible for one semantic category and performs pixel interaction via one multi-head attention layer. With this approach, instance-wise and semantically consistent properties for things and stuff can be unified in one framework. Compared with the original DETR, our approach results in a nearly 10 times shorter training schedule to converge. Compared with previous box-based and box-free methods, our proposed approach outperforms many state-of-the-art results with much simpler pipeline without handcrafted components."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -32,7 +32,7 @@ featured: true
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: PDF
-  url: https://cdn.aaai.org/ojs/6805/6805-13-10034-1-10-20200524.pdf
+  url: https://ieeexplore.ieee.org/abstract/document/9897546
   icon_pack: fas
   icon: file-pdf
 

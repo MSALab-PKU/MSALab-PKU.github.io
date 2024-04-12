@@ -3,11 +3,11 @@
 
 title: "Enhanced boundary learning for glass-like object segmentation"
 authors: [Hao He, Xiangtai Li, Guangliang Cheng, Jianping Shi, Yunhai Tong, Gaofeng Meng, Véronique Prinet, LuBin Weng]
-date: 2021
+date:
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2021
+publishDate:
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

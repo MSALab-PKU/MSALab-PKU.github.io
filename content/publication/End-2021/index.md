@@ -3,11 +3,11 @@
 
 title: "End-to-end video object detection with spatial-temporal transformers"
 authors: [Lu He, Qianyu Zhou, Xiangtai Li, Li Niu, Guangliang Cheng, Xiao Li, Wenxuan Liu, Yunhai Tong, Lizhuang Ma, Liqing Zhang]
-date: 2021/10/17
+date:
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2021/10/17
+publishDate:
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

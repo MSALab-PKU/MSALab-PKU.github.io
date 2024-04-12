@@ -1,8 +1,8 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Gated fully fusion for semantic segmentation"
-authors: [Xiangtai Li, Houlong Zhao, Lei Han, Yunhai Tong, Shaohua Tan, Kuiyuan Yang]
+title: "Fast and accurate scene parsing via bi-direction alignment networks"
+authors: [Yanran Wu, Xiangtai Li, Chen Shi, Yunhai Tong, Yang Hua, Tao Song, Ruhui Ma, Haibing Guan]
 date:
 doi: ""
 
@@ -16,10 +16,10 @@ publishDate:
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Proceedings of the AAAI conference on artificial intelligence*"
-publication_short: "*AAAI, 2020*"
+publication: "In *2021 IEEE International Conference on Image Processing (ICIP)*"
+publication_short: "*ICIP, 2021*"
 
-abstract: "Semantic segmentation generates comprehensive understanding of scenes through densely predicting the category for each pixel. High-level features from Deep Convolutional Neural Networks already demonstrate their effectiveness in semantic segmentation tasks, however the coarse resolution of high-level features often leads to inferior results for small/thin objects where detailed information is important. It is natural to consider importing low level features to compensate for the lost detailed information in high-level features. Unfortunately, simply combining multi-level features suffers from the semantic gap among them. In this paper, we propose a new architecture, named Gated Fully Fusion (GFF), to selectively fuse features from multiple levels using gates in a fully connected way. Specifically, features at each level are enhanced by higher-level features with stronger semantics and lower-level features with more details, and gates are used to control the propagation of useful information which significantly reduces the noises during fusion. We achieve the state of the art results on four challenging scene parsing datasets including Cityscapes, Pascal Context, COCO-stuff and ADE20K."
+abstract: "In this paper, we propose an effective method for fast and accurate scene parsing called Bidirectional Alignment Network (BiAlignNet). Previously, one representative work BiSeNet [1] uses two different paths (Context Path and Spatial Path) to achieve balanced learning of semantics and details, respectively. However, the relationship between the two paths is not well explored. We argue that both paths can benefit each other in a complementary way. Motivated by this, we propose a novel network by aligning two-path information into each other through a learned flow field. To avoid the noise and semantic gaps, we introduce a Gated Flow Alignment Module to align both features in a bidirectional way. Moreover, to make the Spatial Path learn more detailed information, we present an edge-guided hard pixel mining loss to supervise the aligned learning process. Our method achieves 80.1% and 78.5% mIoU in validation and test set of Cityscapes while running at 30 FPS with full resolution inputs. Code and models will be available at https://github.com/jojacola/BiAlignNet."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -32,9 +32,14 @@ featured: true
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: PDF
-  url: https://cdn.aaai.org/ojs/6805/6805-13-10034-1-10-20200524.pdf
+  url: https://arxiv.org/pdf/2105.11651.pdf
   icon_pack: fas
   icon: file-pdf
+
+- name: Code
+  url: https://github.com/jojacola/BiAlignNet
+  icon_pack: fab
+  icon: github
 
 url_pdf: 
 url_code: 

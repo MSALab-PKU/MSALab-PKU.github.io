@@ -3,11 +3,11 @@
 
 title: "Graph pointer neural networks"
 authors: [Tianmeng Yang, Yujing Wang, Zhihan Yue, Yaming Yang, Yunhai Tong, Jing Bai]
-date: 2022/6/28
+date:
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2022/6/28
+publishDate:
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

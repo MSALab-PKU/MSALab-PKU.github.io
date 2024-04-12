@@ -1,8 +1,8 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Gated fully fusion for semantic segmentation"
-authors: [Xiangtai Li, Houlong Zhao, Lei Han, Yunhai Tong, Shaohua Tan, Kuiyuan Yang]
+title: "Dynamic Dual Sampling Module For Fine-Grained Semantic Segmentation"
+authors: [Chen Shi, Xiangtai Li, Yanran Wu, Yunhai Tong, Yi Xu]
 date:
 doi: ""
 
@@ -16,10 +16,10 @@ publishDate:
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Proceedings of the AAAI conference on artificial intelligence*"
-publication_short: "*AAAI, 2020*"
+publication: "In *2021 IEEE International Conference on Image Processing (ICIP)*"
+publication_short: "*ICIP, 2021*"
 
-abstract: "Semantic segmentation generates comprehensive understanding of scenes through densely predicting the category for each pixel. High-level features from Deep Convolutional Neural Networks already demonstrate their effectiveness in semantic segmentation tasks, however the coarse resolution of high-level features often leads to inferior results for small/thin objects where detailed information is important. It is natural to consider importing low level features to compensate for the lost detailed information in high-level features. Unfortunately, simply combining multi-level features suffers from the semantic gap among them. In this paper, we propose a new architecture, named Gated Fully Fusion (GFF), to selectively fuse features from multiple levels using gates in a fully connected way. Specifically, features at each level are enhanced by higher-level features with stronger semantics and lower-level features with more details, and gates are used to control the propagation of useful information which significantly reduces the noises during fusion. We achieve the state of the art results on four challenging scene parsing datasets including Cityscapes, Pascal Context, COCO-stuff and ADE20K."
+abstract: "Representation of semantic context and local details is the essential issue for building modern semantic segmentation models. However, the interrelationship between semantic context and local details is not well explored in previous works. In this paper, we propose a Dynamic Dual Sampling Module (DDSM) to conduct dynamic affinity modeling and propagate semantic context to local details, which yields a more discriminative representation. Specifically, a dynamic sampling strategy is used to sparsely sample representative pixels and channels in the higher layer, forming adaptive compact support for each pixel and channel in the lower layer. The sampled features with high semantics are aggregated according to the affinities and then propagated to detailed lower-layer features, leading to a fine-grained segmentation result with wellpreserved boundaries. Experiment results on both Cityscapes and Camvid datasets validate the effectiveness and efficiency of the proposed approach. Code and models will be available at https://github.com/Fantasticarl/DDSM."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -32,9 +32,13 @@ featured: true
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: PDF
-  url: https://cdn.aaai.org/ojs/6805/6805-13-10034-1-10-20200524.pdf
+  url: https://arxiv.org/pdf/2105.11657.pdf
   icon_pack: fas
   icon: file-pdf
+- name: Code
+  url: https://github.com/Fantasticarl/DDSM
+  icon_pack: fab
+  icon: github
 
 url_pdf: 
 url_code: 

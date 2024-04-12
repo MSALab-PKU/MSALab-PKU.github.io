@@ -1,13 +1,13 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Dynamic Dual Sampling Module For Fine-Grained Semantic Segmentation"
-authors: [Chen Shi, Xiangtai Li, Yanran Wu, Yunhai Tong, Yi Xu]
-date: 2021-05-25
+title: "Heat-RL: Online Model Selection for Streaming Time-Series Anomaly Detection"
+authors: [Yujing Wang, Luoxin Xiong, Mingliang Zhang, Hui Xue, Qi Chen, Yaming Yang, Yunhai Tong, Congrui Huang, Bixiong Xu]
+date:
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2021-05-25
+publishDate:
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,10 +16,10 @@ publishDate: 2021-05-25
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *2021 IEEE International Conference on Image Processing (ICIP)*"
-publication_short: "*ICIP, 2021*"
+publication: "In *Conference on Lifelong Learning Agents, 2022*"
+publication_short: "*CoLLAs, 2022*"
 
-abstract: "Representation of semantic context and local details is the essential issue for building modern semantic segmentation models. However, the interrelationship between semantic context and local details is not well explored in previous works. In this paper, we propose a Dynamic Dual Sampling Module (DDSM) to conduct dynamic affinity modeling and propagate semantic context to local details, which yields a more discriminative representation. Specifically, a dynamic sampling strategy is used to sparsely sample representative pixels and channels in the higher layer, forming adaptive compact support for each pixel and channel in the lower layer. The sampled features with high semantics are aggregated according to the affinities and then propagated to detailed lower-layer features, leading to a fine-grained segmentation result with wellpreserved boundaries. Experiment results on both Cityscapes and Camvid datasets validate the effectiveness and efficiency of the proposed approach. Code and models will be available at https://github.com/Fantasticarl/DDSM."
+abstract: "Time-series anomaly detection plays an important role in various applications. In a commercial system, anomaly detection models are either unsupervised or pre-trained in a self-supervised manner offline; while in the online serving stage, an appropriate model should be selected to fulfill each customer’s requirement with only a few human interactions. Existing online model selection methods do not have good data efficiency, failing to achieve good performance with limited number of manual feedbacks. In this paper, we propose Heat-RL, a novel reinforcement learning algorithm tailored to online model selection for streaming time-series data. Specifically, we design a new state based on metric-oriented heatmaps and apply ResNet for policy and value networks to capture the correlations among similar model configurations. Experiments demonstrated the effectiveness of Heat-RL on both academic and industrial datasets. On all datasets, the average F1 and last F1 scores have been improved by 5.5% and 14.6% respectively compared to the best state-of-the-art solution."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -32,13 +32,9 @@ featured: true
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: PDF
-  url: https://arxiv.org/pdf/2105.11657.pdf
+  url: https://proceedings.mlr.press/v199/wang22a/wang22a.pdf
   icon_pack: fas
   icon: file-pdf
-- name: Code
-  url: https://github.com/Fantasticarl/DDSM
-  icon_pack: fab
-  icon: github
 
 url_pdf: 
 url_code: 
