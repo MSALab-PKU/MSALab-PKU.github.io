@@ -11,27 +11,22 @@ role: Professor
 # Organizations/Affiliations
 organizations:
 - name: Peking University
-  url: ""
+  url: "https://english.pku.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Prof. Yunhai Tong currently is a Professor with the School of Artificial Intelligence, Peking University. Before that, he received his Ph.D. degree in computer science from Peking University in 2002. His main research interests include media intelligent computing, deep learning, and multimodal learning. Most of his works in computer vision, natural language processing, and machine learning, including PAMI, IJCV, EMNLP, ECCV, and CVPR, have been published in top-tier conferences and journals. He has led several national research and development projects (National Key Research and Development Program of China) since 2018.
 
 interests:
 - Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Computer vision and deep learning 
+- Multi-modal learning 
+- Deep learning-based Natural language processing
 
 education:
   courses:
   - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+    institution: Peking University
+    year: 2002
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -43,7 +38,7 @@ social:
   link: 'yhtong@pku.edu.cn'
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=T4gqdPkAAAAJ
+  link: https://scholar.google.com/citations?user=T4gqdPkAAAAJ&hl=zh-CN
 # - icon: github
 #   icon_pack: fab
 #   link: https://github.com/gcushen
@@ -54,7 +49,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "yhtong@pku.edu.cn"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
