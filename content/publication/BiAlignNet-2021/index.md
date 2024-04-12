@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Fast and Accurate Scene Parsing via Bi-Direction Alignment Networks"
-authors: [Xiangtai Li, Yunhai Tong]
+authors: [Yanran Wu, Xiangtai Li, Chen Shi, Yunhai Tong, Yang Hua, Tao Song, Ruhui Ma, Haibing Guan]
 date: 2021-05-25
 doi: ""
 
