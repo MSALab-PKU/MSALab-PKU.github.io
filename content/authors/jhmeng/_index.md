@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Jianzong Wu
+title: Jiahao Meng
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- jzwu
+- jhmeng
 
 # Is this the primary user of the site?
 superuser: false
@@ -18,22 +18,18 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am Jianzong Wu (吴健宗) and I am a PhD Student at School of Intelligence Science and Technology, Peking University (PKU), advised by Prof. Yunhai Tong. 
+bio: I am currently pursuing my undergraduate degree at the School of Electronics Engineering and Computer Science, Peking University.
 
 # List each interest with a dash
 interests:
-- Deep Learning
 - Computer Vision
-- Multi Modal Learning
+- Graph Neural Network
 
 education:
   courses:
-  - course: PhD Student in Peking University (PKU)
+  - course: Undergraduate student in Intelligent Science and Technology, School of Electronics Engineering and Computer Science
     institution: Peking University
-    year: 2021-now
-  - course: Bachelor in University of Science and Technology of China (USTC)
-    institution: University of Science and Technology of China (USTC)
-    year: 2017-2021
+    year: 2020-now
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
@@ -42,16 +38,10 @@ education:
 social:
 - icon: link
   icon_pack: fas
-  link: https://jianzongwu.github.io
+  link: https://marinero4972.github.io
 - icon: envelope
   icon_pack: fas
-  link: mailto:jzwu@stu.pku.edu.cn
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=Q_fbCwkAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/jianzongwu
+  link: 'mailto:mengjiahao@stu.pku.edu.cn'
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -71,6 +61,4 @@ user_groups:
 ---
 # Biography
 
-I am Jianzong Wu (吴健宗) and I am a PhD Student at School of Intelligence Science and Technology, Peking University (PKU), advised by Prof. Yunhai Tong. Previously, I obtained my bachelor’s degree at University of Science and Technology of China (USTC).
-
-My research interest focuses on multi-modal learning, including feature alignment, scene understanding and content generation. So far, I have conducted research works on referring image segmentation, open vocabulary image segmentation, text-to-image editting task, multi-modal large language models, as well as several related fields.
+I am currently pursuing my undergraduate degree at the School of Electronics Engineering and Computer Science, Peking University. Starting in autumn 2024, I will begin a Ph.D. program at the School of Intelligence Science and Technology, Peking University. Under the mentorship of Professor Yunhai Tong, my research primarily focus on computer vision and graph neural networks. I am deeply passionate about exploring innovative solutions within these domains and contributing to the advancement of artificial intelligence.

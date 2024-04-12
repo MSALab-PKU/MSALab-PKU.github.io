@@ -2,7 +2,7 @@
 # Display name
 title: Xiangtai Li
 
-# Username (this should match the folder name)
+# Username (this should match the folder name and the name on publications)
 authors:
 - xtli
 
@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Xiangtai is a research scientist at Tiktok, Singapore. He received the Ph.D. degree from Peking University in 2022. He worked as a Research Fellow in S-Lab, a member of the Multimedia Laboratory of NTU (MMLab@NTU) at Nanyang Technological University in 2023. His research interests include computer vision and machine learning with a focus on scene understanding, segmentation, video understanding and multi-modal learning. Several of his works have been published in top-tier conferences and journals. He serves as a regular reviewer for top-tier conferences and journals, including CVPR, ICCV, ICLR, NeurIPS, T-PAMI, and IJCV.
+bio: Xiangtai is a research scientist at Tiktok, Singapore.
 
 interests:
 - Artificial Intelligence
@@ -62,3 +62,6 @@ email: "xiangtai94@gmail.com"
 user_groups:
 - Alumni
 ---
+# Biography
+
+Xiangtai is a research scientist at Tiktok, Singapore. He received the Ph.D. degree from Peking University in 2022. He worked as a Research Fellow in S-Lab, a member of the Multimedia Laboratory of NTU (MMLab@NTU) at Nanyang Technological University in 2023. His research interests include computer vision and machine learning with a focus on scene understanding, segmentation, video understanding and multi-modal learning. Several of his works have been published in top-tier conferences and journals. He serves as a regular reviewer for top-tier conferences and journals, including CVPR, ICCV, ICLR, NeurIPS, T-PAMI, and IJCV.
