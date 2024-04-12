@@ -19,6 +19,6 @@ title: |
   - Large Language Model.
 	
 
-- Our group at Peking University is recruiting self-motivated research interns and P.h.D.s who have strong coding and mathematical abilities and great interest in **multi-modal**, **large language model**, **text-to video generation and editing**.
+- Our group at Peking University is recruiting self-motivated research interns and Ph.D.s who have strong coding and mathematical abilities and great interest in **multi-modal**, **large language model**, **text-to video generation and editing**.
 
 - Recent research works can be found in the [here](publication/)
