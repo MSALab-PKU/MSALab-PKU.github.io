@@ -30,16 +30,10 @@
     <lastmod>2023-07-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/publication-type/3/</loc>
-    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/publication/transvoc-v2-2021/</loc>
-    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/publication/boundarysqueeze-2021/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/publication/transvoc-2021/</loc>
-    <lastmod>2021-10-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/publication/rdm-pgm-2021/</loc>
     <lastmod>2021-10-17T00:00:00+00:00</lastmod>
@@ -83,11 +77,11 @@
     <loc>https://MSALab-PKU.github.io/publication/evolvingattention-2021/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://MSALab-PKU.github.io/publication/pointflow-2021/</loc>
-    <lastmod>2021-06-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://MSALab-PKU.github.io/publication/cogtree-2021/</loc>
     <lastmod>2021-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/chen-shi/</loc>
+    <lastmod>2021-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/publication/ddsm-2021/</loc>
     <lastmod>2021-05-25T00:00:00+00:00</lastmod>
@@ -95,12 +89,130 @@
     <loc>https://MSALab-PKU.github.io/publication/bialignnet-2021/</loc>
     <lastmod>2021-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</loc>
-    <lastmod>2021-03-07T00:00:00+00:00</lastmod>
+    <loc>https://MSALab-PKU.github.io/author/haibing-guan/</loc>
+    <lastmod>2021-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/ruhui-ma/</loc>
+    <lastmod>2021-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/tao-song/</loc>
+    <lastmod>2021-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/yang-hua/</loc>
+    <lastmod>2021-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/yanran-wu/</loc>
+    <lastmod>2021-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/enhanced-2021/</loc>
+    <lastmod>1970-01-01T08:33:41+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/gaofeng-meng/</loc>
+    <lastmod>1970-01-01T08:33:41+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/guangliang-cheng/</loc>
+    <lastmod>1970-01-01T08:33:41+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/hao-he/</loc>
+    <lastmod>1970-01-01T08:33:41+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/jianping-shi/</loc>
+    <lastmod>1970-01-01T08:33:41+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/lubin-weng/</loc>
+    <lastmod>1970-01-01T08:33:41+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/veronique-prinet/</loc>
+    <lastmod>1970-01-01T08:33:41+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/ansheng-you/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/bixiong-xu/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/boundary-2020/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/ce-zhang/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/congrui-huang/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/defu-cao/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/houlong-zhao/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/decouplesegnets-2020/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/jie-tong/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/jing-bai/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/juanyong-duan/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/junhui-liu/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/kuiyuan-yang/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/li-zhang/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/maoke-yang/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/qi-zhang/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/qiyue-liu/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/sfsegnets-2020/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/shaohua-tan/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/spectral-2020/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/xia-li/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/xia-zhu/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/yang-yang/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/yingying-wang/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/yueran-bai/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/zhen-zhu/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/zhouchen-lin/</loc>
+    <lastmod>1970-01-01T08:33:40+08:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/contact/</loc>
   </url><url>
     <loc>https://MSALab-PKU.github.io/people/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/anurag-arnab/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/bernard-ghanem/</loc>
   </url><url>
     <loc>https://MSALab-PKU.github.io/categories/</loc>
   </url><url>
@@ -108,25 +220,127 @@
   </url><url>
     <loc>https://MSALab-PKU.github.io/author/chao-sun/</loc>
   </url><url>
+    <loc>https://MSALab-PKU.github.io/author/chaoyang-wang/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/dacheng-tao/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/dgcnet-2019/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/duo-li/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/transvod-2021/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/fashionformer-2022/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/gated-2020/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/graph-2022/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/guinan-su/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/hang-zhao/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/haobo-yuan/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/henghui-ding/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/jiahao-meng/</loc>
+  </url><url>
     <loc>https://MSALab-PKU.github.io/author/jiangang-bai/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/jiangning-zhang/</loc>
   </url><url>
     <loc>https://MSALab-PKU.github.io/author/jianzong-wu/</loc>
   </url><url>
+    <loc>https://MSALab-PKU.github.io/author/jiaying-liu/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/jing-yu/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/jing-zhang/</loc>
+  </url><url>
     <loc>https://MSALab-PKU.github.io/author/jingbo-hu/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/jingbo-wang/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/kaigui-bian/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/lefei-zhang/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/lei-han/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/li-niu/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/lidong-zhou/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/liqing-zhang/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/lizhuang-ma/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/lu-he/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/mao-yang/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/ming-zeng/</loc>
   </url><url>
     <loc>https://MSALab-PKU.github.io/author/mingliang-zhang/</loc>
   </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/multivariate-2020/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/partformer-2022/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/pengyu-zhao/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/philip-hs-torr/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/pointflow-2021/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/polyphonicofrmer-2022/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/qianyu-zhou/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/qingyu-shi/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/ranking-2013/</loc>
+  </url><url>
     <loc>https://MSALab-PKU.github.io/author/shilin-xu/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/shilin-xu/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/spherical-2020/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</loc>
   </url><url>
     <loc>https://MSALab-PKU.github.io/tags/</loc>
   </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/textnas-2020/</loc>
+  </url><url>
     <loc>https://MSALab-PKU.github.io/author/tianmeng-yang/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/tianmeng-yang/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/towards-2024/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/transvod-v2-2021/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/ts2vec-2020/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/wenxuan-liu/</loc>
   </url><url>
     <loc>https://MSALab-PKU.github.io/author/xiangtai-li/</loc>
   </url><url>
+    <loc>https://MSALab-PKU.github.io/author/xiao-li/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/xiaoyu-kou/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/xudong-jiang/</loc>
+  </url><url>
     <loc>https://MSALab-PKU.github.io/author/yaming-yang/</loc>
   </url><url>
+    <loc>https://MSALab-PKU.github.io/author/yibo-yang/</loc>
+  </url><url>
     <loc>https://MSALab-PKU.github.io/author/yiren-chen/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/yuanxing-zhang/</loc>
   </url><url>
     <loc>https://MSALab-PKU.github.io/author/yujing-wang/</loc>
   </url><url>
@@ -135,5 +349,7 @@
     <loc>https://MSALab-PKU.github.io/author/zheng-miao/</loc>
   </url><url>
     <loc>https://MSALab-PKU.github.io/author/zhengjie-lin/</loc>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/author/zhihan-yue/</loc>
   </url>
 </urlset>

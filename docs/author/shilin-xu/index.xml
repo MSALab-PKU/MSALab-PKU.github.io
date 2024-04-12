@@ -7,10 +7,34 @@
     <description>Shilin Xu</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright>
     <image>
-      <url>https://MSALab-PKU.github.io/author/shilin-xu/avatar_hu24c2de4d07c35da445ca52edb8feafc1_94714_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
       <title>Shilin Xu</title>
       <link>https://MSALab-PKU.github.io/author/shilin-xu/</link>
     </image>
+    
+    <item>
+      <title>Fashionformer: A simple, effective and unified baseline for human fashion segmentation and recognition</title>
+      <link>https://MSALab-PKU.github.io/publication/fashionformer-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/fashionformer-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Panoptic-partformer: Learning a unified model for panoptic part segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/partformer-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/partformer-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards open vocabulary learning: A survey</title>
+      <link>https://MSALab-PKU.github.io/publication/towards-2024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/towards-2024/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

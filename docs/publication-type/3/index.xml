@@ -5,20 +5,12 @@
     <link>https://MSALab-PKU.github.io/publication-type/3/</link>
       <atom:link href="https://MSALab-PKU.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright><lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright><lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
       <title>3</title>
       <link>https://MSALab-PKU.github.io/publication-type/3/</link>
     </image>
-    
-    <item>
-      <title>TransVOD: End-to-end Video Object Detection with Spatial-Temporal Transformers</title>
-      <link>https://MSALab-PKU.github.io/publication/transvoc-v2-2021/</link>
-      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/publication/transvoc-v2-2021/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>BoundarySqueeze: Image Segmentation as Boundary Squeezing</title>
@@ -33,6 +25,14 @@
       <link>https://MSALab-PKU.github.io/publication/tpr-2021/</link>
       <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/tpr-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dual graph convolutional network for semantic segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/dgcnet-2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/dgcnet-2019/</guid>
       <description></description>
     </item>
     

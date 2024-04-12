@@ -37,10 +37,58 @@
     </item>
     
     <item>
+      <title>Spectral temporal graph neural network for multivariate time-series forecasting</title>
+      <link>https://MSALab-PKU.github.io/publication/spectral-2020/</link>
+      <pubDate>Thu, 01 Jan 1970 08:33:40 +0800</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/spectral-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph pointer neural networks</title>
+      <link>https://MSALab-PKU.github.io/publication/graph-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/graph-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multivariate time-series anomaly detection via graph attention network</title>
+      <link>https://MSALab-PKU.github.io/publication/multivariate-2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/multivariate-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ranking scientific articles by exploiting citations, authors, journals, and time information</title>
+      <link>https://MSALab-PKU.github.io/publication/ranking-2013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/ranking-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Syntax-BERT: Improving Pre-trained Transformers with Syntax Trees</title>
       <link>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Textnas: A neural architecture search space tailored for text representation</title>
+      <link>https://MSALab-PKU.github.io/publication/textnas-2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/textnas-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ts2vec: Towards universal representation of time series</title>
+      <link>https://MSALab-PKU.github.io/publication/ts2vec-2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/ts2vec-2020/</guid>
       <description></description>
     </item>
     
