@@ -11,10 +11,10 @@ role: Professor
 # Organizations/Affiliations
 organizations:
 - name: Peking University
-  url: "https://english.pku.edu.cn/"
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Prof. Yunhai Tong currently is a Professor with the School of Artificial Intelligence, Peking University. Before that, he received his Ph.D. degree in computer science from Peking University in 2002. His main research interests include media intelligent computing, deep learning, and multimodal learning. Most of his works in computer vision, natural language processing, and machine learning, including PAMI, IJCV, EMNLP, ECCV, and CVPR, have been published in top-tier conferences and journals. He has led several national research and development projects (National Key Research and Development Program of China) since 2018.
+bio: Prof. Yunhai Tong currently is a Professor with the School of Artificial Intelligence, Peking University.
 
 interests:
 - Artificial Intelligence
@@ -35,13 +35,10 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'yhtong@pku.edu.cn'
+  link: 'mailto:yhtong@pku.edu.cn'
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=T4gqdPkAAAAJ&hl=zh-CN
-# - icon: github
-#   icon_pack: fab
-#   link: https://github.com/gcushen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -59,3 +56,6 @@ highlight_name: false
 user_groups:
 - Professors
 ---
+# Biography
+
+Prof. Yunhai Tong currently is a Professor with the School of Artificial Intelligence, Peking University. Before that, he received his Ph.D. degree in computer science from Peking University in 2002. His main research interests include media intelligent computing, deep learning, and multimodal learning. Most of his works in computer vision, natural language processing, and machine learning, including PAMI, IJCV, EMNLP, ECCV, and CVPR, have been published in top-tier conferences and journals. He has led several national research and development projects (National Key Research and Development Program of China) since 2018.

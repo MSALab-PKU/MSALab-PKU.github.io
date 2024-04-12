@@ -21,26 +21,10 @@
     </item>
     
     <item>
-      <title>TransVOD: End-to-end Video Object Detection with Spatial-Temporal Transformers</title>
-      <link>https://MSALab-PKU.github.io/publication/transvoc-v2-2021/</link>
-      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/publication/transvoc-v2-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>BoundarySqueeze: Image Segmentation as Boundary Squeezing</title>
       <link>https://MSALab-PKU.github.io/publication/boundarysqueeze-2021/</link>
       <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/boundarysqueeze-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>End-to-End Video Object Detection with Spatial-Temporal Transformers</title>
-      <link>https://MSALab-PKU.github.io/publication/transvoc-2021/</link>
-      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/publication/transvoc-2021/</guid>
       <description></description>
     </item>
     
@@ -109,14 +93,6 @@
     </item>
     
     <item>
-      <title>PointFlow: Flowing Semantics Through Points for Aerial Image Segmentation</title>
-      <link>https://MSALab-PKU.github.io/publication/pointflow-2021/</link>
-      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/publication/pointflow-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CogTree: Cognition Tree Loss for Unbiased Scene Graph Generation</title>
       <link>https://MSALab-PKU.github.io/publication/cogtree-2021/</link>
       <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
@@ -141,10 +117,170 @@
     </item>
     
     <item>
+      <title>Enhanced boundary learning for glass-like object segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/enhanced-2021/</link>
+      <pubDate>Thu, 01 Jan 1970 08:33:41 +0800</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/enhanced-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boundary content graph neural network for temporal action proposal generation</title>
+      <link>https://MSALab-PKU.github.io/publication/boundary-2020/</link>
+      <pubDate>Thu, 01 Jan 1970 08:33:40 +0800</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/boundary-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving semantic segmentation via decoupled body and edge supervision</title>
+      <link>https://MSALab-PKU.github.io/publication/decouplesegnets-2020/</link>
+      <pubDate>Thu, 01 Jan 1970 08:33:40 +0800</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/decouplesegnets-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic flow for fast and accurate scene parsing</title>
+      <link>https://MSALab-PKU.github.io/publication/sfsegnets-2020/</link>
+      <pubDate>Thu, 01 Jan 1970 08:33:40 +0800</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/sfsegnets-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectral temporal graph neural network for multivariate time-series forecasting</title>
+      <link>https://MSALab-PKU.github.io/publication/spectral-2020/</link>
+      <pubDate>Thu, 01 Jan 1970 08:33:40 +0800</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/spectral-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dual graph convolutional network for semantic segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/dgcnet-2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/dgcnet-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End-to-end video object detection with spatial-temporal transformers</title>
+      <link>https://MSALab-PKU.github.io/publication/transvod-2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/transvod-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fashionformer: A simple, effective and unified baseline for human fashion segmentation and recognition</title>
+      <link>https://MSALab-PKU.github.io/publication/fashionformer-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/fashionformer-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gated fully fusion for semantic segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/gated-2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/gated-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph pointer neural networks</title>
+      <link>https://MSALab-PKU.github.io/publication/graph-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/graph-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multivariate time-series anomaly detection via graph attention network</title>
+      <link>https://MSALab-PKU.github.io/publication/multivariate-2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/multivariate-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Panoptic-partformer: Learning a unified model for panoptic part segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/partformer-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/partformer-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PointFlow: Flowing Semantics Through Points for Aerial Image Segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/pointflow-2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/pointflow-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polyphonicformer: Unified query learning for depth-aware video panoptic segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/polyphonicofrmer-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/polyphonicofrmer-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ranking scientific articles by exploiting citations, authors, journals, and time information</title>
+      <link>https://MSALab-PKU.github.io/publication/ranking-2013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/ranking-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spherical criteria for fast and accurate 360 object detection</title>
+      <link>https://MSALab-PKU.github.io/publication/spherical-2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/spherical-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Syntax-BERT: Improving Pre-trained Transformers with Syntax Trees</title>
       <link>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Textnas: A neural architecture search space tailored for text representation</title>
+      <link>https://MSALab-PKU.github.io/publication/textnas-2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/textnas-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards open vocabulary learning: A survey</title>
+      <link>https://MSALab-PKU.github.io/publication/towards-2024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/towards-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TransVOD: End-to-end Video Object Detection with Spatial-Temporal Transformers</title>
+      <link>https://MSALab-PKU.github.io/publication/transvod-v2-2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/transvod-v2-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ts2vec: Towards universal representation of time series</title>
+      <link>https://MSALab-PKU.github.io/publication/ts2vec-2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/ts2vec-2020/</guid>
       <description></description>
     </item>
     

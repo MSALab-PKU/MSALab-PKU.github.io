@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chaoyang Wang | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/author/chaoyang-wang/</link>
+      <atom:link href="https://MSALab-PKU.github.io/author/chaoyang-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chaoyang Wang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright>
+    <image>
+      <url>https://MSALab-PKU.github.io/author/chaoyang-wang/avatar_hu56e3dc582fc55075588f58aab8acd573_60322_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Chaoyang Wang</title>
+      <link>https://MSALab-PKU.github.io/author/chaoyang-wang/</link>
+    </image>
+    
+  </channel>
+</rss>

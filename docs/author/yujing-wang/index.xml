@@ -5,44 +5,12 @@
     <link>https://MSALab-PKU.github.io/author/yujing-wang/</link>
       <atom:link href="https://MSALab-PKU.github.io/author/yujing-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Yujing Wang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright><lastBuildDate>Sat, 14 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by YoungTimmy</copyright>
     <image>
-      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
+      <url>https://MSALab-PKU.github.io/author/yujing-wang/avatar_hu13318d6d74b7d19e5caf746d1b6fbc0b_88469_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Yujing Wang</title>
       <link>https://MSALab-PKU.github.io/author/yujing-wang/</link>
     </image>
-    
-    <item>
-      <title>DeGNN: Improving Graph Neural Networks with Graph Decomposition</title>
-      <link>https://MSALab-PKU.github.io/publication/degnn-2021/</link>
-      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/publication/degnn-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Evolving Attention with Residual Convolutions</title>
-      <link>https://MSALab-PKU.github.io/publication/evolvingattention-2021/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/publication/evolvingattention-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CogTree: Cognition Tree Loss for Unbiased Scene Graph Generation</title>
-      <link>https://MSALab-PKU.github.io/publication/cogtree-2021/</link>
-      <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/publication/cogtree-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Syntax-BERT: Improving Pre-trained Transformers with Syntax Trees</title>
-      <link>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
