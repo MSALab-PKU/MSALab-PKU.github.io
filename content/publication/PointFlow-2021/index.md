@@ -3,11 +3,11 @@
 
 title: "PointFlow: Flowing Semantics Through Points for Aerial Image Segmentation"
 authors: [Xiangtai Li, Hao He, Xia Li, Duo Li, Guangliang Cheng, Jianping Shi, Lubin Weng, Yunhai Tong, Zhouchen Lin]
-date: 2021-06-19
+date: 2021/6/19
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2021-06-19
+publishDate: 2021/6/19
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

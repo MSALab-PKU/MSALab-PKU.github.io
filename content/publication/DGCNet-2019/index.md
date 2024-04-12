@@ -1,25 +1,25 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Syntax-BERT: Improving Pre-trained Transformers with Syntax Trees"
-authors: [Jiangang Bai, Yujing Wang, Yiren Chen, Yaming Yang, Jing Bai, Jing Yu, Yunhai Tong]
-date: 2021/3/7
+title: "Dual graph convolutional network for semantic segmentation"
+authors: [Li Zhang, Xiangtai Li, Anurag Arnab, Kuiyuan Yang, Yunhai Tong, Philip HS Torr]
+date: 2019/9/13
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2021/3/7
+publishDate: 2019/9/13
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics*"
-publication_short: "In *EACL 2021*"
+publication: "In *arXiv preprint arXiv:1909.06121*"
+publication_short: "In *arXiv preprint*"
 
-abstract: "Pre-trained language models like BERT achieve superior performances in various NLP tasks without explicit consideration of syntactic information. Meanwhile, syntactic information has been proved to be crucial for the success of NLP applications. However, how to incorporate the syntax trees effectively and efficiently into pre-trained Transformers is still unsettled. In this paper, we address this problem by proposing a novel framework named Syntax-BERT. This framework works in a plug-and-play mode and is applicable to an arbitrary pre-trained checkpoint based on Transformer architecture. Experiments on various datasets of natural language understanding verify the effectiveness of syntax trees and achieve consistent improvement over multiple pre-trained models, including BERT, RoBERTa, and T5. At the same time, we also made our experiment code public."
+abstract: "Exploiting long-range contextual information is key for pixel-wise prediction tasks such as semantic segmentation. In contrast to previous work that uses multi-scale feature fusion or dilated convolutions, we propose a novel graph-convolutional network (GCN) to address this problem. Our Dual Graph Convolutional Network (DGCNet) models the global context of the input feature by modelling two orthogonal graphs in a single framework. The first component models spatial relationships between pixels in the image, whilst the second models interdependencies along the channel dimensions of the network's feature map. This is done efficiently by projecting the feature into a new, lower-dimensional space where all pairwise interactions can be modelled, before reprojecting into the original space. Our simple method provides substantial benefits over a strong baseline and achieves state-of-the-art results on both Cityscapes (82.0% mean IoU) and Pascal Context (53.7% mean IoU) datasets. Code and models are made available to foster any further research (https://github.com/lxtGH/GALD-DGCNet)."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -32,11 +32,11 @@ featured: true
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: PDF
-  url: https://arxiv.org/pdf/2103.04350.pdf
+  url: https://arxiv.org/pdf/1909.06121.pdf
   icon_pack: fas
   icon: file-pdf
 - name: Code
-  url: https://github.com/nkh2235/SyntaxBERT
+  url: https://github.com/lxtGH/GALD-DGCNet
   icon_pack: fab
   icon: github
 

@@ -1,13 +1,13 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Syntax-BERT: Improving Pre-trained Transformers with Syntax Trees"
-authors: [Jiangang Bai, Yujing Wang, Yiren Chen, Yaming Yang, Jing Bai, Jing Yu, Yunhai Tong]
-date: 2021/3/7
+title: "Semantic flow for fast and accurate scene parsing"
+authors: [Xiangtai Li, Ansheng You, Zhen Zhu, Houlong Zhao, Maoke Yang, Kuiyuan Yang, Shaohua Tan, Yunhai Tong]
+date: 2020
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2021/3/7
+publishDate: 2020
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,10 +16,10 @@ publishDate: 2021/3/7
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics*"
-publication_short: "In *EACL 2021*"
+publication: "In *Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part I 16*"
+publication_short: "In *ECCV 2020*"
 
-abstract: "Pre-trained language models like BERT achieve superior performances in various NLP tasks without explicit consideration of syntactic information. Meanwhile, syntactic information has been proved to be crucial for the success of NLP applications. However, how to incorporate the syntax trees effectively and efficiently into pre-trained Transformers is still unsettled. In this paper, we address this problem by proposing a novel framework named Syntax-BERT. This framework works in a plug-and-play mode and is applicable to an arbitrary pre-trained checkpoint based on Transformer architecture. Experiments on various datasets of natural language understanding verify the effectiveness of syntax trees and achieve consistent improvement over multiple pre-trained models, including BERT, RoBERTa, and T5. At the same time, we also made our experiment code public."
+abstract: "In this paper, we focus on designing effective method for fast and accurate scene parsing. A common practice to improve the performance is to attain high resolution feature maps with strong semantic representation. Two strategies are widely used—atrous convolutions and feature pyramid fusion, are either computation intensive or ineffective. Inspired by the Optical Flow for motion alignment between adjacent video frames, we propose a Flow Alignment Module (FAM) to learn Semantic Flow between feature maps of adjacent levels, and broadcast highlevel features to high resolution features effectively and efficiently. Furthermore, integrating our module to a common feature pyramid structure exhibits superior performance over other real-time methods even on lightweight backbone networks, such as ResNet-18. Extensive experiments are conducted on several challenging datasets, including Cityscapes, PASCAL Context, ADE20K and CamVid. Especially, our network is the first to achieve 80.4% mIoU on Cityscapes with a frame rate of 26 FPS. The code is available at https://github.com/lxtGH/SFSegNets."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -32,11 +32,11 @@ featured: true
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: PDF
-  url: https://arxiv.org/pdf/2103.04350.pdf
+  url: https://arxiv.org/pdf/2002.10120.pdf
   icon_pack: fas
   icon: file-pdf
 - name: Code
-  url: https://github.com/nkh2235/SyntaxBERT
+  url: https://github.com/lxtGH/SFSegNets
   icon_pack: fab
   icon: github
 
