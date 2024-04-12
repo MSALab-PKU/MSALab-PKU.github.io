@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Dynamic Dual Sampling Module For Fine-Grained Semantic Segmentation"
-authors: [Xiangtai Li, Yunhai Tong]
+authors: [Chen Shi, Xiangtai Li, Yanran Wu, Yunhai Tong, Yi Xu]
 date: 2021-05-25
 doi: ""
 
@@ -17,7 +17,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: "In *2021 IEEE International Conference on Image Processing (ICIP)*"
-publication_short: "In *ICIP 2021*"
+publication_short: "*ICIP, 2021*"
 
 abstract: "Representation of semantic context and local details is the essential issue for building modern semantic segmentation models. However, the interrelationship between semantic context and local details is not well explored in previous works. In this paper, we propose a Dynamic Dual Sampling Module (DDSM) to conduct dynamic affinity modeling and propagate semantic context to local details, which yields a more discriminative representation. Specifically, a dynamic sampling strategy is used to sparsely sample representative pixels and channels in the higher layer, forming adaptive compact support for each pixel and channel in the lower layer. The sampled features with high semantics are aggregated according to the affinities and then propagated to detailed lower-layer features, leading to a fine-grained segmentation result with wellpreserved boundaries. Experiment results on both Cityscapes and Camvid datasets validate the effectiveness and efficiency of the proposed approach. Code and models will be available at https://github.com/Fantasticarl/DDSM."
 
@@ -31,10 +31,10 @@ featured: true
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
-- name: Link
-  url: https://ieeexplore.ieee.org/abstract/document/9506628
+- name: PDF
+  url: https://arxiv.org/pdf/2105.11657.pdf
   icon_pack: fas
-  icon: link
+  icon: file-pdf
 - name: Code
   url: https://github.com/Fantasticarl/DDSM
   icon_pack: fab

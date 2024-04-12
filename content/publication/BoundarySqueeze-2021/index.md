@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "BoundarySqueeze: Image Segmentation as Boundary Squeezing"
-authors: [Xiangtai Li, Yunhai Tong]
+authors: [Hao He, Xiangtai Li, Yibo Yang, Guangliang Cheng, Yunhai Tong, Lubin Weng, Zhouchen Lin, Shiming Xiang]
 date: 2021-12-14
 doi: ""
 
@@ -17,7 +17,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: "In *arXiv preprint arXiv:2105.11668*"
-publication_short: "In *arXiv 2021*"
+publication_short: "*arXiv, 2021*"
 
 abstract: "This paper proposes a novel method for high-quality image segmentation of both objects and scenes. Inspired by the dilation and erosion operations in morphological image processing techniques, the pixel-level image segmentation problems are treated as squeezing object boundaries. From this perspective, a novel and efficient **Boundary Squeeze** module is proposed. This module is used to squeeze the object boundary from both inner and outer directions, which contributes to precise mask representation. A bi-directionally flow-based warping process is proposed to generate such squeezed feature representation, and two specific loss signals are designed to supervise the squeezing process. The Boundary Squeeze module can be easily applied to both instance and semantic segmentation tasks as a plug-and-play module by building on top of some existing methods. Moreover, the proposed module is lightweighted, and thus has potential for practical usage. Experiment results show that our simple yet effective design can produce high-quality results on several different datasets. Besides, several other metrics on the boundary are used to prove the effectiveness of our method over previous work. Our approach yields significant improvement on challenging COCO and Cityscapes datasets for both instance and semantic segmentation, and outperforms previous state-of-the-art PointRend in both accuracy and speed under the same setting. Codes and models will be published at https://github.com/lxtGH/BSSeg."
 
@@ -31,10 +31,10 @@ featured: true
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
-- name: Link
-  url: https://arxiv.org/abs/2105.11668
+- name: PDF
+  url: https://arxiv.org/pdf/2105.11668.pdf
   icon_pack: fas
-  icon: link
+  icon: file-pdf
 - name: Code
   url: https://github.com/lxtGH/BSSeg
   icon_pack: fab

@@ -17,7 +17,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: "In *European Conference on Computer Vision*"
-publication_short: "In *ECCV 2022*"
+publication_short: "*ECCV, 2022*"
 
 abstract: "Human fashion understanding is one crucial computer vision task since it has comprehensive information for real-world applications. This focus on joint human fashion segmentation and attribute recognition. Contrary to the previous works that separately model each task as a multi-head prediction problem, our insight is to bridge these two tasks with one unified model via vision transformer modeling to benefit each task. In particular, we introduce the object query for segmentation and the attribute query for attribute prediction. Both queries and their corresponding features can be linked via mask prediction. Then we adopt a two-stream query learning framework to learn the decoupled query representations.We design a novel Multi-Layer Rendering module for attribute stream to explore more fine-grained features. The decoder design shares the same spirit as DETR. Thus we name the proposed method Fahsionformer. Extensive experiments on three human fashion datasets illustrate the effectiveness of our approach. In particular, our method with the same backbone achieve relative 10% improvements than previous works in case of a joint metric (APmask IoU+F 1 ) for both segmentation and attribute recognition. To the best of our knowledge, we are the first unified end-to-end vision transformer framework for human fashion analysis. We hope this simple yet effective method can serve as a new flexible baseline for fashion analysis. Code will be available https://github.com/xushilin1/FashionFormer."
 

@@ -17,7 +17,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: "In *European Conference on Computer Vision*"
-publication_short: "In *ECCV 2022*"
+publication_short: "*ECCV, 2022*"
 
 abstract: "The Depth-aware Video Panoptic Segmentation (DVPS) is a new challenging vision problem that aims to predict panoptic segmentation and depth in a video simultaneously. The previous work solves this task by extending the existing panoptic segmentation method with an extra dense depth prediction and instance tracking head. However, the relationship between the depth and panoptic segmentation is not well explored – simply combining existing methods leads to competition and needs carefully weight balancing. In this paper, we present PolyphonicFormer, a vision transformer to unify these sub-tasks under the DVPS task and lead to more robust results. Our principal insight is that the depth can be harmonized with the panoptic segmentation with our proposed new paradigm of predicting instance level depth maps with object queries. Then the relationship between the two tasks via query-based learning is explored. From the experiments, we demonstrate the benefits of our design from both depth estimation and panoptic segmentation aspects. Since each thing query also encodes the instance-wise information, it is natural to perform tracking directly with appearance learning. Our method achieves state-of-the-art results on two DVPS datasets (Semantic KITTI, Cityscapes), and ranks 1st on the ICCV-2021 BMTT Challenge video + depth track."
 

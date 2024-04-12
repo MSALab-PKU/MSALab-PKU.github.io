@@ -2,22 +2,22 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Improving Video Instance Segmentation via Temporal Pyramid Routing"
-authors: [Xiangtai Li, Yunhai Tong]
-date: 2021-07-28
+authors: [Xiangtai Li, Hao He, Yibo Yang, Henghui Ding, Kuiyuan Yang, Guangliang Cheng, Yunhai Tong, Dacheng Tao]
+date:
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2021-07-28
+publishDate:
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *arXiv preprint arXiv:2107.13155*"
-publication_short: "In *arXiv 2021*"
+publication: "In *IEEE Transactions on Pattern Analysis and Machine Intelligence, 2022*"
+publication_short: "*TPAMI, 2022*"
 
 abstract: "Video Instance Segmentation (VIS) is a new and inherently multi-task problem, which aims to detect, segment and track each instance in a video sequence. Existing approaches are mainly based on single-frame features or single-scale features of multiple frames, where temporal information or multi-scale information is ignored. To incorporate both temporal and scale information, we propose a Temporal Pyramid Routing (TPR) strategy to conditionally align and conduct pixel-level aggregation from a feature pyramid pair of two adjacent frames. Specifically, TPR contains two novel components, including Dynamic Aligned Cell Routing (DACR) and Cross Pyramid Routing (CPR), where DACR is designed for aligning and gating pyramid features across temporal dimension, while CPR transfers temporally aggregated features across scale dimension. Moreover, our approach is a plug-and-play module and can be easily applied to existing instance segmentation methods. Extensive experiments on YouTube-VIS dataset demonstrate the effectiveness and efficiency of the proposed approach on several state-of-the-art instance segmentation methods. Codes and trained models will be publicly available to facilitate future research.(https://github.com/lxtGH/TemporalPyramidRouting)."
 
@@ -31,10 +31,10 @@ featured: true
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
-- name: Link
-  url: https://arxiv.org/abs/2107.13155
+- name: PDF
+  url: https://arxiv.org/pdf/2107.13155.pdf
   icon_pack: fas
-  icon: link
+  icon: file-pdf
 - name: Code
   url: https://github.com/lxtGH/TemporalPyramidRouting
   icon_pack: fab
