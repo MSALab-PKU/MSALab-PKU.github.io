@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "PointFlow: Flowing Semantics Through Points for Aerial Image Segmentation"
-authors: [Xiangtai Li, Yunhai Tong]
+authors: [Xiangtai Li, Hao He, Xia Li, Duo Li, Guangliang Cheng, Jianping Shi, Lubin Weng, Yunhai Tong, Zhouchen Lin]
 date: 2021-06-19
 doi: ""
 
@@ -31,10 +31,6 @@ featured: true
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
-- name: Link
-  url: https://openaccess.thecvf.com/content/CVPR2021/html/Li_PointFlow_Flowing_Semantics_Through_Points_for_Aerial_Image_Segmentation_CVPR_2021_paper.html?ref=https://githubhelp.com
-  icon_pack: fas
-  icon: link
 - name: PDF
   url: https://openaccess.thecvf.com/content/CVPR2021/papers/Li_PointFlow_Flowing_Semantics_Through_Points_for_Aerial_Image_Segmentation_CVPR_2021_paper.pdf
   icon_pack: fas
