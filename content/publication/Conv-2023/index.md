@@ -3,11 +3,11 @@
 
 title: "Convolution-enhanced evolving attention networks"
 authors: [Yujing Wang, Yaming Yang, Zhuo Li, Jiangang Bai, Mingliang Zhang, Xiangtai Li, Jing Yu, Ce Zhang, Gao Huang, Yunhai Tong]
-date: 2024-02-05
+date: 2023-01-13
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2024-02-05
+publishDate: 2023-01-13
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
