@@ -5,12 +5,28 @@
     <link>https://MSALab-PKU.github.io/authors/ming-zeng/</link>
       <atom:link href="https://MSALab-PKU.github.io/authors/ming-zeng/index.xml" rel="self" type="application/rss+xml" />
     <description>Ming Zeng</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Sun, 30 Jun 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
       <title>Ming Zeng</title>
       <link>https://MSALab-PKU.github.io/authors/ming-zeng/</link>
     </image>
+    
+    <item>
+      <title>Customizing Graph Neural Networks using Path Reweighting</title>
+      <link>https://MSALab-PKU.github.io/publication/customizing-2021/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/customizing-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Customized graph embedding: tailoring embedding vectors to different applications</title>
+      <link>https://MSALab-PKU.github.io/publication/customized-2019/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/customized-2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Ranking scientific articles by exploiting citations, authors, journals, and time information</title>

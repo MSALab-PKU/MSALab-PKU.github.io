@@ -77,6 +77,14 @@
     </item>
     
     <item>
+      <title>Multiple Connectivity Views for Session-based Recommendation</title>
+      <link>https://MSALab-PKU.github.io/publication/multiple-2023/</link>
+      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/multiple-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Multi-task learning with multi-query transformer for dense prediction</title>
       <link>https://MSALab-PKU.github.io/publication/multi-task-2023/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
@@ -105,6 +113,14 @@
       <link>https://MSALab-PKU.github.io/publication/conv-2023/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/conv-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Label-efficient interactive time-series anomaly detection</title>
+      <link>https://MSALab-PKU.github.io/publication/label-2022/</link>
+      <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/label-2022/</guid>
       <description></description>
     </item>
     
@@ -150,9 +166,9 @@
     
     <item>
       <title>Improving Video Instance Segmentation via Temporal Pyramid Routing</title>
-      <link>https://MSALab-PKU.github.io/publication/tpr-2021/</link>
+      <link>https://MSALab-PKU.github.io/publication/inproving-2022/</link>
       <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/publication/tpr-2021/</guid>
+      <guid>https://MSALab-PKU.github.io/publication/inproving-2022/</guid>
       <description></description>
     </item>
     
@@ -206,9 +222,9 @@
     
     <item>
       <title>Improving BERT with Self-Supervised Attention</title>
-      <link>https://MSALab-PKU.github.io/publication/ssa-2021/</link>
+      <link>https://MSALab-PKU.github.io/publication/improving-2021/</link>
       <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/publication/ssa-2021/</guid>
+      <guid>https://MSALab-PKU.github.io/publication/improving-2021/</guid>
       <description></description>
     </item>
     
@@ -254,9 +270,9 @@
     
     <item>
       <title>Competence-based Curriculum Learning for Multilingual Machine Translation</title>
-      <link>https://MSALab-PKU.github.io/publication/ccl-m-2021/</link>
+      <link>https://MSALab-PKU.github.io/publication/competence-2021/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/publication/ccl-m-2021/</guid>
+      <guid>https://MSALab-PKU.github.io/publication/competence-2021/</guid>
       <description></description>
     </item>
     
@@ -273,6 +289,14 @@
       <link>https://MSALab-PKU.github.io/publication/evolving-2021/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/evolving-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Customizing Graph Neural Networks using Path Reweighting</title>
+      <link>https://MSALab-PKU.github.io/publication/customizing-2021/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/customizing-2021/</guid>
       <description></description>
     </item>
     
@@ -365,6 +389,14 @@
     </item>
     
     <item>
+      <title>Ladabert: Lightweight adaptation of bert through hybrid model compression</title>
+      <link>https://MSALab-PKU.github.io/publication/ladabert-2020/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/ladabert-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Gated fully fusion for semantic segmentation</title>
       <link>https://MSALab-PKU.github.io/publication/gated-2020/</link>
       <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
@@ -389,10 +421,90 @@
     </item>
     
     <item>
+      <title>Customized graph embedding: tailoring embedding vectors to different applications</title>
+      <link>https://MSALab-PKU.github.io/publication/customized-2019/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/customized-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Global aggregation then local distribution in fully convolutional networks</title>
+      <link>https://MSALab-PKU.github.io/publication/global-2019/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/global-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dual graph convolutional network for semantic segmentation</title>
       <link>https://MSALab-PKU.github.io/publication/dual-2019/</link>
       <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/dual-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flow2seg: Motion-aided semantic segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/flow2seg-2019/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/flow2seg-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reprojection R-CNN: A Fast and Accurate Object Detector for 360 deg Images</title>
+      <link>https://MSALab-PKU.github.io/publication/reprojection-2019/</link>
+      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/reprojection-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A cooperative multi-agent reinforcement learning framework for resource balancing in complex logistics network</title>
+      <link>https://MSALab-PKU.github.io/publication/a-2019/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/a-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast parallel path concatenation for graph extraction</title>
+      <link>https://MSALab-PKU.github.io/publication/fast-2017/</link>
+      <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/fast-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gvos: a general system for near-duplicate video-related applications on storm</title>
+      <link>https://MSALab-PKU.github.io/publication/gvos-2017/</link>
+      <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/gvos-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Structural Based Community Similarity Algorithm and Its Application in Scientific Event Detection</title>
+      <link>https://MSALab-PKU.github.io/publication/a-2017/</link>
+      <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/a-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Netrating: Credit risk evaluation for loan guarantee chain in china</title>
+      <link>https://MSALab-PKU.github.io/publication/netrating-2017/</link>
+      <pubDate>Wed, 22 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/netrating-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>StroMAX: Partitioning-based scheduler for real-time stream processing system</title>
+      <link>https://MSALab-PKU.github.io/publication/stromax-2017/</link>
+      <pubDate>Wed, 22 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/stromax-2017/</guid>
       <description></description>
     </item>
     

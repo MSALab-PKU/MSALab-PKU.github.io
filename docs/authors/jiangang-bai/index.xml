@@ -30,9 +30,9 @@
     
     <item>
       <title>Improving BERT with Self-Supervised Attention</title>
-      <link>https://MSALab-PKU.github.io/publication/ssa-2021/</link>
+      <link>https://MSALab-PKU.github.io/publication/improving-2021/</link>
       <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/publication/ssa-2021/</guid>
+      <guid>https://MSALab-PKU.github.io/publication/improving-2021/</guid>
       <description></description>
     </item>
     
@@ -49,6 +49,14 @@
       <link>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/syntax-bert-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flow2seg: Motion-aided semantic segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/flow2seg-2019/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/flow2seg-2019/</guid>
       <description></description>
     </item>
     

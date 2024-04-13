@@ -36,5 +36,21 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Global aggregation then local distribution in fully convolutional networks</title>
+      <link>https://MSALab-PKU.github.io/publication/global-2019/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/global-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reprojection R-CNN: A Fast and Accurate Object Detector for 360 deg Images</title>
+      <link>https://MSALab-PKU.github.io/publication/reprojection-2019/</link>
+      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/reprojection-2019/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

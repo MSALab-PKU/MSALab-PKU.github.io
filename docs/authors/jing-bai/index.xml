@@ -69,10 +69,26 @@
     </item>
     
     <item>
+      <title>Ladabert: Lightweight adaptation of bert through hybrid model compression</title>
+      <link>https://MSALab-PKU.github.io/publication/ladabert-2020/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/ladabert-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Textnas: A neural architecture search space tailored for text representation</title>
       <link>https://MSALab-PKU.github.io/publication/textnas-2020/</link>
       <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/textnas-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Customized graph embedding: tailoring embedding vectors to different applications</title>
+      <link>https://MSALab-PKU.github.io/publication/customized-2019/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/customized-2019/</guid>
       <description></description>
     </item>
     

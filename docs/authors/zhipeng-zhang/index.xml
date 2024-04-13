@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhipeng Zhang | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/zhipeng-zhang/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/zhipeng-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhipeng Zhang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Wed, 22 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
+      <title>Zhipeng Zhang</title>
+      <link>https://MSALab-PKU.github.io/authors/zhipeng-zhang/</link>
+    </image>
+    
+    <item>
+      <title>StroMAX: Partitioning-based scheduler for real-time stream processing system</title>
+      <link>https://MSALab-PKU.github.io/publication/stromax-2017/</link>
+      <pubDate>Wed, 22 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/stromax-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

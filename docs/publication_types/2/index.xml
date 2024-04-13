@@ -46,9 +46,9 @@
     
     <item>
       <title>Improving Video Instance Segmentation via Temporal Pyramid Routing</title>
-      <link>https://MSALab-PKU.github.io/publication/tpr-2021/</link>
+      <link>https://MSALab-PKU.github.io/publication/inproving-2022/</link>
       <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/publication/tpr-2021/</guid>
+      <guid>https://MSALab-PKU.github.io/publication/inproving-2022/</guid>
       <description></description>
     </item>
     
@@ -65,6 +65,30 @@
       <link>https://MSALab-PKU.github.io/publication/sfsegnets-2021/</link>
       <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/sfsegnets-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast parallel path concatenation for graph extraction</title>
+      <link>https://MSALab-PKU.github.io/publication/fast-2017/</link>
+      <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/fast-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gvos: a general system for near-duplicate video-related applications on storm</title>
+      <link>https://MSALab-PKU.github.io/publication/gvos-2017/</link>
+      <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/gvos-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Structural Based Community Similarity Algorithm and Its Application in Scientific Event Detection</title>
+      <link>https://MSALab-PKU.github.io/publication/a-2017/</link>
+      <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/a-2017/</guid>
       <description></description>
     </item>
     

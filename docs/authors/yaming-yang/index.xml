@@ -5,12 +5,20 @@
     <link>https://MSALab-PKU.github.io/authors/yaming-yang/</link>
       <atom:link href="https://MSALab-PKU.github.io/authors/yaming-yang/index.xml" rel="self" type="application/rss+xml" />
     <description>Yaming Yang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Thu, 14 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
       <title>Yaming Yang</title>
       <link>https://MSALab-PKU.github.io/authors/yaming-yang/</link>
     </image>
+    
+    <item>
+      <title>Multiple Connectivity Views for Session-based Recommendation</title>
+      <link>https://MSALab-PKU.github.io/publication/multiple-2023/</link>
+      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/multiple-2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Convolution-enhanced evolving attention networks</title>
@@ -73,6 +81,14 @@
       <link>https://MSALab-PKU.github.io/publication/autoadr-2020/</link>
       <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/autoadr-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ladabert: Lightweight adaptation of bert through hybrid model compression</title>
+      <link>https://MSALab-PKU.github.io/publication/ladabert-2020/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/ladabert-2020/</guid>
       <description></description>
     </item>
     
