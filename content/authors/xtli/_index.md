@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Research Scientist at Tiktok
+role: Ph.D (2017-2022)
 
 # Organizations/Affiliations
 organizations:

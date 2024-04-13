@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Ph.D Student
+role: Ph.D (2015-2021)
 
 # Organizations/Affiliations
 organizations:
