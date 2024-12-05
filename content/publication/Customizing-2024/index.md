@@ -17,7 +17,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*Information Sciences*"
-publication_short: "*Information Sciences*"
+publication_short: "*Information Sciences 2024*"
 
 abstract: "Graph Neural Networks (GNNs) have been extensively used for mining graph-structured data with impressive performance. However, because these traditional GNNs do not distinguish among various downstream tasks, embeddings embedded by them are not always effective. Intuitively, paths in a graph imply different semantics for different downstream tasks. Inspired by this, we design a novel GNN solution, namely Customized Graph Neural Network with Path Reweighting (CustomGNN for short). Specifically, the proposed CustomGNN can automatically learn the high-level semantics for specific downstream tasks to highlight semantically relevant paths as well to filter out task-irrelevant noises in a graph. Furthermore, we empirically analyze the semantics learned by CustomGNN and demonstrate its ability to avoid the three inherent problems in traditional GNNs, i.e., over-smoothing, poor robustness, and overfitting. In experiments with the node classification task, CustomGNN achieves state-of-the-art accuracies on three standard graph datasets and four large graph datasets. The source code of the proposed CustomGNN is available at https://github.com/cjpcool/CustomGNN."
 
