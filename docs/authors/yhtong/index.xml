@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yunhai Tong | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/yhtong/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/yhtong/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yunhai Tong</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright>
+    <image>
+      <url>https://MSALab-PKU.github.io/authors/yhtong/avatar_hu4ce6c55ca56d8e0330063b223838603d_42521_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Yunhai Tong</title>
+      <link>https://MSALab-PKU.github.io/authors/yhtong/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tianmeng Yang | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/tianmeng-yang/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/tianmeng-yang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tianmeng Yang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
+      <title>Tianmeng Yang</title>
+      <link>https://MSALab-PKU.github.io/authors/tianmeng-yang/</link>
+    </image>
+    
+    <item>
+      <title>You Can&#39;t Ignore Either: Unifying Structure and Feature Denoising for Robust Graph Learning</title>
+      <link>https://MSALab-PKU.github.io/publication/youcant-2024/</link>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/youcant-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SEFraud: Graph-based Self-Explainable Fraud Detection via Interpretative Mask Learning</title>
+      <link>https://MSALab-PKU.github.io/publication/sefraud-2024/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/sefraud-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characteristic-Aware Time-Series Representation Learning for Unsupervised Anomaly Detection</title>
+      <link>https://MSALab-PKU.github.io/publication/chara-2024/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/chara-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitigating Semantic Confusion from Hostile Neighborhood for Graph Active Learning</title>
+      <link>https://MSALab-PKU.github.io/publication/mitigating-2023/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/mitigating-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing self-attention with knowledge-assisted attention maps</title>
+      <link>https://MSALab-PKU.github.io/publication/enhancing-2022/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/enhancing-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph pointer neural networks</title>
+      <link>https://MSALab-PKU.github.io/publication/graph-2022/</link>
+      <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/graph-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ts2vec: Towards universal representation of time series</title>
+      <link>https://MSALab-PKU.github.io/publication/ts2vec-2020/</link>
+      <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/ts2vec-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

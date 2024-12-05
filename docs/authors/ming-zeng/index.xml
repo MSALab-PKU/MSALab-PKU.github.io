@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ming Zeng | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/ming-zeng/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/ming-zeng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ming Zeng</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
+      <title>Ming Zeng</title>
+      <link>https://MSALab-PKU.github.io/authors/ming-zeng/</link>
+    </image>
+    
+    <item>
+      <title>Customizing graph neural networks using path reweighting</title>
+      <link>https://MSALab-PKU.github.io/publication/customizing-2024/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/customizing-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaborative Multi-Task Representation for Natural Language Understanding</title>
+      <link>https://MSALab-PKU.github.io/publication/collaborative-2024/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/collaborative-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Customizing Graph Neural Networks using Path Reweighting</title>
+      <link>https://MSALab-PKU.github.io/publication/customizing-2021/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/customizing-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Customized graph embedding: tailoring embedding vectors to different applications</title>
+      <link>https://MSALab-PKU.github.io/publication/customized-2019/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/customized-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ranking scientific articles by exploiting citations, authors, journals, and time information</title>
+      <link>https://MSALab-PKU.github.io/publication/ranking-2013/</link>
+      <pubDate>Sun, 30 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/ranking-2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

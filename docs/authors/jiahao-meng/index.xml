@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jiahao Meng | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/jiahao-meng/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/jiahao-meng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jiahao Meng</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
+      <title>Jiahao Meng</title>
+      <link>https://MSALab-PKU.github.io/authors/jiahao-meng/</link>
+    </image>
+    
+    <item>
+      <title>You Can&#39;t Ignore Either: Unifying Structure and Feature Denoising for Robust Graph Learning</title>
+      <link>https://MSALab-PKU.github.io/publication/youcant-2024/</link>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/youcant-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SEFraud: Graph-based Self-Explainable Fraud Detection via Interpretative Mask Learning</title>
+      <link>https://MSALab-PKU.github.io/publication/sefraud-2024/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/sefraud-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

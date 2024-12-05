@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Weizhu Chen | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/weizhu-chen/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/weizhu-chen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Weizhu Chen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Sat, 12 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
+      <title>Weizhu Chen</title>
+      <link>https://MSALab-PKU.github.io/authors/weizhu-chen/</link>
+    </image>
+    
+    <item>
+      <title>MTL-LoRA: Low-Rank Adaptation for Multi-Task Learning</title>
+      <link>https://MSALab-PKU.github.io/publication/mtl-2024/</link>
+      <pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/mtl-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

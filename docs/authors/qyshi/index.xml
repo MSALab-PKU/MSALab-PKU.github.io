@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qingyu Shi | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/qyshi/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/qyshi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Qingyu Shi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright>
+    <image>
+      <url>https://MSALab-PKU.github.io/authors/qyshi/avatar_hue44a9e693c5acb11475c7095e3ea0ddd_18625_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Qingyu Shi</title>
+      <link>https://MSALab-PKU.github.io/authors/qyshi/</link>
+    </image>
+    
+  </channel>
+</rss>

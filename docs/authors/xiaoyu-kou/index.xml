@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XiaoYu Kou | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/xiaoyu-kou/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/xiaoyu-kou/index.xml" rel="self" type="application/rss+xml" />
+    <description>XiaoYu Kou</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Fri, 22 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
+      <title>XiaoYu Kou</title>
+      <link>https://MSALab-PKU.github.io/authors/xiaoyu-kou/</link>
+    </image>
+    
+    <item>
+      <title>Improving BERT with Self-Supervised Attention</title>
+      <link>https://MSALab-PKU.github.io/publication/improving-2021/</link>
+      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/improving-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Textnas: A neural architecture search space tailored for text representation</title>
+      <link>https://MSALab-PKU.github.io/publication/textnas-2020/</link>
+      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/textnas-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

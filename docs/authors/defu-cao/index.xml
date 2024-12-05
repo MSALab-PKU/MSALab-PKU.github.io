@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Defu Cao | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/defu-cao/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/defu-cao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Defu Cao</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
+      <title>Defu Cao</title>
+      <link>https://MSALab-PKU.github.io/authors/defu-cao/</link>
+    </image>
+    
+    <item>
+      <title>Collaborative Multi-Task Representation for Natural Language Understanding</title>
+      <link>https://MSALab-PKU.github.io/publication/collaborative-2024/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/collaborative-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing self-attention with knowledge-assisted attention maps</title>
+      <link>https://MSALab-PKU.github.io/publication/enhancing-2022/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/enhancing-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multivariate time-series anomaly detection via graph attention network</title>
+      <link>https://MSALab-PKU.github.io/publication/multivariate-2020/</link>
+      <pubDate>Tue, 17 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/multivariate-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spectral temporal graph neural network for multivariate time-series forecasting</title>
+      <link>https://MSALab-PKU.github.io/publication/spectral-2020/</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/spectral-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

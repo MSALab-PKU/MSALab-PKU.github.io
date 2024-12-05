@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ling Yang | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/ling-yang/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/ling-yang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ling Yang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
+      <title>Ling Yang</title>
+      <link>https://MSALab-PKU.github.io/authors/ling-yang/</link>
+    </image>
+    
+    <item>
+      <title>Hgamlp: Heterogeneous graph attention mlp with de-redundancy mechanism</title>
+      <link>https://MSALab-PKU.github.io/publication/hgamlp-2024/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/hgamlp-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/publication_types/3/</link>
+      <atom:link href="https://MSALab-PKU.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
+      <title>3</title>
+      <link>https://MSALab-PKU.github.io/publication_types/3/</link>
+    </image>
+    
+    <item>
+      <title>RelationBooth: Towards Relation-Aware Customized Object Generation</title>
+      <link>https://MSALab-PKU.github.io/publication/relationbooth-2024/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/relationbooth-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MTL-LoRA: Low-Rank Adaptation for Multi-Task Learning</title>
+      <link>https://MSALab-PKU.github.io/publication/mtl-2024/</link>
+      <pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/mtl-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RLRF4Rec: Reinforcement Learning from Recsys Feedback for Enhanced Recommendation Reranking</title>
+      <link>https://MSALab-PKU.github.io/publication/rlrf4rec-2024/</link>
+      <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/rlrf4rec-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LLAVADI: What Matters For Multimodal Large Language Models Distillation</title>
+      <link>https://MSALab-PKU.github.io/publication/llavadi-2024/</link>
+      <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/llavadi-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VG4D: Vision-Language Model Goes 4D Video Recognition</title>
+      <link>https://MSALab-PKU.github.io/publication/vg4d-2024/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/vg4d-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explore In-Context Segmentation via Latent Diffusion Models</title>
+      <link>https://MSALab-PKU.github.io/publication/explore-2024/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/explore-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RAP-SAM: Towards Real-Time All-Purpose Segment Anything</title>
+      <link>https://MSALab-PKU.github.io/publication/rap-2024/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/rap-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dst-det: Simple dynamic self-training for open-vocabulary object detection</title>
+      <link>https://MSALab-PKU.github.io/publication/dst-2024/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/dst-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Label-efficient interactive time-series anomaly detection</title>
+      <link>https://MSALab-PKU.github.io/publication/label-2022/</link>
+      <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/label-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BoundarySqueeze: Image Segmentation as Boundary Squeezing</title>
+      <link>https://MSALab-PKU.github.io/publication/boundarysqueeze-2021/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/boundarysqueeze-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Customizing Graph Neural Networks using Path Reweighting</title>
+      <link>https://MSALab-PKU.github.io/publication/customizing-2021/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/customizing-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ladabert: Lightweight adaptation of bert through hybrid model compression</title>
+      <link>https://MSALab-PKU.github.io/publication/ladabert-2020/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/ladabert-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Customized graph embedding: tailoring embedding vectors to different applications</title>
+      <link>https://MSALab-PKU.github.io/publication/customized-2019/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/customized-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Global aggregation then local distribution in fully convolutional networks</title>
+      <link>https://MSALab-PKU.github.io/publication/global-2019/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/global-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dual graph convolutional network for semantic segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/dual-2019/</link>
+      <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/dual-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reprojection R-CNN: A Fast and Accurate Object Detector for 360 deg Images</title>
+      <link>https://MSALab-PKU.github.io/publication/reprojection-2019/</link>
+      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/reprojection-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A cooperative multi-agent reinforcement learning framework for resource balancing in complex logistics network</title>
+      <link>https://MSALab-PKU.github.io/publication/a-2019/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/a-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

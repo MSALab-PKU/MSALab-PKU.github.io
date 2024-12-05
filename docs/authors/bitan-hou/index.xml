@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bitan Hou | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/bitan-hou/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/bitan-hou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bitan Hou</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
+      <title>Bitan Hou</title>
+      <link>https://MSALab-PKU.github.io/authors/bitan-hou/</link>
+    </image>
+    
+    <item>
+      <title>Customizing graph neural networks using path reweighting</title>
+      <link>https://MSALab-PKU.github.io/publication/customizing-2024/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/customizing-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Customizing Graph Neural Networks using Path Reweighting</title>
+      <link>https://MSALab-PKU.github.io/publication/customizing-2021/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/customizing-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Customized graph embedding: tailoring embedding vectors to different applications</title>
+      <link>https://MSALab-PKU.github.io/publication/customized-2019/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/customized-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
