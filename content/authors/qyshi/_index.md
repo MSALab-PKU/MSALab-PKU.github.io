@@ -18,13 +18,22 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: I am Qingyu Shi (史清宇) and I am a PhD Student at School of Intelligence Science and Technology, Peking University (PKU), advised by Prof. Yunhai Tong. 
 
 # List each interest with a dash
 interests:
+- Deep Learning
+- Computer Vision
+- Generative AI
 
 education:
   courses:
+  - course: PhD Student in Peking University (PKU)
+    institution: Peking University
+    year: 2023-now
+  - course: Bachelor in Beijing Institute of Technology (BIT)
+    institution: Beijing Institute of Technology (BIT)
+    year: 2019-2023
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -48,3 +57,5 @@ user_groups:
 - Students
 ---
 # Biography
+
+I am Qingyu Shi (史清宇) and I am a PhD Student at School of Intelligence Science and Technology, Peking University (PKU), advised by Prof. Yunhai Tong. Previously, I obtained my bachelor’s degree at Beijing Institute of Technology (BIT).
