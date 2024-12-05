@@ -58,4 +58,4 @@ user_groups:
 ---
 # Biography
 
-I am Qingyu Shi (史清宇) and I am a PhD Student at School of Intelligence Science and Technology, Peking University (PKU), advised by Prof. Yunhai Tong. Previously, I obtained my bachelor’s degree at Beijing Institute of Technology (BIT).
+I am Qingyu Shi (史清宇) and I am a PhD Student at School of Intelligence Science and Technology, Peking University (PKU), advised by Prof. Yunhai Tong. Previously, I obtained my bachelor's degree at Beijing Institute of Technology (BIT).
