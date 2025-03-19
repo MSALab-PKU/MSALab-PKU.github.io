@@ -16,7 +16,7 @@ publishDate: 2022-04-01
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022*"
+publication: "*The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2022*"
 publication_short: "*CVPR, 2022*"
 
 abstract: "This paper presents Video K-Net, a simple, strong, and unified framework for fully end-to-end video panoptic segmentation. The method is built upon K-Net, a method that unifies image segmentation via a group of learnable kernels. We observe that these learnable kernels from K-Net, which encode object appearances and contexts, can naturally associate identical instances across video frames. Motivated by this observation, Video K-Net learns to simultaneously segment and track 'things' and 'stuff' in a video with simple kernel-based appearance modeling and cross-temporal kernel interaction. Despite the simplicity, it achieves state-of-the-art video panoptic segmentation results on Citscapes-VPS and KITTI-STEP without bells and whistles. In particular on KITTI-STEP, the simple method can boost almost 12% relative improvements over previous methods. We also validate its generalization on video semantic segmentation, where we boost various baselines by 2% on the VSPW dataset. Moreover, we extend K-Net into clip-level video framework for video instance segmentation where we obtain 40.5% for ResNet50 backbone and 51.5% mAP for Swin-base on YouTube-2019 validation set. We hope this simple yet effective method can serve as a new flexible baseline in video segmentation. Both code and models are released at https://github.com/lxtGH/Video-K-Net."

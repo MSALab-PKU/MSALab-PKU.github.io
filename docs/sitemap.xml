@@ -2,50 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://MSALab-PKU.github.io/publication_types/3/</loc>
-    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+    <loc>https://MSALab-PKU.github.io/publication_types/1/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/authors/</loc>
-    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/authors/chao-tang/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/diffsensei-2025/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/authors/jianzong-wu/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/authors/jingbo-wang/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication_types/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/authors/xiangtai-li/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/authors/yanhong-zeng/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/authors/yunhai-tong/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication/dreamrelation-2025/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/authors/jinbin-bai/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://MSALab-PKU.github.io/authors/jingbo-wang/</loc>
-    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://MSALab-PKU.github.io/authors/lu-qi/</loc>
-    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/authors/ming-husang-yang/</loc>
-    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/</loc>
-    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/publication_types/</loc>
-    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/publication/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/authors/qingyu-shi/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/publication/relationbooth-2024/</loc>
-    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/authors/xiangtai-li/</loc>
-    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/authors/yunhai-tong/</loc>
-    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://MSALab-PKU.github.io/publication_types/1/</loc>
-    <lastmod>2024-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/authors/jiahao-meng/</loc>
     <lastmod>2024-10-21T00:00:00+00:00</lastmod>
@@ -64,6 +67,9 @@
   </url><url>
     <loc>https://MSALab-PKU.github.io/authors/yujing-wang/</loc>
     <lastmod>2024-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://MSALab-PKU.github.io/publication_types/3/</loc>
+    <lastmod>2024-10-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/authors/denvy-deng/</loc>
     <lastmod>2024-10-12T00:00:00+00:00</lastmod>
@@ -206,9 +212,6 @@
     <loc>https://MSALab-PKU.github.io/authors/qianyu-zhou/</loc>
     <lastmod>2024-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://MSALab-PKU.github.io/authors/yanhong-zeng/</loc>
-    <lastmod>2024-06-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://MSALab-PKU.github.io/authors/yining-li/</loc>
     <lastmod>2024-06-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -299,7 +302,7 @@
     <loc>https://MSALab-PKU.github.io/authors/jingkang-yang/</loc>
     <lastmod>2024-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://MSALab-PKU.github.io/publication/rap-2024/</loc>
+    <loc>https://MSALab-PKU.github.io/publication/rmp-2024/</loc>
     <lastmod>2024-01-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://MSALab-PKU.github.io/authors/shangchen-zhou/</loc>

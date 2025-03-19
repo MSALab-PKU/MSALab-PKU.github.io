@@ -5,7 +5,7 @@
     <link>https://MSALab-PKU.github.io/authors/yunhai-tong/</link>
       <atom:link href="https://MSALab-PKU.github.io/authors/yunhai-tong/index.xml" rel="self" type="application/rss+xml" />
     <description>Yunhai Tong</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_3.png</url>
       <title>Yunhai Tong</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
-      <title>RelationBooth: Towards Relation-Aware Customized Object Generation</title>
-      <link>https://MSALab-PKU.github.io/publication/relationbooth-2024/</link>
+      <title>DiffSensei: Bridging Multi-Modal LLMs and Diffusion Models for Customized Manga Generation</title>
+      <link>https://MSALab-PKU.github.io/publication/diffsensei-2025/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/diffsensei-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DreamRelation: Bridging Customization and Relation Generation</title>
+      <link>https://MSALab-PKU.github.io/publication/dreamrelation-2025/</link>
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/publication/relationbooth-2024/</guid>
+      <guid>https://MSALab-PKU.github.io/publication/dreamrelation-2025/</guid>
       <description></description>
     </item>
     
@@ -149,10 +157,10 @@
     </item>
     
     <item>
-      <title>RAP-SAM: Towards Real-Time All-Purpose Segment Anything</title>
-      <link>https://MSALab-PKU.github.io/publication/rap-2024/</link>
+      <title>RMP-SAM: Towards Real-Time Multi-Purpose Segment Anything</title>
+      <link>https://MSALab-PKU.github.io/publication/rmp-2024/</link>
       <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://MSALab-PKU.github.io/publication/rap-2024/</guid>
+      <guid>https://MSALab-PKU.github.io/publication/rmp-2024/</guid>
       <description></description>
     </item>
     

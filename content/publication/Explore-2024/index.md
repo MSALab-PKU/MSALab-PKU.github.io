@@ -16,8 +16,8 @@ publishDate: 2024-03-14
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*arXiv preprint arXiv:2401.10228*"
-publication_short: "*arXiv, 2024*"
+publication: "*The 39th Annual AAAI Conference on Artificial Intelligence*"
+publication_short: "*AAAI, 2025*"
 
 abstract: "In-context segmentation has drawn more attention with the introduction of vision foundation models. Most existing approaches adopt metric learning or masked image modeling to build the correlation between visual prompts and input image queries. In this work, we explore this problem from a new perspective, using one representative generation model, the latent diffusion model (LDM). We observe a task gap between generation and segmentation in diffusion models, but LDM is still an effective minimalist for in-context segmentation. In particular, we propose two meta-architectures and correspondingly design several output alignment and optimization strategies. We have conducted comprehensive ablation studies and empirically found that the segmentation quality counts on output alignment and in-context instructions. Moreover, we build a new and fair in-context segmentation benchmark that includes both image and video datasets. Experiments validate the efficiency of our approach, demonstrating comparable or even stronger results than previous specialist models or visual foundation models. Our study shows that LDMs can also achieve good enough results for challenging in-context segmentation tasks."
 
