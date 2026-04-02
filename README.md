@@ -1,42 +1,169 @@
-# Wowchemy's Research Group Template for [Hugo](https://github.com/gohugoio/hugo)
+# MSALab Website Maintenance Guide
 
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
+This repository hosts the MSALab website built with Hugo + Wowchemy.
+This README explains how to edit each part of the website based on the current `content/` organization.
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 5 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
+## 1) Local Preview
 
-_[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs._
+Requirements:
+- Hugo Extended (version compatible with `config/_default/config.yaml`)
+- Go (for Hugo modules)
 
-- 👉 [**Get Started**](https://wowchemy.com/templates/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-modules/releases)
+Run locally:
 
-## Crowd-funded open-source software
+```bash
+hugo server
+```
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+Then open [http://localhost:1313](http://localhost:1313).
 
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/sponsor/)
+Build static files:
 
-## Ecosystem
+```bash
+hugo
+```
 
-* **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli/):** Automatically import publications from BibTeX
+Output is generated to `docs/` (`publishDir: docs` in config).
 
-[![Screenshot](./preview.png)](https://wowchemy.com/templates/)
+## 2) Website Structure (Where to Edit)
 
-## Demo Credits
+Top-level content folders:
+- `content/home/`: homepage sections (hero, highlights, news, CTA)
+- `content/post/`: news posts used by the homepage Latest News block
+- `content/publication/`: publication entries, one folder per paper
+- `content/people/`: team page widgets
+- `content/authors/`: profile for each person (name, role, avatar, groups)
+- `content/contact/`: contact page widgets
 
-Please replace the demo images with your own.
+## 3) Homepage Sections (`content/home/`)
 
-- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
-- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
-- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
-- Blog posts
-  - https://unsplash.com/photos/AndE50aaHn4
-  - https://unsplash.com/photos/OYzbqk2y26c
-- Avatars
-  - https://unsplash.com/photos/5yENNRbbat4
-  - https://unsplash.com/photos/WNoLnJo7tS8
+`content/home/index.md` defines the homepage as a widget page.
 
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/starter-research-group/readme?pixel)](https://github.com/igrigorik/ga-beacon)
+Each file in `content/home/` is one section. The order is controlled by `weight` (smaller = earlier).
+
+- `welcome.md`
+  - Hero section (`widget: hero`)
+  - Edit lab title and intro text here
+
+- `highlight.md`
+  - Highlights section text
+  - Currently configured as `widget: blank` for plain markdown-style content
+  - Keep this section text-only to avoid duplicate news listing
+
+- `news.md`
+  - Latest News section (`widget: pages`)
+  - Pulls content from `content/post/` using `page_type: post`
+  - Key fields:
+    - `count`: number of news items shown
+    - `order`: usually `desc` for newest first
+
+- `cta.md`
+  - Bottom call-to-action links/buttons (team/publication/contact links)
+
+- `image.md`
+  - Optional visual block (currently inactive with `active: false`)
+
+## 4) Latest News (`content/post/`)
+
+Each news item should be a folder:
+
+`content/post/<slug>/index.md`
+
+Minimal front matter example:
+
+```yaml
+---
+title: "Paper Accepted to CVPR 2026: RecTok"
+date: 2025-12-15
+draft: false
+featured: false
+authors:
+  - admin
+categories:
+  - Publications
+---
+```
+
+Then write a short body paragraph with the announcement.
+
+Notes:
+- News items appear in `Latest News` only if `draft: false`.
+- If you have 4 posts and `count: 4`, exactly 4 will be shown.
+
+## 5) Publications (`content/publication/`)
+
+Each paper is stored in:
+
+`content/publication/<paper-slug>/`
+
+Common files:
+- `index.md`: paper metadata and abstract
+- `cite.bib`: bibtex citation
+- optional image files (cover/teaser)
+
+Publication list page config:
+- `content/publication/_index.md`
+
+How to add a new publication:
+1. Create new folder under `content/publication/`
+2. Add `index.md` with title/date/authors/publication info
+3. Add `cite.bib`
+4. Add image file if needed
+
+## 6) People Page (`content/people/` + `content/authors/`)
+
+People page widgets:
+- `content/people/index.md`
+- `content/people/people.md` (widget config and which groups to show)
+
+Person profile:
+- `content/authors/<id>/_index.md`
+- `content/authors/<id>/avatar.jpg`
+
+To add a member:
+1. Create `content/authors/<new-id>/`
+2. Add `_index.md` with `title`, `role`, `organizations`, `social`, `user_groups`
+3. Add `avatar.jpg`
+4. Ensure `user_groups` value matches groups listed in `content/people/people.md`
+
+## 7) Contact Page (`content/contact/`)
+
+- `content/contact/index.md`: page wrapper
+- `content/contact/contact.md`: contact widget and form settings
+- `content/contact/image.md`: background image section for contact page
+
+## 8) Navigation Menu
+
+Edit:
+- `config/_default/menus.yaml`
+
+Current main menu items:
+- Home
+- People
+- Publications
+- Contact
+
+## 9) Site-wide Settings
+
+Main config files:
+- `config/_default/config.yaml`: site title, base URL, publish dir, Hugo modules
+- `config/_default/params.yaml`: theme/UI behavior and feature toggles
+
+## 10) Common Editing Tips
+
+- Keep YAML indentation strict (2 spaces recommended).
+- Use `draft: false` for content that should be visible online.
+- For homepage sections, check `widget` type first before editing content format.
+- If content appears twice on homepage, verify only one section is configured to list posts/pages.
+- Preview with `hugo server` after each batch of edits.
+
+## 11) Recommended Update Workflow
+
+1. Edit markdown files in `content/`
+2. Run `hugo server` and verify pages
+3. Run `hugo` to generate `docs/`
+4. Commit and push
+
+---
+
+For advanced widget behavior, see Wowchemy docs: [https://wowchemy.com/docs/](https://wowchemy.com/docs/)

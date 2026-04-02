@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer-vision | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/tags/computer-vision/</link>
+      <atom:link href="https://MSALab-PKU.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>computer-vision</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_2.png</url>
+      <title>computer-vision</title>
+      <link>https://MSALab-PKU.github.io/tags/computer-vision/</link>
+    </image>
+    
+    <item>
+      <title>Paper Accepted to CVPR 2026: RecTok</title>
+      <link>https://MSALab-PKU.github.io/post/rectok-cvpr-2026/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/post/rectok-cvpr-2026/</guid>
+      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://MSALab-PKU.github.io/publication/rectok-2025/&#34;&gt;&lt;strong&gt;&amp;ldquo;RecTok: Reconstruction Distillation along Rectified Flow&amp;rdquo;&lt;/strong&gt;&lt;/a&gt; is accepted to &lt;strong&gt;CVPR 2026&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

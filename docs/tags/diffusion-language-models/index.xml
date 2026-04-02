@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>diffusion-language-models | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/tags/diffusion-language-models/</link>
+      <atom:link href="https://MSALab-PKU.github.io/tags/diffusion-language-models/index.xml" rel="self" type="application/rss+xml" />
+    <description>diffusion-language-models</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_2.png</url>
+      <title>diffusion-language-models</title>
+      <link>https://MSALab-PKU.github.io/tags/diffusion-language-models/</link>
+    </image>
+    
+    <item>
+      <title>Paper Accepted to ICLR 2026: MMaDA-Parallel</title>
+      <link>https://MSALab-PKU.github.io/post/mmada-parallel-iclr-2026/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/post/mmada-parallel-iclr-2026/</guid>
+      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://MSALab-PKU.github.io/publication/mmada-parallel-2025/&#34;&gt;&lt;strong&gt;&amp;ldquo;MMaDA-Parallel: Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation&amp;rdquo;&lt;/strong&gt;&lt;/a&gt; is accepted to &lt;strong&gt;ICLR 2026&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

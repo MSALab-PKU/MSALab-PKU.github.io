@@ -1,5 +1,5 @@
 ---
-widget: pages
+widget: blank
 headless: true
 weight: 20
 
@@ -12,11 +12,8 @@ title: |
   deeper and more reliable semantic intelligence.
 
 - Current core directions:
-
   - Multimodal large language models and agentic reasoning.
-
   - Text-to-image and text-to-video generation and editing.
-
   - Efficient and trustworthy large language models.
 
 - We welcome self-motivated research interns and PhD applicants with strong

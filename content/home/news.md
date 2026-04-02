@@ -7,7 +7,7 @@ title: Latest News
 subtitle: Research updates, awards, talks, and community activities.
 
 content:
-  count: 5
+  count: 4
   filters:
     author: ""
     category: ""

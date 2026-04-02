@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>video-generation | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/tags/video-generation/</link>
+      <atom:link href="https://MSALab-PKU.github.io/tags/video-generation/index.xml" rel="self" type="application/rss+xml" />
+    <description>video-generation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_2.png</url>
+      <title>video-generation</title>
+      <link>https://MSALab-PKU.github.io/tags/video-generation/</link>
+    </image>
+    
+    <item>
+      <title>Paper Accepted to ICLR 2026: Vmoba</title>
+      <link>https://MSALab-PKU.github.io/post/vmoba-iclr-2026/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/post/vmoba-iclr-2026/</guid>
+      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://MSALab-PKU.github.io/publication/vmoba-2025/&#34;&gt;&lt;strong&gt;&amp;ldquo;Vmoba: Mixture-of-block attention for video diffusion models&amp;rdquo;&lt;/strong&gt;&lt;/a&gt; is accepted to &lt;strong&gt;ICLR 2026&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
