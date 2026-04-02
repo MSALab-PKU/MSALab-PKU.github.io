@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Qingyu Shi
+title: Ye Tian
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- qyshi
+- tianye
 
 # Is this the primary user of the site?
 superuser: false
@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am Qingyu Shi (史清宇) and I am a PhD Student at School of Intelligence Science and Technology, Peking University (PKU), advised by Prof. Yunhai Tong. 
+bio: I am Ye Tian (田野) and I am a PhD Student at School of Intelligence Science and Technology, Peking University (PKU), advised by Prof. Yunhai Tong. 
 
 # List each interest with a dash
 interests:
@@ -30,10 +30,13 @@ education:
   courses:
   - course: PhD Student in Peking University
     institution: Peking University
-    year: 2023-now
-  - course: Bachelor in Beijing Institute of Technology
-    institution: Beijing Institute of Technology
-    year: 2019-2023
+    year: 2025-now
+  - course: Master in Peking University
+    institution: Peking University
+    year: 2022-2025
+  - course: Bachelor in Peking University
+    institution: Peking University
+    year: 2018-2022
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -44,12 +47,9 @@ social:
 # - icon: cv
 #   icon_pack: ai
 #   link: files/cv.pdf
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/Shi-qingyu
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "q.y.shi@stu.pku.edu.cn"
+email: ""
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -60,5 +60,3 @@ user_groups:
 - Students
 ---
 # Biography
-
-I am Qingyu Shi (史清宇) and I am a PhD Student at School of Intelligence Science and Technology, Peking University (PKU), advised by Prof. Yunhai Tong. Previously, I obtained my bachelor's degree at Beijing Institute of Technology (BIT).
