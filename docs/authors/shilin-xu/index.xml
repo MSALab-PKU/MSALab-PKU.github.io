@@ -5,12 +5,36 @@
     <link>https://MSALab-PKU.github.io/authors/shilin-xu/</link>
       <atom:link href="https://MSALab-PKU.github.io/authors/shilin-xu/index.xml" rel="self" type="application/rss+xml" />
     <description>Shilin Xu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Tue, 08 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_2.png</url>
       <title>Shilin Xu</title>
       <link>https://MSALab-PKU.github.io/authors/shilin-xu/</link>
     </image>
+    
+    <item>
+      <title>Direct Preference Optimization for LLM-Enhanced Recommendation Systems</title>
+      <link>https://MSALab-PKU.github.io/publication/direct-2025/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/direct-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mixed-r1: Unified reward perspective for reasoning capability in multimodal large language models</title>
+      <link>https://MSALab-PKU.github.io/publication/mixed-r1-2025/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/mixed-r1-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sa2va: Marrying sam2 with llava for dense grounded understanding of images and videos</title>
+      <link>https://MSALab-PKU.github.io/publication/sa2va-2025/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/sa2va-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>RLRF4Rec: Reinforcement Learning from Recsys Feedback for Enhanced Recommendation Reranking</title>

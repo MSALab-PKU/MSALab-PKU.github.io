@@ -5,12 +5,36 @@
     <link>https://MSALab-PKU.github.io/authors/chaoyang-wang/</link>
       <atom:link href="https://MSALab-PKU.github.io/authors/chaoyang-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Chaoyang Wang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Thu, 30 May 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_2.png</url>
       <title>Chaoyang Wang</title>
       <link>https://MSALab-PKU.github.io/authors/chaoyang-wang/</link>
     </image>
+    
+    <item>
+      <title>Rethinking Vector Field Learning for Generative Segmentation</title>
+      <link>https://MSALab-PKU.github.io/publication/rethinking-2026/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/rethinking-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guiding Visual Autoregressive Models through Spectrum Weakening</title>
+      <link>https://MSALab-PKU.github.io/publication/guiding-2025/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/guiding-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conditional panoramic image generation via masked autoregressive modeling</title>
+      <link>https://MSALab-PKU.github.io/publication/conditional-2025/</link>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/conditional-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SemFlow: Binding Semantic Segmentation and Image Synthesis via Rectified Flow</title>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Longyin Wen | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/longyin-wen/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/longyin-wen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Longyin Wen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_2.png</url>
+      <title>Longyin Wen</title>
+      <link>https://MSALab-PKU.github.io/authors/longyin-wen/</link>
+    </image>
+    
+    <item>
+      <title>Cyberv: Cybernetics for test-time scaling in video understanding</title>
+      <link>https://MSALab-PKU.github.io/publication/cyberv-2025/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/cyberv-2025/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

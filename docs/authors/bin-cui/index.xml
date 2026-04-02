@@ -5,12 +5,44 @@
     <link>https://MSALab-PKU.github.io/authors/bin-cui/</link>
       <atom:link href="https://MSALab-PKU.github.io/authors/bin-cui/index.xml" rel="self" type="application/rss+xml" />
     <description>Bin Cui</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_2.png</url>
       <title>Bin Cui</title>
       <link>https://MSALab-PKU.github.io/authors/bin-cui/</link>
     </image>
+    
+    <item>
+      <title>Training-free heterogeneous graph condensation via data selection</title>
+      <link>https://MSALab-PKU.github.io/publication/trainingfree-h-2025/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/trainingfree-h-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards scalable and deep graph neural networks via noise masking</title>
+      <link>https://MSALab-PKU.github.io/publication/towards-2025/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/towards-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training-free diffusion acceleration with bottleneck sampling</title>
+      <link>https://MSALab-PKU.github.io/publication/trainingfree-2025/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/trainingfree-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diffusion-sharpening: Fine-tuning diffusion models with denoising trajectory sharpening</title>
+      <link>https://MSALab-PKU.github.io/publication/diffusionsharpen-2025/</link>
+      <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/diffusionsharpen-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hgamlp: Heterogeneous graph attention mlp with de-redundancy mechanism</title>

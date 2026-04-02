@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mengdi Wang | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/mengdi-wang/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/mengdi-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mengdi Wang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_2.png</url>
+      <title>Mengdi Wang</title>
+      <link>https://MSALab-PKU.github.io/authors/mengdi-wang/</link>
+    </image>
+    
+    <item>
+      <title>MMaDA-Parallel: Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation</title>
+      <link>https://MSALab-PKU.github.io/publication/mmada-parallel-2025/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/mmada-parallel-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mmada: Multimodal large diffusion language models</title>
+      <link>https://MSALab-PKU.github.io/publication/mmada-2025/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/mmada-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diffusion-sharpening: Fine-tuning diffusion models with denoising trajectory sharpening</title>
+      <link>https://MSALab-PKU.github.io/publication/diffusionsharpen-2025/</link>
+      <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/diffusionsharpen-2025/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

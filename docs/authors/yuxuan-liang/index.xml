@@ -5,12 +5,28 @@
     <link>https://MSALab-PKU.github.io/authors/yuxuan-liang/</link>
       <atom:link href="https://MSALab-PKU.github.io/authors/yuxuan-liang/index.xml" rel="self" type="application/rss+xml" />
     <description>Yuxuan Liang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_2.png</url>
       <title>Yuxuan Liang</title>
       <link>https://MSALab-PKU.github.io/authors/yuxuan-liang/</link>
     </image>
+    
+    <item>
+      <title>Training-free heterogeneous graph condensation via data selection</title>
+      <link>https://MSALab-PKU.github.io/publication/trainingfree-h-2025/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/trainingfree-h-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards scalable and deep graph neural networks via noise masking</title>
+      <link>https://MSALab-PKU.github.io/publication/towards-2025/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/towards-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hgamlp: Heterogeneous graph attention mlp with de-redundancy mechanism</title>

@@ -5,12 +5,44 @@
     <link>https://MSALab-PKU.github.io/authors/lu-qi/</link>
       <atom:link href="https://MSALab-PKU.github.io/authors/lu-qi/index.xml" rel="self" type="application/rss+xml" />
     <description>Lu Qi</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_2.png</url>
       <title>Lu Qi</title>
       <link>https://MSALab-PKU.github.io/authors/lu-qi/</link>
     </image>
+    
+    <item>
+      <title>Cyberv: Cybernetics for test-time scaling in video understanding</title>
+      <link>https://MSALab-PKU.github.io/publication/cyberv-2025/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/cyberv-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conditional panoramic image generation via masked autoregressive modeling</title>
+      <link>https://MSALab-PKU.github.io/publication/conditional-2025/</link>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/conditional-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decouple and track: Benchmarking and improving video diffusion transformers for motion transfer</title>
+      <link>https://MSALab-PKU.github.io/publication/det-2025/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/det-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sa2va: Marrying sam2 with llava for dense grounded understanding of images and videos</title>
+      <link>https://MSALab-PKU.github.io/publication/sa2va-2025/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/sa2va-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DreamRelation: Bridging Customization and Relation Generation</title>

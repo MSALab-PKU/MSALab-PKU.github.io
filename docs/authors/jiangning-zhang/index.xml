@@ -5,12 +5,20 @@
     <link>https://MSALab-PKU.github.io/authors/jiangning-zhang/</link>
       <atom:link href="https://MSALab-PKU.github.io/authors/jiangning-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Jiangning Zhang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Tue, 25 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_2.png</url>
       <title>Jiangning Zhang</title>
       <link>https://MSALab-PKU.github.io/authors/jiangning-zhang/</link>
     </image>
+    
+    <item>
+      <title>Decouple and track: Benchmarking and improving video diffusion transformers for motion transfer</title>
+      <link>https://MSALab-PKU.github.io/publication/det-2025/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/det-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Motionbooth: Motion-aware customized text-to-video generation</title>

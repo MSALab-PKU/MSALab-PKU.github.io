@@ -5,12 +5,20 @@
     <link>https://MSALab-PKU.github.io/authors/jiawei-jiang/</link>
       <atom:link href="https://MSALab-PKU.github.io/authors/jiawei-jiang/index.xml" rel="self" type="application/rss+xml" />
     <description>Jiawei Jiang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_2.png</url>
       <title>Jiawei Jiang</title>
       <link>https://MSALab-PKU.github.io/authors/jiawei-jiang/</link>
     </image>
+    
+    <item>
+      <title>Towards scalable and deep graph neural networks via noise masking</title>
+      <link>https://MSALab-PKU.github.io/publication/towards-2025/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/towards-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hgamlp: Heterogeneous graph attention mlp with de-redundancy mechanism</title>

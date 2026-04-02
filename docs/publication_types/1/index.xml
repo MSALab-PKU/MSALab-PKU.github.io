@@ -5,12 +5,92 @@
     <link>https://MSALab-PKU.github.io/publication_types/1/</link>
       <atom:link href="https://MSALab-PKU.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
       <link>https://MSALab-PKU.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>RecTok: Reconstruction Distillation along Rectified Flow</title>
+      <link>https://MSALab-PKU.github.io/publication/rectok-2025/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/rectok-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MMaDA-Parallel: Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation</title>
+      <link>https://MSALab-PKU.github.io/publication/mmada-parallel-2025/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/mmada-parallel-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Direct Preference Optimization for LLM-Enhanced Recommendation Systems</title>
+      <link>https://MSALab-PKU.github.io/publication/direct-2025/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/direct-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vmoba: Mixture-of-block attention for video diffusion models</title>
+      <link>https://MSALab-PKU.github.io/publication/vmoba-2025/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/vmoba-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Muddit: Liberating generation beyond text-to-image with a unified discrete diffusion model</title>
+      <link>https://MSALab-PKU.github.io/publication/muddit-2025/</link>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/muddit-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conditional panoramic image generation via masked autoregressive modeling</title>
+      <link>https://MSALab-PKU.github.io/publication/conditional-2025/</link>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/conditional-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mmada: Multimodal large diffusion language models</title>
+      <link>https://MSALab-PKU.github.io/publication/mmada-2025/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/mmada-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training-free heterogeneous graph condensation via data selection</title>
+      <link>https://MSALab-PKU.github.io/publication/trainingfree-h-2025/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/trainingfree-h-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards scalable and deep graph neural networks via noise masking</title>
+      <link>https://MSALab-PKU.github.io/publication/towards-2025/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/towards-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decouple and track: Benchmarking and improving video diffusion transformers for motion transfer</title>
+      <link>https://MSALab-PKU.github.io/publication/det-2025/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/det-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DiffSensei: Bridging Multi-Modal LLMs and Diffusion Models for Customized Manga Generation</title>
@@ -81,6 +161,14 @@
       <link>https://MSALab-PKU.github.io/publication/hgamlp-2024/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
       <guid>https://MSALab-PKU.github.io/publication/hgamlp-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explore In-Context Segmentation via Latent Diffusion Models</title>
+      <link>https://MSALab-PKU.github.io/publication/explore-2024/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/explore-2024/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xinyi Gao | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/xinyi-gao/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/xinyi-gao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xinyi Gao</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_2.png</url>
+      <title>Xinyi Gao</title>
+      <link>https://MSALab-PKU.github.io/authors/xinyi-gao/</link>
+    </image>
+    
+    <item>
+      <title>Training-free heterogeneous graph condensation via data selection</title>
+      <link>https://MSALab-PKU.github.io/publication/trainingfree-h-2025/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/trainingfree-h-2025/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

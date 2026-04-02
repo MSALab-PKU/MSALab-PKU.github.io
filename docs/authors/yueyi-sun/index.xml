@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yueyi Sun | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/yueyi-sun/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/yueyi-sun/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yueyi Sun</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright><lastBuildDate>Fri, 30 May 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://MSALab-PKU.github.io/media/icon_hue8824e70fad2ec22483c9a618e12a83f_9721_512x512_fill_lanczos_center_2.png</url>
+      <title>Yueyi Sun</title>
+      <link>https://MSALab-PKU.github.io/authors/yueyi-sun/</link>
+    </image>
+    
+    <item>
+      <title>Mixed-r1: Unified reward perspective for reasoning capability in multimodal large language models</title>
+      <link>https://MSALab-PKU.github.io/publication/mixed-r1-2025/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/mixed-r1-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sa2va: Marrying sam2 with llava for dense grounded understanding of images and videos</title>
+      <link>https://MSALab-PKU.github.io/publication/sa2va-2025/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://MSALab-PKU.github.io/publication/sa2va-2025/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
