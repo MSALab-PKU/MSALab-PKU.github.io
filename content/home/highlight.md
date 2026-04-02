@@ -1,24 +1,26 @@
 ---
-# Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
 headless: true
 weight: 20
 
-title: | 
+title: |
   Highlights
 ---
 
-- Our group aims at exploring the state-of-the-art methods in multi-modal learning, visual perception, video content analysis, and language semantics analysis to advance the AI model's abilities to understand semantics behind various modal.
+- We conduct cutting-edge research in **multimodal learning**, **visual perception**,
+  **video understanding**, and **language semantics**, pushing AI systems toward
+  deeper and more reliable semantic intelligence.
 
-- Currently, we are focusing on three directions:
+- Current core directions:
 
-  - Multi-modal Large Language model.
+  - Multimodal large language models and agentic reasoning.
 
-  - Text2Image and Text2Video Generation and Editing. 
+  - Text-to-image and text-to-video generation and editing.
 
-  - Large Language Model.
-	
+  - Efficient and trustworthy large language models.
 
-- Our group at Peking University is recruiting self-motivated research interns and Ph.D.s who have strong coding and mathematical abilities and great interest in **multi-modal**, **large language model**, **text-to video generation and editing**.
+- We welcome self-motivated research interns and PhD applicants with strong
+  mathematical and engineering backgrounds, especially those interested in
+  **multimodal AI**, **LLMs**, and **generative modeling**.
 
-- Recent research works can be found in the [here](publication/)
+- Explore our recent work on the [Publications page](publication/).

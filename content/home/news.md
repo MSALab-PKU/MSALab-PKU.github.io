@@ -1,11 +1,10 @@
 ---
-# Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
 headless: true
 weight: 30
 
 title: Latest News
-subtitle:
+subtitle: Research updates, awards, talks, and community activities.
 
 content:
   count: 5
@@ -19,6 +18,6 @@ content:
   order: desc
   page_type: post
 design:
-  view: 3
+  view: 2
   columns: "1"
 ---
