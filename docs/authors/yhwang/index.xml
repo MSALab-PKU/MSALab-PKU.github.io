@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuhao Wang | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/yhwang/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/yhwang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuhao Wang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright>
+    <image>
+      <url>https://MSALab-PKU.github.io/authors/yhwang/avatar_hu499658e2b0e4895662f71fc1886bfb4b_281909_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Yuhao Wang</title>
+      <link>https://MSALab-PKU.github.io/authors/yhwang/</link>
+    </image>
+    
+  </channel>
+</rss>
