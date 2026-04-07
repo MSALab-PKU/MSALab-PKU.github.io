@@ -7,7 +7,7 @@ title: |
 design:
   columns: "1"
   background:
-      image: "msalab.png"      # Hero background image
+      image: "background.png"      # Hero background image
       image_darken: 0.2           # 可选：调暗图片以突出文字 (范围 0.0 到 1.0)
       image_size: cover           # 可选：cover 表示让图片按比例铺满整个背景
       image_position: center      # 可选：center 表示居中显示
