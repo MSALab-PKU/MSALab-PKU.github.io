@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Master (2020-2023)
+role: Master (2023)
 
 # Organizations/Affiliations
 organizations:
