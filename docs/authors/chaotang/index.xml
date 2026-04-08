@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chao Tang | Multimedia Semantic Analytics Lab</title>
+    <link>https://MSALab-PKU.github.io/authors/chaotang/</link>
+      <atom:link href="https://MSALab-PKU.github.io/authors/chaotang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chao Tang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Maintained by MSALab</copyright>
+    <image>
+      <url>https://MSALab-PKU.github.io/authors/chaotang/avatar_hub0ca061d529c7f0b11398d14c8e73cba_725842_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Chao Tang</title>
+      <link>https://MSALab-PKU.github.io/authors/chaotang/</link>
+    </image>
+    
+  </channel>
+</rss>
