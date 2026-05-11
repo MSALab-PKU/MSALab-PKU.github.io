@@ -221,134 +221,744 @@
         </div>
 
         <nav class="task-tabs">
-          <button class="task-tab active" data-task="vbench">VBench</button>
+          <button class="task-tab active" data-task="fashion">FashionVideoBench</button>
           <button class="task-tab" data-task="refvie">RefVIE-Bench</button>
           <button class="task-tab" data-task="openve">OpenVE-Bench</button>
           <button class="task-tab" data-task="ivbench-tiv2v">Intelligent-VBench-TIV2V</button>
           <button class="task-tab" data-task="ivbench-mi2v">Intelligent-VBench-MI2V</button>
-          <button class="task-tab" data-task="fashion">FashionVideoBench</button>
+          <button class="task-tab" data-task="vbench">VBench</button>
         </nav>
 
-        <!-- VBench -->
-        <article class="task-panel compact-panel active-task" data-task="vbench">
+        <!-- FashionVideoBench (with sub-tabs) -->
+        <article class="task-panel compact-panel active-task" data-task="fashion">
           <div class="task-panel-head compact-head">
-            <h4>VBench</h4>
-            <span class="task-badge">Text → Video</span>
+            <h4>FashionVideoBench</h4>
           </div>
-          <div class="compact-case-grid flf2v-case-grid t2v-case-grid" id="vbenchGrid">
 
-            <!-- Row 1 -->
-            <div class="t2v-row">
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks.</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/16.mp4"></video>
-                </div>
-              </article>
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> A beautiful coastal beach in spring, waves lapping on sand by Vincent van Gogh</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/66.mp4"></video>
-                </div>
-              </article>
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> Sunset time lapse at the beach with moving clouds and colors in the sky.</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/6.mp4"></video>
-                </div>
-              </article>
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> A cat wearing sunglasses at a pool</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/70.mp4"></video>
-                </div>
-              </article>
+          <nav class="sub-tabs">
+            <button class="sub-tab active" data-subtask="product-edit">Product Edit</button>
+            <button class="sub-tab" data-subtask="model-edit">Model Edit</button>
+            <button class="sub-tab" data-subtask="freeform-edit">Freeform Edit</button>
+            <button class="sub-tab" data-subtask="product-image-to-video">Product Image to Video</button>
+            <button class="sub-tab" data-subtask="model-image-to-video">Model Image to Video</button>
+            <button class="sub-tab" data-subtask="multi-image-to-video">Multi Image to Video</button>
+          </nav>
+
+          <!-- sub-panel: text_video_to_video/product_edit -->
+          <div class="sub-panel active-sub" data-subtask="product-edit">
+            <div class="sub-panel-head">
+              <h5>text_video_to_video / product_edit</h5>
             </div>
+            <div class="compact-case-grid flf2v-case-grid tiv2v-case-grid" id="fashionProductEditGrid">
 
-            <!-- Row 2 -->
-            <div class="t2v-row">
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> A cute happy Corgi playing in park, sunset</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/73.mp4"></video>
-                </div>
-              </article>
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> Vampire makeup face of beautiful girl, red contact lenses.</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/42.mp4"></video>
-                </div>
-              </article>
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> Ashtray full of butts on table, smoke flowing on black background, close-up</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/43.mp4"></video>
-                </div>
-              </article>
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> A bigfoot walking in the snowstorm.</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/13.mp4"></video>
-                </div>
-              </article>
+              <!-- Row 1: cases 1-4 -->
+              <div class="tiv2v-row">
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/input_1.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Remove the large white lace collar from the shirt.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/output_1.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/input_2.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Change the white shirt to a red polka-dot top.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/output_2.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/input_3.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Replace the person's white slippers with black boots.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/output_3.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/input_4.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Remove the vase from the cabinet.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/output_4.mp4"></video>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Row 2: cases 5-8 -->
+              <div class="tiv2v-row">
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/input_5.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Remove the logo from the clothing.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/output_5.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/input_6.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Remove the pearl bag from the person's hand.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/output_6.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/input_7.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Add a silver necklace around the person's neck.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/output_7.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/input_8.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Remove the necklace from the person's neck.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/output_8.mp4"></video>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Row 3: cases 9-12 -->
+              <div class="tiv2v-row">
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/input_9.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Remove the fur collar from the clothing.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/output_9.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/input_10.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Add a delicate butterfly brooch to the left shoulder of the jacket.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/output_10.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/input_11.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Change the subject's floral dress to a black blazer dress.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/output_11.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/input_12.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Hang a small brown leather handbag on the woman's left shoulder.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/product_edit/video/output_12.mp4"></video>
+                  </div>
+                </article>
+              </div>
+
             </div>
+          </div>
 
-            <!-- Row 3 -->
-            <div class="t2v-row">
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> a motorcycle gliding through a snowy field</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/111.mp4"></video>
-                </div>
-              </article>
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> an airplane soaring through a clear blue sky</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/113.mp4"></video>
-                </div>
-              </article>
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> A jellyfish floating through the ocean, with bioluminescent tentacles</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/53.mp4"></video>
-                </div>
-              </article>
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> An epic tornado attacking above a glowing city at night, the tornado is made of smoke</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/86.mp4"></video>
-                </div>
-              </article>
+          <!-- sub-panel: text_video_to_video/model_edit -->
+          <div class="sub-panel" data-subtask="model-edit">
+            <div class="sub-panel-head">
+              <h5>text_video_to_video / model_edit</h5>
             </div>
+            <div class="compact-case-grid flf2v-case-grid tiv2v-case-grid" id="fashionModelEditGrid">
 
-            <!-- Row 4 -->
-            <div class="t2v-row">
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> A space shuttle launching into orbit, with flames and smoke billowing out from the engines</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/56.mp4"></video>
-                </div>
-              </article>
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> Clown fish swimming through the coral reef</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/88.mp4"></video>
-                </div>
-              </article>
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> A super cool giant robot in Cyberpunk Beijing</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/58.mp4"></video>
-                </div>
-              </article>
-              <article class="compact-case t2v-auto-case t2v-case">
-                <p class="t2v-prompt"><strong>Prompt:</strong> a zebra bending down to drink water from a river</p>
-                <div class="compact-output">
-                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/159.mp4"></video>
-                </div>
-              </article>
+              <!-- Row 1: cases 1-4 -->
+              <div class="tiv2v-row">
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/input_1.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Replace the person: A man with a tanned complexion, dark hair, smiling and showing his teeth. He is wearing a wide-brimmed woven straw hat with a yellow cord chin strap, and a solid black long-sleeved shirt with a small logo on the upper left sleeve.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/output_1.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/input_2.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Replace the person: A woman with short, wavy brown hair, fair skin, and bright red lipstick with drop earrings. She wears a dark green short-sleeved blouse with button-down front and a knee-length black A-line skirt with dark green floral pattern, carrying a small structured black handbag.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/output_2.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/input_3.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Replace the person: A young man with fair skin and styled black hair, wearing dark sunglasses with thick black frames. He is dressed in a black leather jacket over a plain white t-shirt, with white stripes on the sleeves, black pants with a western-style silver buckle belt, a silver geometric pendant necklace, and holding the strap of a quilted black bag.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/output_3.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/input_4.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Replace the person: A woman with long, wavy dark brown hair, pearl stud earrings and a pearl necklace. She wears an off-white blouse with vertical pintuck pleating and scalloped lace collar, tucked into medium-blue flared denim jeans, carrying a book under her right arm.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/output_4.mp4"></video>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Row 2: cases 5-8 -->
+              <div class="tiv2v-row">
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/input_5.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Replace the person: A woman with fair skin and brown hair styled in a high textured bun with braided elements. She wears a solid black zip-up vest over a plain white long-sleeved undershirt, with a stand-up collar and subtle zippered pockets, displaying a bright smile.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/output_5.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/input_6.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Replace the person: A highly muscular man with short brown hair and light stubble. He wears a tight-fitting olive green short-sleeved t-shirt and tan cargo shorts, equipped with an olive green tactical chest rig with black adjustable straps and buckles, and a black wristwatch.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/output_6.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/input_7.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Replace the person: A woman with long straight dark hair wearing dark sunglasses. She is dressed in a dark olive green quilted coat with diamond-stitched pattern, a fitted white turtleneck, off-white flared pants, and pointy-toed white boots with dark soles.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/output_7.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/input_8.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Replace the person: A man with short dark hair and stubble, wearing aviator-style sunglasses with gold frames and brown lenses. He is dressed in a long-sleeved burgundy V-neck cardigan with buttons, ribbed cuffs, two square patch pockets, a beige undershirt visible beneath, and standard-fit dark blue denim jeans.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/model_edit/video/output_8.mp4"></video>
+                  </div>
+                </article>
+              </div>
+
             </div>
+          </div>
 
+          <!-- sub-panel: freeform_edit -->
+          <div class="sub-panel" data-subtask="freeform-edit">
+            <div class="sub-panel-head">
+              <h5>freeform_edit</h5>
+            </div>
+            <div class="compact-case-grid flf2v-case-grid tiv2v-case-grid" id="fashionFreeformEditGrid">
+
+              <div class="tiv2v-row">
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/freeform_edit/video/input_1.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Edit this video: The video features the same man as the original video, who has short, graying hair, a beard, and wears brown-rimmed glasses. He is wearing the same white short-sleeved t-shirt with a rectangular striped graphic and a small sailboat design as the original video, along with the same dark blue cargo shorts and the same silver watch on his left wrist as the original video. The background is an outdoor urban setting with dark walls, deep shadows, and a paved street surface featuring a solid white line. The camera angle is a medium shot that remains static as the man, initially facing away with his hands in his pockets, turns around to face the camera.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/freeform_edit/video/output_1.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/freeform_edit/video/input_2.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Edit this video: The video features the same woman as the original video, wearing a light blue short-sleeved polo shirt with white stripes on the collar and cuffs, paired with a dark brown skirt. She has long brown hair and is wearing small stud earrings. The background shows a bright room with white walls and a stack of books on a surface to the left. The same man as the original video walks across the background from right to left, wearing a matching light blue polo shirt and brown pants. The camera remains static throughout the video, capturing the scene in a medium shot.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/freeform_edit/video/output_2.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/freeform_edit/video/input_3.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Edit this video: The video features the same man and woman as the original video, wearing the same blue denim chef coats and aprons. They are standing side-by-side in the same modern kitchen background as the original video. The camera remains static throughout the video, capturing them from the waist up in a medium shot. The man stands on the left, initially adjusting his apron and then resting his hands near his pockets. The woman stands on the right, starting with her hands clasped in front of her. She then raises her right arm, bending it at the elbow, and rests her left hand on her right arm. Both individuals look towards the camera and then slightly off to the side.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/freeform_edit/video/output_3.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/freeform_edit/video/input_4.mp4"></video>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Edit this video: The video features the same woman as the original video, walking forward on an outdoor sidewalk. She is wearing the same light blue long-sleeved blouse with dark blue trim along the collar, cuffs, and a large bow tie at the neck as the original video. She pairs this top with black trousers and carries a red quilted handbag in her left hand. Her dark hair is pulled back, and she wears red lipstick, a delicate necklace, rings, and the same dangling earrings and watch as the original video. The background consists of a building exterior with a wooden door on the left, a white wall with blue signs, and a large white cylindrical structure overhead, with a blurred street and greenery visible behind her. The camera captures her in a medium shot, tracking backward to keep her centered in the frame as she walks towards the lens.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/freeform_edit/video/output_4.mp4"></video>
+                  </div>
+                </article>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- sub-panel: text_video_product_image_to_video -->
+          <div class="sub-panel" data-subtask="product-image-to-video">
+            <div class="sub-panel-head">
+              <h5>text_video_product_image_to_video</h5>
+            </div>
+            <div class="compact-case-grid flf2v-case-grid tiv2v-case-grid" id="fashionProductImgGrid">
+
+              <!-- Row 1: cases 1-4 -->
+              <div class="tiv2v-row">
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/input_1.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/image/input_1.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Replace the black ankle boots with white high-top sneakers</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/output_1.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/input_2.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/image/input_2.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Replace the handbag with a tote bag.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/output_2.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/input_3.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/image/input_3.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Change the color of the shoes to navy blue with white soles</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/output_3.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/input_4.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/image/input_4.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Change the white platform sneakers on feet to black leather loafers</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/output_4.mp4"></video>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Row 2: cases 5-8 -->
+              <div class="tiv2v-row">
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/input_5.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/image/input_5.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Replace the baseball cap with a hat.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/output_5.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/input_6.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/image/input_6.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Replace the straw hat with a hat.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/output_6.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/input_7.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/image/input_7.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Change the blue gradient knit sneakers to red leather sneakers.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/output_7.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/input_8.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/image/input_8.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Replace the baseball cap with a hat.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/output_8.mp4"></video>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Row 3: cases 9-12 -->
+              <div class="tiv2v-row">
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/input_9.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/image/input_9.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Replace the black sneakers worn on the feet with red running shoes</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/output_9.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/input_10.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/image/input_10.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Replace the floral embroidered boots with classic black leather ankle boots</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/output_10.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/input_11.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/image/input_11.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Change the straw sun hat to a hat.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/output_11.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/input_12.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/image/input_12.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Change the boots to classic black leather shoes</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_video_product_image_to_video/video/output_12.mp4"></video>
+                  </div>
+                </article>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- sub-panel: video_model_image_to_video -->
+          <div class="sub-panel" data-subtask="model-image-to-video">
+            <div class="sub-panel-head">
+              <h5>video_model_image_to_video</h5>
+            </div>
+            <div class="compact-case-grid flf2v-case-grid tiv2v-case-grid" id="fashionModelImgGrid">
+
+              <!-- Row 1: cases 1-4 -->
+              <div class="tiv2v-row">
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/input_1.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/image/input_1.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video that follows the movement of people in the reference video and the people and background in the reference image.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/output_1.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/input_2.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/image/input_2.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video that follows the movement of people in the reference video and the people and background in the reference image.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/output_2.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/input_3.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/image/input_3.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video that follows the movement of people in the reference video and the people and background in the reference image.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/output_3.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/input_4.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/image/input_4.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video that follows the movement of people in the reference video and the people and background in the reference image.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/output_4.mp4"></video>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Row 2: cases 5-8 -->
+              <div class="tiv2v-row">
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/input_5.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/image/input_5.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video that follows the movement of people in the reference video and the people and background in the reference image.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/output_5.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/input_6.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/image/input_6.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video that follows the movement of people in the reference video and the people and background in the reference image.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/output_6.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/input_7.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/image/input_7.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video that follows the movement of people in the reference video and the people and background in the reference image.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/output_7.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <video class="tiv2v-before-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/input_8.mp4"></video>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/image/input_8.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video that follows the movement of people in the reference video and the people and background in the reference image.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/video_model_image_to_video/video/output_8.mp4"></video>
+                  </div>
+                </article>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- sub-panel: text_multi_image_to_video -->
+          <div class="sub-panel" data-subtask="multi-image-to-video">
+            <div class="sub-panel-head">
+              <h5>text_multi_image_to_video</h5>
+            </div>
+            <div class="compact-case-grid flf2v-case-grid tiv2v-case-grid" id="fashionMultiImgGrid">
+
+              <!-- Row 1: 1-image cases (1,2) + 2-image cases (3,4) -->
+              <div class="tiv2v-row">
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_1_1.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video with reference images: The woman (@Image 1) wears a pink blazer and white shirt with lace decoration, along with chain earrings and a watch, standing in a pure white studio. She slightly closes her eyes then opens them, turns her head to look left, and raises her hand to adjust the suit collar.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/video/output_1.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_2_1.jpg" alt="Reference image" />
+                      <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video with reference images: The man (@Image 1) wearing a suit (@Image 1) and a T-shirt raises both hands to adjust his collar, then slightly lowers his head and closes his eyes in a pure white studio background.</p>
+                    </div>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/video/output_2.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_3_1.jpg" alt="Reference image 1" />
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_3_2.jpg" alt="Reference image 2" />
+                    </div>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video with reference images: The woman wearing a blue top (@Image 2) and black trousers, grabbing a white bedsheet with both hands and pulling it upwards to smooth it out, standing in the corridor (@Image 1).</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/video/output_3.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_4_1.jpg" alt="Reference image 1" />
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_4_2.jpg" alt="Reference image 2" />
+                    </div>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video with reference images: The girl wearing a baseball cap, sweatshirt dress (@Image 2), and slippers, with a shoulder bag, standing in the kitchen (@Image 1). She extends her arms, sways her body left and right to the music.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/video/output_4.mp4"></video>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Row 2: 3-image cases (5,6,7,8) -->
+              <div class="tiv2v-row">
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_5_1.jpg" alt="Reference image 1" />
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_5_2.jpg" alt="Reference image 2" />
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_5_3.jpg" alt="Reference image 3" />
+                    </div>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video with reference images: The girl (@Image 2) wearing a Chinese-style vest with frog buttons, top, and skirt (@Image 3), holding a handbag, standing in front of the background (@Image 1). She rests her left hand on the door frame, then lowers her arm and stands with hands folded.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/video/output_5.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_6_1.jpg" alt="Reference image 1" />
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_6_2.jpg" alt="Reference image 2" />
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_6_3.jpg" alt="Reference image 3" />
+                    </div>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video with reference images: The short-haired girl (@Image 2) wearing a striped T-shirt (@Image 3) and denim shorts, stands in the office area (@Image 1), naturally shifting her standing posture with one hand in her pocket and the other lightly brushing her hair.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/video/output_6.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_7_1.jpg" alt="Reference image 1" />
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_7_2.jpg" alt="Reference image 2" />
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_7_3.jpg" alt="Reference image 3" />
+                    </div>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video with reference images: The woman (@Image 2) wearing a stand-up collar top (@Image 3) and wide-leg pants, adorned with pearl stud earrings, sits on a dark gray sofa indoors (@Image 1). She turns her head to face the camera and smiles, then raises her right hand to touch her ear and hair.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/video/output_7.mp4"></video>
+                  </div>
+                </article>
+                <article class="compact-case tiv2v-case">
+                  <div class="compact-input">
+                    <strong>Input</strong>
+                    <div class="tiv2v-meta-row">
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_8_1.jpg" alt="Reference image 1" />
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_8_2.jpg" alt="Reference image 2" />
+                      <img class="tiv2v-ref-image" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/image/input_8_3.jpg" alt="Reference image 3" />
+                    </div>
+                    <p><strong class="prompt-inline-label">Prompt:</strong> Generate a video with reference images: The woman (@Image 2) wearing a shirt (@Image 3) and black trousers, with silver geometric hoop earrings, stands indoors (@Image 1), gently swings her arms, then raises her right hand to brush her hair, closing her eyes and revealing a smile.</p>
+                  </div>
+                  <div class="compact-output">
+                    <video class="demo-video tiv2v-after-video" controls muted playsinline preload="metadata" src="assets/cases_demo/FashionVideoBench/text_multi_image_to_video/video/output_8.mp4"></video>
+                  </div>
+                </article>
+              </div>
+
+            </div>
           </div>
         </article>
 
@@ -1183,79 +1793,126 @@
           </div>
         </article>
 
-        <!-- FashionVideoBench (with sub-tabs) -->
-        <article class="task-panel compact-panel" data-task="fashion">
+        <!-- VBench -->
+        <article class="task-panel compact-panel" data-task="vbench">
           <div class="task-panel-head compact-head">
-            <h4>FashionVideoBench</h4>
+            <h4>VBench</h4>
+            <span class="task-badge">Text → Video</span>
           </div>
+          <div class="compact-case-grid flf2v-case-grid t2v-case-grid" id="vbenchGrid">
 
-          <nav class="sub-tabs">
-            <button class="sub-tab active" data-subtask="product-edit">Product Edit</button>
-            <button class="sub-tab" data-subtask="model-edit">Model Edit</button>
-            <button class="sub-tab" data-subtask="freeform-edit">Freeform Edit</button>
-            <button class="sub-tab" data-subtask="product-image-to-video">Product Image to Video</button>
-            <button class="sub-tab" data-subtask="model-image-to-video">Model Image to Video</button>
-            <button class="sub-tab" data-subtask="multi-image-to-video">Multi Image to Video</button>
-          </nav>
+            <!-- Row 1 -->
+            <div class="t2v-row">
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks.</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/16.mp4"></video>
+                </div>
+              </article>
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> A beautiful coastal beach in spring, waves lapping on sand by Vincent van Gogh</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/66.mp4"></video>
+                </div>
+              </article>
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> Sunset time lapse at the beach with moving clouds and colors in the sky.</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/6.mp4"></video>
+                </div>
+              </article>
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> A cat wearing sunglasses at a pool</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/70.mp4"></video>
+                </div>
+              </article>
+            </div>
 
-          <!-- sub-panel: text_video_to_video/product_edit -->
-          <div class="sub-panel active-sub" data-subtask="product-edit">
-            <div class="sub-panel-head">
-              <h5>text_video_to_video / product_edit</h5>
+            <!-- Row 2 -->
+            <div class="t2v-row">
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> A cute happy Corgi playing in park, sunset</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/73.mp4"></video>
+                </div>
+              </article>
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> Vampire makeup face of beautiful girl, red contact lenses.</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/42.mp4"></video>
+                </div>
+              </article>
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> Ashtray full of butts on table, smoke flowing on black background, close-up</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/43.mp4"></video>
+                </div>
+              </article>
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> A bigfoot walking in the snowstorm.</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/13.mp4"></video>
+                </div>
+              </article>
             </div>
-            <div class="demo-grid" id="fashionProductEditGrid">
-              <p class="placeholder-text">Demos will be added here.</p>
-            </div>
-          </div>
 
-          <!-- sub-panel: text_video_to_video/model_edit -->
-          <div class="sub-panel" data-subtask="model-edit">
-            <div class="sub-panel-head">
-              <h5>text_video_to_video / model_edit</h5>
+            <!-- Row 3 -->
+            <div class="t2v-row">
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> a motorcycle gliding through a snowy field</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/111.mp4"></video>
+                </div>
+              </article>
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> an airplane soaring through a clear blue sky</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/113.mp4"></video>
+                </div>
+              </article>
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> A jellyfish floating through the ocean, with bioluminescent tentacles</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/53.mp4"></video>
+                </div>
+              </article>
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> An epic tornado attacking above a glowing city at night, the tornado is made of smoke</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/86.mp4"></video>
+                </div>
+              </article>
             </div>
-            <div class="demo-grid" id="fashionModelEditGrid">
-              <p class="placeholder-text">Demos will be added here.</p>
-            </div>
-          </div>
 
-          <!-- sub-panel: freeform_edit -->
-          <div class="sub-panel" data-subtask="freeform-edit">
-            <div class="sub-panel-head">
-              <h5>freeform_edit</h5>
+            <!-- Row 4 -->
+            <div class="t2v-row">
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> A space shuttle launching into orbit, with flames and smoke billowing out from the engines</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/56.mp4"></video>
+                </div>
+              </article>
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> Clown fish swimming through the coral reef</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/88.mp4"></video>
+                </div>
+              </article>
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> A super cool giant robot in Cyberpunk Beijing</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/58.mp4"></video>
+                </div>
+              </article>
+              <article class="compact-case t2v-auto-case t2v-case">
+                <p class="t2v-prompt"><strong>Prompt:</strong> a zebra bending down to drink water from a river</p>
+                <div class="compact-output">
+                  <video class="demo-video t2v-auto-video" controls muted playsinline preload="metadata" src="assets/cases_demo/VBench/159.mp4"></video>
+                </div>
+              </article>
             </div>
-            <div class="demo-grid" id="fashionFreeformEditGrid">
-              <p class="placeholder-text">Demos will be added here.</p>
-            </div>
-          </div>
 
-          <!-- sub-panel: text_video_product_image_to_video -->
-          <div class="sub-panel" data-subtask="product-image-to-video">
-            <div class="sub-panel-head">
-              <h5>text_video_product_image_to_video</h5>
-            </div>
-            <div class="demo-grid" id="fashionProductImgGrid">
-              <p class="placeholder-text">Demos will be added here.</p>
-            </div>
-          </div>
-
-          <!-- sub-panel: video_model_image_to_video -->
-          <div class="sub-panel" data-subtask="model-image-to-video">
-            <div class="sub-panel-head">
-              <h5>video_model_image_to_video</h5>
-            </div>
-            <div class="demo-grid" id="fashionModelImgGrid">
-              <p class="placeholder-text">Demos will be added here.</p>
-            </div>
-          </div>
-
-          <!-- sub-panel: text_multi_image_to_video -->
-          <div class="sub-panel" data-subtask="multi-image-to-video">
-            <div class="sub-panel-head">
-              <h5>text_multi_image_to_video</h5>
-            </div>
-            <div class="demo-grid" id="fashionMultiImgGrid">
-              <p class="placeholder-text">Demos will be added here.</p>
-            </div>
           </div>
         </article>
       </div>
