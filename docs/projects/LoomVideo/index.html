@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>OmniWeaving | Project Page</title>
-  <meta name="description" content="OmniWeaving: Towards Unified Video Generation with Free-form Composition and Reasoning" />
+  <title>LoomVideo | Project Page</title>
+  <meta name="description" content="LoomVideo: Unifying Multimodal Inputs into Video Generation and Editing" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=DM+Sans:wght@600;700;800&display=swap" rel="stylesheet">
@@ -104,8 +104,10 @@
   <header class="top-nav">
     <div class="container nav-inner">
       <a class="brand" href="#top">LoomVideo</a>
+
       <nav>
         <a href="#abstract">Abstract</a>
+        <a href="#introduction">Introduction</a>
         <a href="#architecture">Architecture</a>
         <a href="#videos">Examples</a>
         <a href="#leaderboard">Results</a>
@@ -117,28 +119,21 @@
   <main id="top">
     <section class="hero">
       <div class="container hero-inner">
-        <h1 class="hero-title"><img class="weaving-mark" src="assets/images/weaving-mark.svg" alt="weaving icon" />LoomVideo</h1>
-        <p class="hero-subtitle">Towards Unified Video Generation with Free-form Composition and Reasoning</p>
+        <h1 class="hero-title"><img class="weaving-mark" src="assets/images/pku_logo.png" alt="PKU logo" /><img class="weaving-mark" src="assets/images/taotian_logo.png" alt="Taotian logo" />LoomVideo</h1>
+        <p class="hero-subtitle">Unifying Multimodal Inputs into Video Generation and Editing</p>
 
         <p class="hero-authors">
-          <a href="https://scholar.google.com/citations?user=lMQADDUAAAAJ" target="_blank">Kaihang Pan</a><sup>1,2,*</sup>,
-          <a href="https://scholar.google.com/citations?user=Ypu45nIAAAAJ" target="_blank">Qi Tian</a><sup>2,*</sup>,
-          <a href="https://scholar.google.com/citations?user=nF_klRIAAAAJ" target="_blank">Jianwei Zhang</a><sup>2</sup>,
-          <a href="https://scholar.google.com/citations?user=gsOklKAAAAAJ" target="_blank">Weijie Kong</a><sup>2</sup>,
-          <a href="https://scholar.google.com/citations?user=lHbXg_0AAAAJ" target="_blank">Jiangfeng Xiong</a><sup>2</sup>,
-          <a href="https://scholar.google.com/citations?user=uqiNUvwAAAAJ" target="_blank">Yanxin Long</a><sup>2</sup>,
-          <a href="https://scholar.google.com/citations?user=N8jMnXEAAAAJ" target="_blank">Shixue Zhang</a><sup>2</sup>,
-          Haiyi Qiu<sup>1</sup>,
-          <a href="https://scholar.google.com/citations?user=wFduC9EAAAAJ" target="_blank">Tan Wang</a><sup>3</sup>,
-          Zheqi Lv<sup>1</sup>,
-          <a href="https://scholar.google.com/citations?user=1xTR6qoAAAAJ" target="_blank">Yue Wu</a><sup>2,§</sup>,
-          <a href="https://scholar.google.com/citations?user=FJwtMf0AAAAJ" target="_blank">Liefeng Bo</a><sup>2</sup>,
-          <a href="https://scholar.google.com/citations?user=8e7H3PcAAAAJ" target="_blank">Siliang Tang</a><sup>1,§</sup>,
-          <a href="https://scholar.google.com/citations?user=igtXP_kAAAAJ" target="_blank">Zhao Zhong</a><sup>2,†</sup>
+          Jianzong Wu<sup>1,2,*,†</sup>,
+          Hao Lian<sup>1,2,*</sup>,
+          Jiongfan Yang<sup>1,2</sup>,
+          Dachao Hao<sup>1,2</sup>,
+          Ye Tian<sup>1,2</sup>,
+          Qingyu Shi<sup>1</sup>,
+          Hao Jiang<sup>2,§</sup>,
+          Yunhai Tong<sup>1,§</sup>
         </p>
-        <p class="hero-affiliation"><sup>1</sup>Zhejiang University · <sup>2</sup>Tencent Hunyuan · <sup>3</sup>Nanyang Technological University</p>
+        <p class="hero-affiliation"><sup>1</sup>Peking University · <sup>2</sup>Alibaba Group</p>
         <p class="hero-notes"><sup>*</sup>Equal Contribution · <sup>§</sup>Corresponding Authors · <sup>†</sup>Project Leader</p>
-        <p class="hero-notes">Work done during Kaihang Pan's internship at Tencent Hunyuan.</p>
 
         <div class="link-buttons">
           <a class="link-btn" href="https://arxiv.org/abs/2603.24458" target="_blank"><i class="ai ai-arxiv"></i> Paper</a>
@@ -154,13 +149,9 @@
         <div class="update-note-card">
           <p class="update-note-title">News</p>
           <ul class="update-note-list">
-            <li>📌 OmniWeaving is developed by the <strong>HunyuanVideo</strong> team and is built upon the latest <a href="https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5" target="_blank"><strong>HunyuanVideo-1.5</strong></a> as the backbone. If you find our work useful, please consider giving our github repository a star and citing our paper🙏</li>
-            
-            <li><span class="notice-date">[2026-04-03]</span> We release the code of OmniWeaving in <a href="https://github.com/Tencent-Hunyuan/OmniWeaving" target="_blank"><strong>GitHub</strong></a>.</li>
-            <li><span class="notice-date">[2026-04-03]</span> We release the model weight of OmniWeaving in <a href="https://huggingface.co/Tencent-Hunyuan/OmniWeaving" target="_blank"><strong>Hugging Face</strong></a>.</li>
-            <li><span class="notice-date">[2026-04-03]</span> We release the IntelligentVBench in <a href="https://huggingface.co/datasets/midbee/IntelligentVBench" target="_blank"><strong>Hugging Face</strong></a>.</li>
-            <li><span class="notice-date">[2026-03-26]</span> We release the OmniWeaving paper on <a href="https://arxiv.org/abs/2603.24458" target="_blank"><strong>Arxiv</strong></a>.</li>
-            <li><span class="notice-date">[2026-03-25]</span> We release the webpage. Due to the large number of video demos, page loading may take a moment — please allow a few seconds for all videos to fully load.</li>
+            <li>📌 LoomVideo is built upon <strong>Wan 2.2 TI2V 5B</strong> with <strong>Qwen3-VL-8B</strong> as the multimodal encoder. If you find our work useful, please consider giving our GitHub repository a star and citing our paper🙏</li>
+            <li><span class="notice-date">[2026-05-25]</span> We release the LoomVideo paper on <a href="https://arxiv.org/abs/2603.24458" target="_blank"><strong>Arxiv</strong></a>.</li>
+            <li><span class="notice-date">[2026-05-25]</span> We release the project page.</li>
           </ul>
         </div>
       </div>
@@ -171,17 +162,33 @@
         <h2 class="section-title section-title-compact">Abstract</h2>
         <div class="glass-card">
           <p>
-            We propose <strong>OmniWeaving</strong>, an omni-level video generation model featuring powerful multimodal composition and reasoning-informed capabilities. By leveraging a massive-scale pretraining dataset that encompasses diverse compositional and reasoning-augmented scenarios, OmniWeaving learns to temporally bind interleaved text, multi-image, and video inputs while acting as an intelligent agent to infer complex user intentions for sophisticated video creation. Furthermore, we introduce <strong>IntelligentVBench</strong>, the first comprehensive benchmark designed to rigorously assess next-level intelligent unified video generation. Extensive experiments demonstrate that OmniWeaving achieves SoTA performance among open-source unified models.
-            <!-- We propose <strong>OmniWeaving</strong>, an omni-level video generation model
-            featuring powerful multimodal composition and reasoning-informed capabilities.
-            By leveraging large-scale pretraining with diverse compositional and reasoning-augmented scenarios,
-            OmniWeaving can temporally bind interleaved text, multi-image, and video inputs, and infer complex user intentions
-            for sophisticated video creation. -->
+            Developing unified video generation and editing models capable of interpreting interleaved multimodal inputs is a promising yet challenging frontier field. Existing unified frameworks predominantly rely on massive models (typically 13B parameters or more) and incorporate source video conditions for editing by concatenating sequence tokens. This concatenation inevitably doubles the sequence length, quadrupling the computational complexity of the self-attention mechanism and introducing prohibitive overhead. To address these bottlenecks, we present <strong>LoomVideo</strong>, a highly efficient 5B-parameter unified architecture for both video generation and editing. LoomVideo replaces the standard text encoder with a Multimodal Large Language Model (MLLM) and employs a <strong>Deepstack</strong> injection mechanism to align multi-layer MLLM features with the Diffusion Transformer (DiT). Crucially, we introduce a zero-overhead <strong>Scale-and-Add</strong> conditioning approach for video editing. By scaling and directly adding the clean source video latent to the noised target latent, this elegant design eliminates the need for token concatenation, drastically reducing computational cost while maintaining robust capabilities for complex, non-rigid edits. Furthermore, a <strong>Negative Temporal RoPE</strong> strategy is seamlessly integrated to handle multiple reference images. Extensive experiments demonstrate that our compact 5B model achieves state-of-the-art or highly competitive performance across comprehensive benchmarks, exhibiting exceptional superiority in e-commerce and fashion generation scenarios. Benefiting from the zero-overhead conditioning mechanism, LoomVideo achieves at least a <strong>5.41×</strong> acceleration in inference speed compared to models of similar capabilities, paving the way for highly practical and efficient video foundation models.
           </p>
-          <!-- <p>
-            We further introduce <strong>IntelligentVBench</strong>, the first comprehensive benchmark designed to assess next-level intelligent
-            unified video generation. Extensive experiments show strong SoTA-level competitiveness among open-source unified models.
-          </p> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="introduction" class="section">
+      <div class="container narrow">
+        <h2 class="section-title section-title-compact">Introduction</h2>
+        <div class="glass-card">
+          <p>
+            The demand for versatile and highly controllable video generation and editing is rapidly increasing across diverse practical applications, from digital entertainment to e-commerce. To meet these complex requirements, developing a unified architecture capable of interpreting and adhering to interleaved multimodal inputs (e.g., video, images, and fine-grained instructions) is of paramount importance. The paradigm of unifying multiple vision-language tasks within a single foundational model first achieves remarkable success in the image domain, evidenced by pioneering works such as Qwen-Image and the OmniGen series. Recently, this unified modeling approach has been extended to the video domain, though existing works remain relatively sparse due to the inherent complexity of spatiotemporal dynamics.
+          </p>
+          <p>
+            A few pioneering works have explored unified video generation and editing, including UniVideo, OmniWeaving, VINO, and OmniVideo. While these frameworks have demonstrated the feasibility of multimodal conditioning, they predominantly suffer from two major limitations. First, most of these frameworks rely heavily on massive base models (typically 13B parameters or more), making them exceptionally resource-intensive. Second, to incorporate source video conditions for editing tasks, the prevailing practice is to concatenate the source-video tokens with the target-video sequence dimension. This design inevitably doubles the token sequence length, which in turn quadruples the computational complexity of the self-attention mechanism. Consequently, these approaches introduce prohibitive computational overhead and significantly elevate both training and inference costs.
+          </p>
+          <p>
+            To address these bottlenecks, we introduce <strong>LoomVideo</strong>, an efficient unified architecture for video generation and editing. Built upon the foundation of the 5B-parameter Wan 2.2 Text-Image-to-Video (TI2V) model, we replace its standard T5 text encoder with Qwen3-VL, a powerful Multimodal Large Language Model (MLLM), to handle interleaved multimodal inputs. To maximize multimodal interaction and minimize computational overhead, we incorporate three key effective architectural designs:
+          </p>
+          <ul style="margin-top: 0.5em; margin-bottom: 1em; padding-left: 1.5em; line-height: 1.8;">
+            <li><strong>Deepstack injection mechanism:</strong> Instead of solely utilizing the final-layer embedding of the vision-language model, we extract hidden states from every layer of the MLLM and inject them into the corresponding layers of the DiT via cross-attention, thereby enhancing the deep semantic alignment between the multimodal controls and the generative process.</li>
+            <li><strong>Scale-and-Add conditioning:</strong> To overcome the severe efficiency bottleneck caused by token concatenation in editing tasks, we simply scale the clean source video latent by the current timestep and add it directly to the noised target latent. This elegant design introduces zero additional tokens to the sequence length, drastically reducing generation time while maintaining robust capabilities for complex, non-rigid editing operations.</li>
+            <li><strong>Negative Temporal RoPE index:</strong> To seamlessly integrate multiple reference images, we employ a Negative Temporal RoPE index strategy. This positional encoding effectively distinguishes the reference inputs from the video frames, providing robust multi-image guidance without disrupting the spatiotemporal dynamics of the generative process.</li>
+          </ul>
+          <p>
+            We devise a progressive three-stage training strategy: <strong>Stage 1</strong> focuses on semantic alignment at a low resolution, where we extract and inject MLLM embeddings into the DiT. <strong>Stage 2</strong> scales up the resolution, training simultaneously on fundamental image/video generation and reconstruction/editing tasks. <strong>Stage 3</strong> incorporates diverse reference images and advanced text instructions to drive complex generation and editing tasks. Through this progressive multimodal alignment and task adaptation, our relatively compact 5B model efficiently performs various generation and editing tasks that previously required 13B-scale models, unifying them within a single framework.
+          </p>
         </div>
       </div>
     </section>
@@ -192,24 +199,28 @@
 
         <div class="architecture-overview">
           <p>
-            Following the paper, <strong>OmniWeaving</strong> is built as an integrated <strong>MLLM + MMDiT + VAE</strong> framework for unified free-form video generation. The <strong>MLLM</strong> serves as the semantic parser for interleaved text, images, and video inputs, mapping them into a high-level semantic space and forwarding its hidden states through an MLP connector. The <strong>VAE</strong> acts as the visual tokenizer, compressing visual inputs into low-level latents, while the <strong>MMDiT</strong> uses these semantic conditions together with latent noise to generate semantically aligned, high-fidelity videos.
+            <strong>LoomVideo</strong> is built as an integrated <strong>MLLM + DiT + VAE</strong> framework for unified video generation and editing. We replace the standard T5 text encoder with <strong>Qwen3-VL-8B</strong>, a powerful Multimodal Large Language Model (MLLM), to seamlessly process interleaved multimodal inputs (text, reference images, and source videos). The <strong>VAE</strong> acts as the visual tokenizer, compressing visual inputs into low-level latents, while the <strong>DiT</strong> (Diffusion Transformer) uses these semantic conditions together with latent noise to generate semantically aligned, high-fidelity videos.
           </p>
-          <p>On this basis, we further introduce two extra improvements tailored for advanced reasoning and composition.</p>
+          <p>On this basis, we introduce three key architectural designs:</p>
           <ul class="arch-feature-list">
             <li>
-              <strong>(1) Activating Thinking Mode of the MLLM:</strong>
-              Direct MLLM encoding of interleaved visual-text inputs often yields semantic ambiguity due to weak intra-correlations and unclear video creation intents. We elevate the MLLM from a passive feature extractor to an active reasoner. By activating the thinking mode to generate intermediate reasoning steps, it autonomously deduces a semantically precise, enhanced prompt. The hidden states of this enhanced prompt are then forwarded alongside the original MLLM features to condition the MMDiT, effectively bridging the cognitive gap between abstract user intent and pixel-level generation.
+              <strong>(1) Deepstack Injection Mechanism:</strong>
+              Rather than solely utilizing the final-layer embedding of the MLLM, we extract hidden states from every layer and inject them into the corresponding layers of the DiT via cross-attention. An MLP module transforms the MLLM hidden states into condition features, which are then served as keys and values in the cross-attention module. This layer-to-layer conditioning approach guarantees deep semantic alignment between the fine-grained multimodal controls and the spatiotemporal generative process, enhancing the model's instruction-following capabilities without introducing heavy adapter networks.
             </li>
             <li>
-              <strong>(2) Hidden States DeepStacking:</strong>
-              Compositional video generation involving multiple subjects or intricate scenes often relies on both low- and high-level semantic representations. Drawing inspiration from the DeepStacking mechanism in Qwen3-VL, we extract hidden states from a broader range of intermediate MLLM layers to capture a rich semantic spectrum spanning from fine-grained details to high-level abstractions. An MLP connector projects these multi-level features into the MMDiT embedding space. These projected features are then directly added to the corresponding hidden states within the first three layers of the MMDiT conditioning branch, effectively injecting multi-granular semantic guidance into the generative process.
+              <strong>(2) Scale-and-Add Conditioning:</strong>
+              To overcome the severe efficiency bottleneck caused by token concatenation in editing tasks, LoomVideo introduces a zero-overhead Scale-and-Add conditioning approach. We scale the clean source video latent by a timestep-dependent factor and add it directly to the noised target latent. This elegant design introduces zero additional tokens to the sequence length, achieving at least <strong>5.41×</strong> acceleration in inference speed compared to concatenation-based models. Despite its simplicity, this mechanism provides sufficient guidance to drive highly complex, non-rigid editing operations such as modifying human actions or camera angles.
+            </li>
+            <li>
+              <strong>(3) Negative Temporal RoPE Index:</strong>
+              Target video frames are assigned normal positive temporal RoPE indices 0, 1, 2, ..., T. For reference images, we assign them negative temporal indices −τ, −2τ, ..., ensuring the model robustly distinguishes reference images from target video frames. This strategy provides strong multi-image guidance with minimal extra tokens and enables the model to explicitly align each referenced image with its corresponding visual representation.
             </li>
           </ul>
         </div>
 
         <div class="architecture-figure-wrap">
-          <img class="architecture-image" src="assets/images/architecture.jpg" alt="OmniWeaving Architecture" />
-          <p class="figure-caption"><strong>Figure 1.</strong> Overview of the OmniWeaving architecture, which consists of an MLLM for multimodal understanding and an MMDiT for generation.</p>
+          <img class="architecture-image" src="assets/images/architecture.png" alt="LoomVideo Architecture" />
+          <p class="figure-caption"><strong>Figure 2.</strong> Overall Architecture of LoomVideo. It employs Deepstack injection, Scale-and-Add conditioning, and Negative Temporal RoPE index for efficient unified video generation and editing.</p>
         </div>
       </div>
     </section>
@@ -1920,8 +1931,93 @@
 
     <section id="leaderboard" class="section">
       <div class="container">
-        <h2 class="section-title section-title-compact">Main Results on IntelligentVBench</h2>
+        <h2 class="section-title section-title-compact">Main Results</h2>
 
+        <!-- Table: TIV2V on IntelligentVBench -->
+        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.1rem; color: #374151;">TIV2V Task on IntelligentVBench</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>Params</th>
+                <th>IF ↑</th>
+                <th>CP ↑</th>
+                <th>VQ ↑</th>
+                <th>AVG</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>VACE-Wan2.1</td><td>14B</td><td>1.46</td><td>1.42</td><td>1.71</td><td>1.53</td></tr>
+              <tr><td>VACE-LTX</td><td>2B</td><td>1.43</td><td>1.36</td><td>1.25</td><td>1.35</td></tr>
+              <tr><td>VINO</td><td>13B</td><td>2.86</td><td>2.90</td><td>2.52</td><td>2.76</td></tr>
+              <tr><td>UniVideo (query)</td><td>13B</td><td>3.22</td><td>3.91</td><td>3.26</td><td>3.46</td></tr>
+              <tr><td>UniVideo (hidden)</td><td>13B</td><td>3.13</td><td>4.01</td><td>2.93</td><td>3.36</td></tr>
+              <tr><td>OmniWeaving</td><td>8.3B</td><td>4.00</td><td>4.04</td><td>3.65</td><td>3.89</td></tr>
+              <tr class="highlight-row"><td><strong>LoomVideo</strong></td><td>5B</td><td><strong>4.35</strong></td><td><strong>4.08</strong></td><td><strong>3.99</strong></td><td><strong>4.14</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Table: Compositional MI2V on IntelligentVBench -->
+        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.1rem; color: #374151;">Compositional MI2V Task on IntelligentVBench</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th rowspan="2">Type</th>
+                <th rowspan="2">Model</th>
+                <th rowspan="2">Params</th>
+                <th colspan="3">1Subject (with BKG)</th>
+                <th colspan="3">2Subjects (with BKG)</th>
+                <th colspan="3">3Subjects (with BKG)</th>
+              </tr>
+              <tr>
+                <th>IF ↑</th><th>CP ↑</th><th>VQ ↑</th>
+                <th>IF ↑</th><th>CP ↑</th><th>VQ ↑</th>
+                <th>IF ↑</th><th>CP ↑</th><th>VQ ↑</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>SkyReels-A2</td><td>14B</td><td>3.51</td><td>4.08</td><td>4.46</td><td>3.22</td><td>3.76</td><td>4.37</td><td>1.64</td><td>1.76</td><td>2.50</td></tr>
+              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>SkyReels-V3</td><td>14B</td><td>3.46</td><td>3.71</td><td>4.65</td><td>3.28</td><td>3.84</td><td>4.44</td><td>2.59</td><td>3.10</td><td>4.30</td></tr>
+              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>Phantom</td><td>14B</td><td>3.21</td><td>2.95</td><td>4.29</td><td>2.88</td><td>3.42</td><td>4.38</td><td>2.36</td><td>2.79</td><td>4.21</td></tr>
+              <tr><td><span class="type-badge unified">Unified</span></td><td>VACE-Wan2.1</td><td>14B</td><td>3.88</td><td>4.48</td><td>4.68</td><td>3.31</td><td>4.03</td><td>4.51</td><td>2.60</td><td>3.03</td><td>4.40</td></tr>
+              <tr><td><span class="type-badge unified">Unified</span></td><td>VACE-LTX</td><td>2B</td><td>2.74</td><td>2.86</td><td>2.89</td><td>2.12</td><td>2.26</td><td>2.49</td><td>1.94</td><td>2.06</td><td>2.41</td></tr>
+              <tr><td><span class="type-badge unified">Unified</span></td><td>VINO</td><td>13B</td><td>3.72</td><td>4.22</td><td>4.46</td><td>3.56</td><td>4.34</td><td>4.58</td><td>2.63</td><td>2.97</td><td>4.24</td></tr>
+              <tr><td><span class="type-badge unified">Unified</span></td><td>UniVideo (query)</td><td>13B</td><td>3.35</td><td>3.90</td><td>4.41</td><td>2.98</td><td>3.73</td><td>4.18</td><td>2.30</td><td>2.50</td><td>3.89</td></tr>
+              <tr><td><span class="type-badge unified">Unified</span></td><td>UniVideo (hidden)</td><td>13B</td><td>3.33</td><td>4.18</td><td>4.38</td><td>3.22</td><td>4.12</td><td>4.36</td><td>2.31</td><td>2.83</td><td>3.94</td></tr>
+              <tr><td><span class="type-badge unified">Unified</span></td><td>OmniWeaving</td><td>8.3B</td><td><strong>4.35</strong></td><td><strong>4.53</strong></td><td><strong>4.58</strong></td><td><strong>4.08</strong></td><td><strong>4.22</strong></td><td><strong>4.52</strong></td><td><strong>3.53</strong></td><td><strong>4.01</strong></td><td><strong>4.54</strong></td></tr>
+              <tr class="highlight-row"><td><span class="type-badge unified">Unified</span></td><td><strong>LoomVideo</strong></td><td>5B</td><td>3.81</td><td>3.78</td><td>3.91</td><td>3.30</td><td>3.32</td><td>3.69</td><td>2.40</td><td>2.70</td><td>3.61</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Table: VBench -->
+        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.1rem; color: #374151;">Results on VBench</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>Params</th>
+                <th>Imaging Quality</th>
+                <th>Overall Consistency</th>
+                <th>Subject Consistency</th>
+                <th>Average</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Wan 2.2</td><td>5B</td><td>69.82</td><td>22.41</td><td><strong>95.28</strong></td><td>62.50</td></tr>
+              <tr><td>UniVideo</td><td>13B</td><td><strong>69.34</strong></td><td>22.62</td><td>97.08</td><td><strong>63.01</strong></td></tr>
+              <tr><td>OmniWeaving</td><td>8.3B</td><td>61.78</td><td>22.46</td><td>94.12</td><td>59.45</td></tr>
+              <tr class="highlight-row"><td><strong>LoomVideo</strong></td><td>5B</td><td>67.13</td><td><strong>23.74</strong></td><td>94.60</td><td>61.82</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Table: OpenVE-Bench -->
+        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.1rem; color: #374151;">Results on OpenVE-Bench</h3>
         <div class="table-wrap">
           <table>
             <thead>
@@ -1929,37 +2025,81 @@
                 <th>Type</th>
                 <th>Model</th>
                 <th>Params</th>
-                <th>Implicit I2V<br>(MIN)</th>
-                <th>Implicit I2V<br>(AVG)</th>
-                <th>Interpolative DI2V<br>(MIN)</th>
-                <th>Interpolative DI2V<br>(AVG)</th>
-                <th>TIV2V<br>(MIN)</th>
-                <th>TIV2V<br>(AVG)</th>
-                <th>Compositional MI2V<br>(MIN)</th>
-                <th>Compositional MI2V<br>(AVG)</th>
+                <th>Global Style</th>
+                <th>BG Change</th>
+                <th>Local Change</th>
+                <th>Local Remove</th>
+                <th>Local Add</th>
+                <th>Subtitle Edit</th>
+                <th>Creative Edit</th>
+                <th>Overall</th>
               </tr>
             </thead>
             <tbody>
-              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>CogVideoX-I2V</td><td>5B</td><td>2.68</td><td>3.39</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>Wan2.1-I2V</td><td>14B</td><td>2.78</td><td>3.48</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>HunyuanVideo-I2V</td><td>13B</td><td>3.00</td><td>3.80</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>HunyuanVideo1.5-I2V</td><td>8.3B</td><td>3.12</td><td>3.70</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>Wan2.2-I2V</td><td>14B</td><td><strong>3.30</strong></td><td><strong>3.86</strong></td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>Wan2.1-FLF2V</td><td>14B</td><td>-</td><td>-</td><td><strong>3.98</strong></td><td><strong>4.42</strong></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>SkyReels-A2</td><td>14B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2.77</td><td>3.48</td></tr>
-              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>SkyReels-V3</td><td>14B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td><strong>2.87</strong></td><td><strong>3.78</strong></td></tr>
-              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>MAGREF</td><td>14B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2.25</td><td>3.29</td></tr>
-              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>Phantom</td><td>14B</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2.47</td><td>3.43</td></tr>
-              <tr><td><span class="type-badge unified">Unified</span></td><td>VACE-Wan2.1</td><td>14B</td><td>2.76</td><td>3.40</td><td>3.32</td><td>3.86</td><td>1.27</td><td>1.53</td><td>3.17</td><td>3.98</td></tr>
-              <tr><td><span class="type-badge unified">Unified</span></td><td>VACE-LTX</td><td>2B</td><td>2.20</td><td>2.87</td><td>2.59</td><td>3.10</td><td>1.20</td><td>1.35</td><td>2.07</td><td>2.48</td></tr>
-              <tr><td><span class="type-badge unified">Unified</span></td><td>VINO</td><td>13B+4B</td><td>2.28</td><td>3.10</td><td>1.65</td><td>2.47</td><td>2.11</td><td>2.76</td><td>3.21</td><td>3.96</td></tr>
-              <tr><td><span class="type-badge unified">Unified</span></td><td>UniVideo (query)</td><td>13B+7B</td><td>2.77</td><td>3.39</td><td>1.76</td><td>2.48</td><td>2.66</td><td>3.46</td><td>2.74</td><td>3.57</td></tr>
-              <tr><td><span class="type-badge unified">Unified</span></td><td>UniVideo (hidden)</td><td>13B+7B</td><td>2.95</td><td>3.61</td><td>1.84</td><td>2.58</td><td>2.56</td><td>3.36</td><td>2.91</td><td>3.74</td></tr>
-              <tr class="highlight-row"><td><span class="type-badge unified">Unified</span></td><td>OmniWeaving (w/o think)</td><td>8.3B+7B</td><td>3.11</td><td>3.72</td><td>3.99</td><td>4.45</td><td><strong>3.31</strong></td><td><strong>3.89</strong></td><td><strong>3.70</strong></td><td><strong>4.31</strong></td></tr>
-              <tr class="highlight-row-soft"><td><span class="type-badge unified">Unified</span></td><td>OmniWeaving (think)</td><td>8.3B+7B</td><td><strong>3.34</strong></td><td><strong>3.93</strong></td><td><strong>4.11</strong></td><td><strong>4.54</strong></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+              <tr><td><span class="type-badge task-specific">Specialized</span></td><td>OmniVideo</td><td>1.3B</td><td>1.11</td><td>1.18</td><td>1.14</td><td>1.14</td><td>1.36</td><td>1.00</td><td>2.26</td><td>1.31</td></tr>
+              <tr><td><span class="type-badge task-specific">Specialized</span></td><td>InsViE</td><td>2B</td><td>2.20</td><td>1.06</td><td>1.48</td><td>1.36</td><td>1.17</td><td>2.18</td><td>2.02</td><td>1.64</td></tr>
+              <tr><td><span class="type-badge task-specific">Specialized</span></td><td>Ditto</td><td>14B</td><td><strong>4.01</strong></td><td>1.68</td><td>2.03</td><td>1.53</td><td>1.41</td><td>2.81</td><td>1.23</td><td>2.10</td></tr>
+              <tr><td><span class="type-badge task-specific">Specialized</span></td><td>OpenVE-Edit</td><td>5B</td><td>3.16</td><td>2.36</td><td>2.98</td><td>1.85</td><td>2.15</td><td>2.91</td><td>2.31</td><td>2.53</td></tr>
+              <tr><td><span class="type-badge task-specific">Specialized</span></td><td>Kiwi-Edit</td><td>5B</td><td>3.62</td><td>2.57</td><td>3.76</td><td><strong>3.36</strong></td><td>2.57</td><td>2.91</td><td>3.08</td><td>3.12</td></tr>
+              <tr><td><span class="type-badge unified">Unified</span></td><td>VACE</td><td>14B</td><td>1.49</td><td>1.55</td><td>2.07</td><td>1.46</td><td>1.26</td><td>1.48</td><td>1.47</td><td>1.54</td></tr>
+              <tr><td><span class="type-badge unified">Unified</span></td><td>VINO</td><td>13B</td><td>3.95</td><td>2.39</td><td>3.51</td><td>3.20</td><td><strong>2.68</strong></td><td>2.65</td><td>3.01</td><td>3.07</td></tr>
+              <tr><td><span class="type-badge unified">Unified</span></td><td>UniVideo</td><td>13B</td><td>3.47</td><td><strong>2.58</strong></td><td>3.41</td><td>2.99</td><td><strong>2.83</strong></td><td>2.87</td><td>3.07</td><td>3.05</td></tr>
+              <tr><td><span class="type-badge unified">Unified</span></td><td>OmniWeaving</td><td>8.3B</td><td>3.68</td><td>2.16</td><td><strong>3.78</strong></td><td>2.68</td><td>1.83</td><td><strong>3.48</strong></td><td>2.80</td><td>2.92</td></tr>
+              <tr class="highlight-row"><td><span class="type-badge unified">Unified</span></td><td><strong>LoomVideo (Stage 2)</strong></td><td>5B</td><td>3.81</td><td>2.46</td><td>3.04</td><td>3.33</td><td>2.21</td><td><strong>3.64</strong></td><td><strong>3.54</strong></td><td><strong>3.15</strong></td></tr>
+              <tr class="highlight-row-soft"><td><span class="type-badge unified">Unified</span></td><td><strong>LoomVideo (Stage 3)</strong></td><td>5B</td><td>3.62</td><td>2.26</td><td>3.32</td><td>2.82</td><td>2.40</td><td>3.30</td><td>2.86</td><td>2.94</td></tr>
             </tbody>
           </table>
-          <p class="metric-note">Note: Compositional MI2V MIN/AVG are both computed by weighted aggregation over the three sub-tasks: MI2V = (130 × MI2V-1Subject + 120 × MI2V-2Subjects + 70 × MI2V-3Subjects) / 320, where the weights (130, 120, 70) correspond to the number of test cases in each sub-task.</p>
+        </div>
+
+        <!-- Table: RefVIE-Bench -->
+        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.1rem; color: #374151;">Results on RefVIE-Bench</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>Identity</th>
+                <th>Temporal</th>
+                <th>Physical</th>
+                <th>Reference Sim</th>
+                <th>Matting Quality</th>
+                <th>Video Quality</th>
+                <th>Overall</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Kiwi-Edit (All data)</td><td>3.51</td><td>2.96</td><td>2.91</td><td>3.40</td><td>2.58</td><td>2.40</td><td>2.96</td></tr>
+              <tr><td>Kiwi-Edit (Ref. data only)</td><td>3.98</td><td>3.40</td><td>3.34</td><td>3.72</td><td>2.90</td><td>2.51</td><td>3.31</td></tr>
+              <tr><td>VINO</td><td>4.18</td><td><strong>4.03</strong></td><td><strong>3.74</strong></td><td>2.93</td><td>2.60</td><td>2.40</td><td>3.53</td></tr>
+              <tr><td>UniVideo</td><td>4.19</td><td>3.80</td><td>3.61</td><td>2.90</td><td>2.22</td><td>2.12</td><td>3.38</td></tr>
+              <tr><td>OmniWeaving</td><td>3.29</td><td>2.96</td><td>2.82</td><td>3.45</td><td>2.55</td><td>2.35</td><td>2.94</td></tr>
+              <tr class="highlight-row"><td><strong>LoomVideo</strong></td><td><strong>4.29</strong></td><td>3.90</td><td>2.72</td><td><strong>3.75</strong></td><td><strong>2.65</strong></td><td><strong>2.38</strong></td><td><strong>3.62</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Table: Inference Speed -->
+        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.1rem; color: #374151;">Inference Speed Comparison</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>Params</th>
+                <th>Source Token Injection</th>
+                <th>T2V (s)</th>
+                <th>TV2V (s)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Wan 2.2</td><td>5B + 5.68B (UMT5-XXL)</td><td>-</td><td>138.61</td><td>-</td></tr>
+              <tr><td>UniVideo (hidden)</td><td>13B + 7B</td><td>Token Concat</td><td>1792.65</td><td>6140.18</td></tr>
+              <tr><td>OmniWeaving</td><td>8.3B + 7B</td><td>Channel Concat</td><td>824.93</td><td>899.32</td></tr>
+              <tr><td>VINO</td><td>13B + 4B</td><td>Token Concat</td><td>2793.52</td><td>9555.13</td></tr>
+              <tr class="highlight-row"><td><strong>LoomVideo</strong></td><td>5B + 8B</td><td>Scale-and-Add</td><td><strong>132.23</strong> (6.24×)</td><td><strong>166.30</strong> (5.41×)</td></tr>
+            </tbody>
+          </table>
+          <p class="metric-note">Note: All models are tested on the same type of GPU. We measure the average time to generate/edit a single 480×832×97 video. The speedup ratio is calculated relative to OmniWeaving.</p>
         </div>
       </div>
     </section>
@@ -1968,22 +2108,13 @@
       <div class="container narrow">
         <h2 class="section-title section-title-compact">BibTeX</h2>
         <p style="text-align: left; margin-bottom: 1.2em; color: #555; font-size: 1.05em;">If you found this work useful, please consider citing our paper as follows:</p>
-        <p style="text-align: left; margin-bottom: 0.4em; color: #333; font-weight: 600;">OmniWeaving</p>
+        <p style="text-align: left; margin-bottom: 0.4em; color: #333; font-weight: 600;">LoomVideo</p>
         <div class="bibtex-box">
-<pre><code>@article{pan2026omniweaving,
-  title={OmniWeaving: Towards Unified Video Generation with Free-form Composition and Reasoning},
-  author={Pan, Kaihang and Tian, Qi and Zhang, Jianwei and Kong, Weijie and Xiong, Jiangfeng and Long, Yanxin and Zhang, Shixue and Qiu, Haiyi and Wang, Tan and Lv, Zheqi and others},
-  journal={arXiv preprint arXiv:2603.24458},
+<pre><code>@article{wu2026loomvideo,
+  title={LoomVideo: Unifying Multimodal Inputs into Video Generation and Editing},
+  author={Wu, Jianzong and Lian, Hao and Yang, Jiongfan and Hao, Dachao and Tian, Ye and Shi, Qingyu and Jiang, Hao and Tong, Yunhai},
+  journal={arXiv preprint},
   year={2026}
-}</code></pre>
-        </div>
-        <p style="text-align: left; margin-top: 1em; margin-bottom: 0.4em; color: #333; font-weight: 600;">HunyuanVideo 1.5</p>
-        <div class="bibtex-box">
-<pre><code>@article{wu2025hunyuanvideo,
-  title={Hunyuanvideo 1.5 technical report},
-  author={Wu, Bing and Zou, Chang and Li, Changlin and Huang, Duojun and Yang, Fang and Tan, Hao and Peng, Jack and Wu, Jianbing and Xiong, Jiangfeng and Jiang, Jie and others},
-  journal={arXiv preprint arXiv:2511.18870},
-  year={2025}
 }</code></pre>
         </div>
       </div>
@@ -1992,7 +2123,7 @@
 
   <footer>
     <div class="container">
-      <p>Built for OmniWeaving project page. Website template adapted from <a href="https://ddt-llama.github.io/" target="_blank">DDT-LLaMA</a> and <a href="https://qnancy.github.io/wiseedit_project_page/" target="_blank">WiseEdit</a>.</p>
+      <p>Built for LoomVideo project page. Website template adapted from <a href="https://ddt-llama.github.io/" target="_blank">DDT-LLaMA</a> and <a href="https://qnancy.github.io/wiseedit_project_page/" target="_blank">WiseEdit</a>.</p>
     </div>
   </footer>
 
