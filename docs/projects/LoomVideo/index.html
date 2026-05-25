@@ -107,7 +107,6 @@
 
       <nav>
         <a href="#abstract">Abstract</a>
-        <a href="#introduction">Introduction</a>
         <a href="#architecture">Architecture</a>
         <a href="#videos">Examples</a>
         <a href="#leaderboard">Results</a>
@@ -119,7 +118,7 @@
   <main id="top">
     <section class="hero">
       <div class="container hero-inner">
-        <h1 class="hero-title"><img class="weaving-mark" src="assets/images/pku_logo.png" alt="PKU logo" /><img class="weaving-mark" src="assets/images/taotian_logo.png" alt="Taotian logo" />LoomVideo</h1>
+        <h1 class="hero-title">LoomVideo</h1>
         <p class="hero-subtitle">Unifying Multimodal Inputs into Video Generation and Editing</p>
 
         <p class="hero-authors">
@@ -168,34 +167,14 @@
       </div>
     </section>
 
-    <section id="introduction" class="section">
-      <div class="container narrow">
-        <h2 class="section-title section-title-compact">Introduction</h2>
-        <div class="glass-card">
-          <p>
-            The demand for versatile and highly controllable video generation and editing is rapidly increasing across diverse practical applications, from digital entertainment to e-commerce. To meet these complex requirements, developing a unified architecture capable of interpreting and adhering to interleaved multimodal inputs (e.g., video, images, and fine-grained instructions) is of paramount importance. The paradigm of unifying multiple vision-language tasks within a single foundational model first achieves remarkable success in the image domain, evidenced by pioneering works such as Qwen-Image and the OmniGen series. Recently, this unified modeling approach has been extended to the video domain, though existing works remain relatively sparse due to the inherent complexity of spatiotemporal dynamics.
-          </p>
-          <p>
-            A few pioneering works have explored unified video generation and editing, including UniVideo, OmniWeaving, VINO, and OmniVideo. While these frameworks have demonstrated the feasibility of multimodal conditioning, they predominantly suffer from two major limitations. First, most of these frameworks rely heavily on massive base models (typically 13B parameters or more), making them exceptionally resource-intensive. Second, to incorporate source video conditions for editing tasks, the prevailing practice is to concatenate the source-video tokens with the target-video sequence dimension. This design inevitably doubles the token sequence length, which in turn quadruples the computational complexity of the self-attention mechanism. Consequently, these approaches introduce prohibitive computational overhead and significantly elevate both training and inference costs.
-          </p>
-          <p>
-            To address these bottlenecks, we introduce <strong>LoomVideo</strong>, an efficient unified architecture for video generation and editing. Built upon the foundation of the 5B-parameter Wan 2.2 Text-Image-to-Video (TI2V) model, we replace its standard T5 text encoder with Qwen3-VL, a powerful Multimodal Large Language Model (MLLM), to handle interleaved multimodal inputs. To maximize multimodal interaction and minimize computational overhead, we incorporate three key effective architectural designs:
-          </p>
-          <ul style="margin-top: 0.5em; margin-bottom: 1em; padding-left: 1.5em; line-height: 1.8;">
-            <li><strong>Deepstack injection mechanism:</strong> Instead of solely utilizing the final-layer embedding of the vision-language model, we extract hidden states from every layer of the MLLM and inject them into the corresponding layers of the DiT via cross-attention, thereby enhancing the deep semantic alignment between the multimodal controls and the generative process.</li>
-            <li><strong>Scale-and-Add conditioning:</strong> To overcome the severe efficiency bottleneck caused by token concatenation in editing tasks, we simply scale the clean source video latent by the current timestep and add it directly to the noised target latent. This elegant design introduces zero additional tokens to the sequence length, drastically reducing generation time while maintaining robust capabilities for complex, non-rigid editing operations.</li>
-            <li><strong>Negative Temporal RoPE index:</strong> To seamlessly integrate multiple reference images, we employ a Negative Temporal RoPE index strategy. This positional encoding effectively distinguishes the reference inputs from the video frames, providing robust multi-image guidance without disrupting the spatiotemporal dynamics of the generative process.</li>
-          </ul>
-          <p>
-            We devise a progressive three-stage training strategy: <strong>Stage 1</strong> focuses on semantic alignment at a low resolution, where we extract and inject MLLM embeddings into the DiT. <strong>Stage 2</strong> scales up the resolution, training simultaneously on fundamental image/video generation and reconstruction/editing tasks. <strong>Stage 3</strong> incorporates diverse reference images and advanced text instructions to drive complex generation and editing tasks. Through this progressive multimodal alignment and task adaptation, our relatively compact 5B model efficiently performs various generation and editing tasks that previously required 13B-scale models, unifying them within a single framework.
-          </p>
-        </div>
-      </div>
-    </section>
-
     <section id="architecture" class="section architecture-section">
       <div class="container">
         <h2 class="section-title section-title-compact">Model Architecture</h2>
+
+        <div class="architecture-figure-wrap">
+          <img class="architecture-image" src="assets/images/architecture.png" alt="LoomVideo Architecture" />
+          <p class="figure-caption"><strong>Figure 1.</strong> Overall Architecture of LoomVideo. It employs Deepstack injection, Scale-and-Add conditioning, and Negative Temporal RoPE index for efficient unified video generation and editing.</p>
+        </div>
 
         <div class="architecture-overview">
           <p>
@@ -216,11 +195,6 @@
               Target video frames are assigned normal positive temporal RoPE indices 0, 1, 2, ..., T. For reference images, we assign them negative temporal indices −τ, −2τ, ..., ensuring the model robustly distinguishes reference images from target video frames. This strategy provides strong multi-image guidance with minimal extra tokens and enables the model to explicitly align each referenced image with its corresponding visual representation.
             </li>
           </ul>
-        </div>
-
-        <div class="architecture-figure-wrap">
-          <img class="architecture-image" src="assets/images/architecture.png" alt="LoomVideo Architecture" />
-          <p class="figure-caption"><strong>Figure 2.</strong> Overall Architecture of LoomVideo. It employs Deepstack injection, Scale-and-Add conditioning, and Negative Temporal RoPE index for efficient unified video generation and editing.</p>
         </div>
       </div>
     </section>
@@ -1932,66 +1906,6 @@
     <section id="leaderboard" class="section">
       <div class="container">
         <h2 class="section-title section-title-compact">Main Results</h2>
-
-        <!-- Table: TIV2V on IntelligentVBench -->
-        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.1rem; color: #374151;">TIV2V Task on IntelligentVBench</h3>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Model</th>
-                <th>Params</th>
-                <th>IF ↑</th>
-                <th>CP ↑</th>
-                <th>VQ ↑</th>
-                <th>AVG</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><td>VACE-Wan2.1</td><td>14B</td><td>1.46</td><td>1.42</td><td>1.71</td><td>1.53</td></tr>
-              <tr><td>VACE-LTX</td><td>2B</td><td>1.43</td><td>1.36</td><td>1.25</td><td>1.35</td></tr>
-              <tr><td>VINO</td><td>13B</td><td>2.86</td><td>2.90</td><td>2.52</td><td>2.76</td></tr>
-              <tr><td>UniVideo (query)</td><td>13B</td><td>3.22</td><td>3.91</td><td>3.26</td><td>3.46</td></tr>
-              <tr><td>UniVideo (hidden)</td><td>13B</td><td>3.13</td><td>4.01</td><td>2.93</td><td>3.36</td></tr>
-              <tr><td>OmniWeaving</td><td>8.3B</td><td>4.00</td><td>4.04</td><td>3.65</td><td>3.89</td></tr>
-              <tr class="highlight-row"><td><strong>LoomVideo</strong></td><td>5B</td><td><strong>4.35</strong></td><td><strong>4.08</strong></td><td><strong>3.99</strong></td><td><strong>4.14</strong></td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <!-- Table: Compositional MI2V on IntelligentVBench -->
-        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.1rem; color: #374151;">Compositional MI2V Task on IntelligentVBench</h3>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th rowspan="2">Type</th>
-                <th rowspan="2">Model</th>
-                <th rowspan="2">Params</th>
-                <th colspan="3">1Subject (with BKG)</th>
-                <th colspan="3">2Subjects (with BKG)</th>
-                <th colspan="3">3Subjects (with BKG)</th>
-              </tr>
-              <tr>
-                <th>IF ↑</th><th>CP ↑</th><th>VQ ↑</th>
-                <th>IF ↑</th><th>CP ↑</th><th>VQ ↑</th>
-                <th>IF ↑</th><th>CP ↑</th><th>VQ ↑</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>SkyReels-A2</td><td>14B</td><td>3.51</td><td>4.08</td><td>4.46</td><td>3.22</td><td>3.76</td><td>4.37</td><td>1.64</td><td>1.76</td><td>2.50</td></tr>
-              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>SkyReels-V3</td><td>14B</td><td>3.46</td><td>3.71</td><td>4.65</td><td>3.28</td><td>3.84</td><td>4.44</td><td>2.59</td><td>3.10</td><td>4.30</td></tr>
-              <tr><td><span class="type-badge task-specific">Task-Specific</span></td><td>Phantom</td><td>14B</td><td>3.21</td><td>2.95</td><td>4.29</td><td>2.88</td><td>3.42</td><td>4.38</td><td>2.36</td><td>2.79</td><td>4.21</td></tr>
-              <tr><td><span class="type-badge unified">Unified</span></td><td>VACE-Wan2.1</td><td>14B</td><td>3.88</td><td>4.48</td><td>4.68</td><td>3.31</td><td>4.03</td><td>4.51</td><td>2.60</td><td>3.03</td><td>4.40</td></tr>
-              <tr><td><span class="type-badge unified">Unified</span></td><td>VACE-LTX</td><td>2B</td><td>2.74</td><td>2.86</td><td>2.89</td><td>2.12</td><td>2.26</td><td>2.49</td><td>1.94</td><td>2.06</td><td>2.41</td></tr>
-              <tr><td><span class="type-badge unified">Unified</span></td><td>VINO</td><td>13B</td><td>3.72</td><td>4.22</td><td>4.46</td><td>3.56</td><td>4.34</td><td>4.58</td><td>2.63</td><td>2.97</td><td>4.24</td></tr>
-              <tr><td><span class="type-badge unified">Unified</span></td><td>UniVideo (query)</td><td>13B</td><td>3.35</td><td>3.90</td><td>4.41</td><td>2.98</td><td>3.73</td><td>4.18</td><td>2.30</td><td>2.50</td><td>3.89</td></tr>
-              <tr><td><span class="type-badge unified">Unified</span></td><td>UniVideo (hidden)</td><td>13B</td><td>3.33</td><td>4.18</td><td>4.38</td><td>3.22</td><td>4.12</td><td>4.36</td><td>2.31</td><td>2.83</td><td>3.94</td></tr>
-              <tr><td><span class="type-badge unified">Unified</span></td><td>OmniWeaving</td><td>8.3B</td><td><strong>4.35</strong></td><td><strong>4.53</strong></td><td><strong>4.58</strong></td><td><strong>4.08</strong></td><td><strong>4.22</strong></td><td><strong>4.52</strong></td><td><strong>3.53</strong></td><td><strong>4.01</strong></td><td><strong>4.54</strong></td></tr>
-              <tr class="highlight-row"><td><span class="type-badge unified">Unified</span></td><td><strong>LoomVideo</strong></td><td>5B</td><td>3.81</td><td>3.78</td><td>3.91</td><td>3.30</td><td>3.32</td><td>3.69</td><td>2.40</td><td>2.70</td><td>3.61</td></tr>
-            </tbody>
-          </table>
-        </div>
 
         <!-- Table: VBench -->
         <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.1rem; color: #374151;">Results on VBench</h3>
