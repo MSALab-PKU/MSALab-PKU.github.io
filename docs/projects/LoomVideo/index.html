@@ -1992,6 +1992,32 @@
           </table>
         </div>
 
+        <!-- Table: FashionVideoBench -->
+        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.1rem; color: #374151;">Results on FashionVideoBench</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th rowspan="2">Model</th>
+                <th colspan="3">Split by Metrics</th>
+                <th colspan="6">Split by Task</th>
+                <th rowspan="2">Overall</th>
+              </tr>
+              <tr>
+                <th>SC</th><th>PF</th><th>VQ</th>
+                <th>Product Edit</th><th>Model Edit</th><th>Freeform Edit</th><th>PRef Edit</th><th>MRef Edit</th><th>MI2V</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>UniVideo</td><td>4.08</td><td>4.34</td><td>4.37</td><td>3.84</td><td><strong>4.93</strong></td><td>4.20</td><td>4.24</td><td>4.05</td><td>4.29</td><td>4.26</td></tr>
+              <tr><td>OmniWeaving</td><td>3.28</td><td>3.71</td><td>3.70</td><td>3.67</td><td>4.04</td><td>3.49</td><td>2.95</td><td>3.49</td><td>3.72</td><td>3.56</td></tr>
+              <tr><td>VINO</td><td>4.18</td><td>4.51</td><td>4.45</td><td>4.02</td><td>4.83</td><td>4.27</td><td>4.27</td><td><strong>4.43</strong></td><td>4.45</td><td>4.38</td></tr>
+              <tr class="highlight-row"><td><strong>LoomVideo</strong></td><td><strong>4.45</strong></td><td><strong>4.74</strong></td><td><strong>4.61</strong></td><td><strong>4.59</strong></td><td><strong>4.95</strong></td><td><strong>4.47</strong></td><td><strong>4.51</strong></td><td>4.37</td><td><strong>4.70</strong></td><td><strong>4.60</strong></td></tr>
+            </tbody>
+          </table>
+          <p class="metric-note">Note: SC = Subject Consistency, PF = Prompt Following, VQ = Video Quality. FashionVideoBench is curated from held-out internal data (strictly excluded from the training set) with 50 test cases per sub-task (300 total). Gemini 2.5 Pro is used as the automated judge.</p>
+        </div>
+
         <!-- Table: Inference Speed -->
         <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.1rem; color: #374151;">Inference Speed Comparison</h3>
         <div class="table-wrap">
