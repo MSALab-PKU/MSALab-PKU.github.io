@@ -7,7 +7,7 @@
   <meta name="description" content="LoomVideo: Unifying Multimodal Inputs into Video Generation and Editing" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=DM+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
@@ -26,9 +26,9 @@
     }
     .sub-tab {
       appearance: none;
-      border: 1px solid rgba(255, 106, 26, 0.15);
-      background: rgba(255, 255, 255, 0.03);
-      color: #a8a8b8;
+      border: 1px solid rgba(155, 27, 48, 0.1);
+      background: rgba(255, 255, 255, 0.5);
+      color: #4a4a5e;
       padding: 0.38rem 0.85rem;
       border-radius: 6px;
       font-family: inherit;
@@ -38,26 +38,27 @@
       transition: all 0.25s ease;
     }
     .sub-tab:hover {
-      color: #ff6a1a;
-      border-color: rgba(255, 106, 26, 0.4);
-      background: rgba(255, 106, 26, 0.06);
+      color: #9B1B30;
+      border-color: rgba(155, 27, 48, 0.25);
+      background: rgba(155, 27, 48, 0.03);
     }
     .sub-tab.active {
       color: #fff;
       border-color: transparent;
-      background: linear-gradient(135deg, #ff6a1a, #ff3d3d);
-      box-shadow: 0 2px 12px rgba(255, 106, 26, 0.3);
+      background: linear-gradient(135deg, #9B1B30, #e8424e);
+      box-shadow: 0 2px 12px rgba(155, 27, 48, 0.2);
     }
 
     /* Sub-panels */
     .sub-panel { display: none; }
     .sub-panel.active-sub { display: block; }
     .sub-panel-head h5 {
-      font-size: 0.92rem;
+      font-size: 0.9rem;
       font-weight: 600;
-      color: #f0f0f5;
+      color: #1a1a2e;
       margin: 0 0 0.6rem 0.2rem;
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
+      letter-spacing: -0.3px;
     }
 
     /* Demo grid placeholder */
@@ -84,11 +85,22 @@
   </style>
 </head>
 <body>
-  <div class="bg-glow"></div>
+  <!-- Aurora mesh background -->
+  <div class="aurora-bg">
+    <div class="aurora-layer aurora-1"></div>
+    <div class="aurora-layer aurora-2"></div>
+    <div class="aurora-layer aurora-3"></div>
+  </div>
+  <canvas id="meshCanvas"></canvas>
 
   <header class="top-nav">
     <div class="container nav-inner">
-      <a class="brand" href="#top">LoomVideo</a>
+      <a class="brand" href="#top">
+        <span class="brand-icon">
+          <svg viewBox="0 0 64 64" fill="none"><rect x="6" y="6" width="52" height="52" rx="8" stroke="url(#nbGrad1)" stroke-width="2.5" fill="none"/><line x1="20" y1="6" x2="20" y2="58" stroke="#9B1B30" stroke-width="2.5"/><line x1="32" y1="6" x2="32" y2="58" stroke="#9B1B30" stroke-width="2.5"/><line x1="44" y1="6" x2="44" y2="58" stroke="#9B1B30" stroke-width="2.5"/><path d="M6 24 C13 24 13 28 20 28 C27 28 27 24 32 24 C37 24 37 28 44 28 C51 28 51 24 58 24" stroke="url(#nbGrad3)" stroke-width="2.2" stroke-linecap="round" fill="none"/><path d="M6 40 C13 40 13 36 20 36 C27 36 27 40 32 40 C37 40 37 36 44 36 C51 36 51 40 58 40" stroke="url(#nbGrad3)" stroke-width="2.2" stroke-linecap="round" fill="none"/><path d="M24 32 L32 24 L40 32 L32 40 Z" fill="url(#nbGrad1)" opacity="0.2"/><path d="M26 32 L32 26 L38 32 Z" fill="url(#nbGrad1)" opacity="0.7"/><path d="M26 32 L32 38 L38 32 Z" fill="url(#nbGrad3)" opacity="0.7"/><defs><linearGradient id="nbGrad1" x1="0" y1="0" x2="64" y2="64"><stop stop-color="#9B1B30"/><stop offset="1" stop-color="#e8424e"/></linearGradient><linearGradient id="nbGrad2" x1="32" y1="0" x2="32" y2="64"><stop stop-color="#c0392b"/><stop offset="1" stop-color="#9B1B30"/></linearGradient><linearGradient id="nbGrad3" x1="0" y1="32" x2="64" y2="32"><stop stop-color="#9B1B30"/><stop offset=".5" stop-color="#c8860a"/><stop offset="1" stop-color="#e8424e"/></linearGradient></defs></svg>
+        </span>
+        LoomVideo
+      </a>
 
       <nav>
         <a href="#abstract">Abstract</a>
@@ -102,40 +114,26 @@
 
   <main id="top">
     <section class="hero">
+      <div class="hero-spotlight"></div>
       <div class="container hero-inner">
         <h1 class="hero-title"><svg class="weaving-mark" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <!-- Outer ring (loom frame) -->
-          <circle cx="32" cy="32" r="28" stroke="url(#loomGrad1)" stroke-width="3" fill="none" opacity="0.9"/>
-          <!-- Warp threads (vertical) -->
-          <path d="M22 8 Q22 32 22 56" stroke="url(#loomGrad2)" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
-          <path d="M32 6 Q32 32 32 58" stroke="url(#loomGrad2)" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
-          <path d="M42 8 Q42 32 42 56" stroke="url(#loomGrad2)" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
-          <!-- Weft threads (horizontal, weaving over/under) -->
-          <path d="M8 22 C18 22 18 26 22 26 C26 26 26 22 32 22 C38 22 38 26 42 26 C46 26 46 22 56 22" stroke="url(#loomGrad3)" stroke-width="2.2" stroke-linecap="round" fill="none"/>
-          <path d="M6 32 C16 32 16 36 22 36 C28 36 28 32 32 32 C36 32 36 36 42 36 C48 36 48 32 58 32" stroke="url(#loomGrad3)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-          <path d="M8 42 C18 42 18 38 22 38 C26 38 26 42 32 42 C38 42 38 38 42 38 C46 38 46 42 56 42" stroke="url(#loomGrad3)" stroke-width="2.2" stroke-linecap="round" fill="none"/>
-          <!-- Center diamond accent -->
-          <path d="M32 24 L38 32 L32 40 L26 32 Z" fill="url(#loomGrad4)" opacity="0.35"/>
-          <!-- Play triangle hint (video) -->
-          <path d="M29 28 L37 32 L29 36 Z" fill="url(#loomGrad1)" opacity="0.85"/>
+          <!-- Frame -->
+          <rect x="6" y="6" width="52" height="52" rx="8" stroke="url(#hGrad1)" stroke-width="2.5" fill="none"/>
+          <!-- Warp (vertical threads) -->
+          <line x1="20" y1="6" x2="20" y2="58" stroke="#9B1B30" stroke-width="2.5"/>
+          <line x1="32" y1="6" x2="32" y2="58" stroke="#9B1B30" stroke-width="2.5"/>
+          <line x1="44" y1="6" x2="44" y2="58" stroke="#9B1B30" stroke-width="2.5"/>
+          <!-- Weft (weaving waves) -->
+          <path d="M6 24 C13 24 13 28 20 28 C27 28 27 24 32 24 C37 24 37 28 44 28 C51 28 51 24 58 24" stroke="url(#hGrad3)" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+          <path d="M6 40 C13 40 13 36 20 36 C27 36 27 40 32 40 C37 40 37 36 44 36 C51 36 51 40 58 40" stroke="url(#hGrad3)" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+          <!-- Shuttle (two opposing triangles = diamond) -->
+          <path d="M24 32 L32 24 L40 32 L32 40 Z" fill="url(#hGrad1)" opacity="0.2"/>
+          <path d="M26 32 L32 26 L38 32 Z" fill="url(#hGrad1)" opacity="0.7"/>
+          <path d="M26 32 L32 38 L38 32 Z" fill="url(#hGrad3)" opacity="0.7"/>
           <defs>
-            <linearGradient id="loomGrad1" x1="0" y1="0" x2="64" y2="64">
-              <stop offset="0%" stop-color="#ff6a1a"/>
-              <stop offset="100%" stop-color="#ff3d3d"/>
-            </linearGradient>
-            <linearGradient id="loomGrad2" x1="32" y1="0" x2="32" y2="64">
-              <stop offset="0%" stop-color="#ffb84d"/>
-              <stop offset="100%" stop-color="#ff6a1a"/>
-            </linearGradient>
-            <linearGradient id="loomGrad3" x1="0" y1="32" x2="64" y2="32">
-              <stop offset="0%" stop-color="#ff3d3d"/>
-              <stop offset="50%" stop-color="#ff6a1a"/>
-              <stop offset="100%" stop-color="#ffb84d"/>
-            </linearGradient>
-            <linearGradient id="loomGrad4" x1="26" y1="24" x2="38" y2="40">
-              <stop offset="0%" stop-color="#ffb84d"/>
-              <stop offset="100%" stop-color="#ff3d3d"/>
-            </linearGradient>
+            <linearGradient id="hGrad1" x1="0" y1="0" x2="64" y2="64"><stop offset="0%" stop-color="#9B1B30"/><stop offset="100%" stop-color="#e8424e"/></linearGradient>
+            <linearGradient id="hGrad2" x1="32" y1="0" x2="32" y2="64"><stop offset="0%" stop-color="#c0392b"/><stop offset="100%" stop-color="#9B1B30"/></linearGradient>
+            <linearGradient id="hGrad3" x1="0" y1="32" x2="64" y2="32"><stop offset="0%" stop-color="#9B1B30"/><stop offset="50%" stop-color="#c8860a"/><stop offset="100%" stop-color="#e8424e"/></linearGradient>
           </defs>
         </svg>LoomVideo</h1>
         <p class="hero-subtitle">Unifying Multimodal Inputs into Video Generation and Editing</p>
@@ -1921,7 +1919,7 @@
         <h2 class="section-title section-title-compact">Main Results</h2>
 
         <!-- Table: VBench -->
-        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.05rem; color: #f0f0f5; font-weight: 600;">Results on VBench</h3>
+        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.05rem; color: #1a1a2e; font-weight: 600;">Results on VBench</h3>
         <div class="table-wrap">
           <table>
             <thead>
@@ -1944,7 +1942,7 @@
         </div>
 
         <!-- Table: OpenVE-Bench -->
-        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.05rem; color: #f0f0f5; font-weight: 600;">Results on OpenVE-Bench</h3>
+        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.05rem; color: #1a1a2e; font-weight: 600;">Results on OpenVE-Bench</h3>
         <div class="table-wrap">
           <table>
             <thead>
@@ -1979,7 +1977,7 @@
         </div>
 
         <!-- Table: RefVIE-Bench -->
-        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.05rem; color: #f0f0f5; font-weight: 600;">Results on RefVIE-Bench</h3>
+        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.05rem; color: #1a1a2e; font-weight: 600;">Results on RefVIE-Bench</h3>
         <div class="table-wrap">
           <table>
             <thead>
@@ -2006,7 +2004,7 @@
         </div>
 
         <!-- Table: FashionVideoBench -->
-        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.05rem; color: #f0f0f5; font-weight: 600;">Results on FashionVideoBench</h3>
+        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.05rem; color: #1a1a2e; font-weight: 600;">Results on FashionVideoBench</h3>
         <div class="table-wrap">
           <table>
             <thead>
@@ -2032,7 +2030,7 @@
         </div>
 
         <!-- Table: Inference Speed -->
-        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.05rem; color: #f0f0f5; font-weight: 600;">Inference Speed Comparison</h3>
+        <h3 style="margin-top: 2em; margin-bottom: 0.8em; font-size: 1.05rem; color: #1a1a2e; font-weight: 600;">Inference Speed Comparison</h3>
         <div class="table-wrap">
           <table>
             <thead>
@@ -2060,8 +2058,8 @@
     <section id="bibtex" class="section">
       <div class="container narrow">
         <h2 class="section-title section-title-compact">BibTeX</h2>
-        <p style="text-align: left; margin-bottom: 1.2em; color: #a8a8b8; font-size: 1.05em;">If you found this work useful, please consider citing our paper as follows:</p>
-        <p style="text-align: left; margin-bottom: 0.4em; color: #ff6a1a; font-weight: 600;">LoomVideo</p>
+        <p style="text-align: left; margin-bottom: 1.2em; color: #4a4a5e; font-size: 1.05em;">If you found this work useful, please consider citing our paper as follows:</p>
+        <p style="text-align: left; margin-bottom: 0.4em; color: #9B1B30; font-weight: 600;">LoomVideo</p>
         <div class="bibtex-box">
 <pre><code>@article{wu2026loomvideo,
   title={LoomVideo: Unifying Multimodal Inputs into Video Generation and Editing},
@@ -2081,7 +2079,7 @@
   </footer>
 
   <script>
-    // Primary tab switching
+    // ── Tab Switching ──
     document.querySelectorAll('.task-tab').forEach(tab => {
       tab.addEventListener('click', () => {
         document.querySelectorAll('.task-tab').forEach(t => t.classList.remove('active'));
@@ -2093,7 +2091,6 @@
       });
     });
 
-    // FashionVideoBench sub-tab switching
     document.querySelectorAll('.sub-tab').forEach(subTab => {
       subTab.addEventListener('click', () => {
         const parent = subTab.closest('.task-panel');
@@ -2106,13 +2103,13 @@
       });
     });
 
-    // Floating particles effect
+    // ── Animated Mesh Network Background ──
     (function() {
-      const canvas = document.createElement('canvas');
-      canvas.style.cssText = 'position:fixed;inset:0;pointer-events:none;z-index:0;opacity:0.4';
-      document.body.appendChild(canvas);
+      const canvas = document.getElementById('meshCanvas');
       const ctx = canvas.getContext('2d');
-      let w, h, particles = [];
+      let w, h, nodes = [], mouse = { x: -1000, y: -1000 };
+      const NODE_COUNT = 60;
+      const CONNECT_DIST = 150;
 
       function resize() {
         w = canvas.width = window.innerWidth;
@@ -2121,51 +2118,108 @@
       resize();
       window.addEventListener('resize', resize);
 
-      for (let i = 0; i < 35; i++) {
-        particles.push({
+      document.addEventListener('mousemove', e => {
+        mouse.x = e.clientX;
+        mouse.y = e.clientY;
+      });
+
+      for (let i = 0; i < NODE_COUNT; i++) {
+        nodes.push({
           x: Math.random() * w,
           y: Math.random() * h,
-          r: Math.random() * 1.5 + 0.5,
-          dx: (Math.random() - 0.5) * 0.3,
-          dy: (Math.random() - 0.5) * 0.3,
-          alpha: Math.random() * 0.4 + 0.1
+          vx: (Math.random() - 0.5) * 0.4,
+          vy: (Math.random() - 0.5) * 0.4,
+          r: Math.random() * 1.5 + 0.5
         });
       }
 
       function draw() {
         ctx.clearRect(0, 0, w, h);
-        particles.forEach(p => {
-          p.x += p.dx;
-          p.y += p.dy;
-          if (p.x < 0) p.x = w;
-          if (p.x > w) p.x = 0;
-          if (p.y < 0) p.y = h;
-          if (p.y > h) p.y = 0;
+
+        // Update positions
+        nodes.forEach(n => {
+          n.x += n.vx;
+          n.y += n.vy;
+          if (n.x < 0 || n.x > w) n.vx *= -1;
+          if (n.y < 0 || n.y > h) n.vy *= -1;
+
+          // Mouse repulsion
+          const dx = n.x - mouse.x;
+          const dy = n.y - mouse.y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 120) {
+            n.x += dx * 0.01;
+            n.y += dy * 0.01;
+          }
+        });
+
+        // Draw connections
+        for (let i = 0; i < nodes.length; i++) {
+          for (let j = i + 1; j < nodes.length; j++) {
+            const dx = nodes[i].x - nodes[j].x;
+            const dy = nodes[i].y - nodes[j].y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < CONNECT_DIST) {
+              const alpha = (1 - dist / CONNECT_DIST) * 0.15;
+              ctx.beginPath();
+              ctx.moveTo(nodes[i].x, nodes[i].y);
+              ctx.lineTo(nodes[j].x, nodes[j].y);
+              ctx.strokeStyle = `rgba(155, 27, 48, ${alpha})`;
+              ctx.lineWidth = 0.5;
+              ctx.stroke();
+            }
+          }
+        }
+
+        // Draw nodes
+        nodes.forEach(n => {
           ctx.beginPath();
-          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-          ctx.fillStyle = `rgba(255, 106, 26, ${p.alpha})`;
+          ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(155, 27, 48, 0.35)`;
           ctx.fill();
         });
+
         requestAnimationFrame(draw);
       }
       draw();
     })();
 
-    // Smooth reveal on scroll
-    const observer = new IntersectionObserver((entries) => {
+    // ── Scroll Reveal ──
+    const revealObserver = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.style.opacity = '1';
-          entry.target.style.transform = 'translateY(0)';
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.1 });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
 
-    document.querySelectorAll('.section, .glass-card, .architecture-figure-wrap, .table-wrap').forEach(el => {
-      el.style.opacity = '0';
-      el.style.transform = 'translateY(20px)';
-      el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-      observer.observe(el);
+    document.querySelectorAll('.section, .glass-card, .architecture-figure-wrap, .table-wrap, .update-note-card').forEach(el => {
+      el.classList.add('reveal');
+      revealObserver.observe(el);
+    });
+
+    // ── Navbar transparency on scroll ──
+    const nav = document.querySelector('.top-nav');
+    let lastScroll = 0;
+    window.addEventListener('scroll', () => {
+      const st = window.scrollY;
+      if (st > 100) {
+        nav.style.borderBottomColor = 'rgba(155, 27, 48, 0.1)';
+      } else {
+        nav.style.borderBottomColor = 'rgba(155, 27, 48, 0.04)';
+      }
+      lastScroll = st;
+    }, { passive: true });
+
+    // ── Hero parallax on mouse ──
+    const heroInner = document.querySelector('.hero-inner');
+    const heroSpot = document.querySelector('.hero-spotlight');
+    document.querySelector('.hero').addEventListener('mousemove', e => {
+      const rect = e.currentTarget.getBoundingClientRect();
+      const x = (e.clientX - rect.left) / rect.width - 0.5;
+      const y = (e.clientY - rect.top) / rect.height - 0.5;
+      heroSpot.style.transform = `translateX(calc(-50% + ${x * 40}px)) translateY(${y * 30}px)`;
     });
   </script>
 </body>
