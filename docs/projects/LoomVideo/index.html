@@ -190,26 +190,25 @@
 
         <div class="architecture-figure-wrap">
           <img class="architecture-image" src="assets/images/architecture.png" alt="LoomVideo Architecture" />
-          <p class="figure-caption"><strong>Figure 1.</strong> Overall Architecture of LoomVideo. It employs Deepstack injection, Scale-and-Add conditioning, and Negative Temporal RoPE index for efficient unified video generation and editing.</p>
+          <p class="figure-caption"><strong>Overall Architecture of LoomVideo.</strong> It employs Deepstack injection, Scale-and-Add conditioning, and Negative Temporal RoPE index for efficient unified video generation and editing.</p>
         </div>
 
         <div class="architecture-overview">
           <p>
-            <strong>LoomVideo</strong> is built as an integrated <strong>MLLM + DiT + VAE</strong> framework for unified video generation and editing. We replace the standard T5 text encoder with <strong>Qwen3-VL-8B</strong>, a powerful Multimodal Large Language Model (MLLM), to seamlessly process interleaved multimodal inputs (text, reference images, and source videos). The <strong>VAE</strong> acts as the visual tokenizer, compressing visual inputs into low-level latents, while the <strong>DiT</strong> (Diffusion Transformer) uses these semantic conditions together with latent noise to generate semantically aligned, high-fidelity videos.
+            <strong>LoomVideo</strong> is an integrated <strong>MLLM + DiT + VAE</strong> framework. We replace the T5 text encoder with <strong>Qwen3-VL-8B</strong> to process interleaved multimodal inputs (text, reference images, and source videos). The VAE compresses visual inputs into latents, and the DiT generates high-fidelity videos from these conditions. Three key designs are introduced:
           </p>
-          <p>On this basis, we introduce three key architectural designs:</p>
           <ul class="arch-feature-list">
             <li>
-              <strong>(1) Deepstack Injection Mechanism:</strong>
-              Rather than solely utilizing the final-layer embedding of the MLLM, we extract hidden states from every layer and inject them into the corresponding layers of the DiT via cross-attention. An MLP module transforms the MLLM hidden states into condition features, which are then served as keys and values in the cross-attention module. This layer-to-layer conditioning approach guarantees deep semantic alignment between the fine-grained multimodal controls and the spatiotemporal generative process, enhancing the model's instruction-following capabilities without introducing heavy adapter networks.
+              <strong>(1) Deepstack Injection:</strong>
+              We extract hidden states from every MLLM layer and inject them into corresponding DiT layers via cross-attention, ensuring deep layer-to-layer semantic alignment and enhancing instruction-following without heavy adapters.
             </li>
             <li>
               <strong>(2) Scale-and-Add Conditioning:</strong>
-              To overcome the severe efficiency bottleneck caused by token concatenation in editing tasks, LoomVideo introduces a zero-overhead Scale-and-Add conditioning approach. We scale the clean source video latent by a timestep-dependent factor and add it directly to the noised target latent. This elegant design introduces zero additional tokens to the sequence length, achieving at least <strong>5.41×</strong> acceleration in inference speed compared to concatenation-based models. Despite its simplicity, this mechanism provides sufficient guidance to drive highly complex, non-rigid editing operations such as modifying human actions or camera angles.
+              We scale the clean source video latent by a timestep-dependent factor and add it directly to the noised target, introducing zero additional tokens and achieving <strong>5.41×</strong> inference acceleration while supporting complex non-rigid edits.
             </li>
             <li>
-              <strong>(3) Negative Temporal RoPE Index:</strong>
-              Target video frames are assigned normal positive temporal RoPE indices 0, 1, 2, ..., T. For reference images, we assign them negative temporal indices −τ, −2τ, ..., ensuring the model robustly distinguishes reference images from target video frames. This strategy provides strong multi-image guidance with minimal extra tokens and enables the model to explicitly align each referenced image with its corresponding visual representation.
+              <strong>(3) Negative Temporal RoPE:</strong>
+              Reference images are assigned negative temporal indices (−τ, −2τ, ...) while target frames use positive indices, enabling the model to robustly distinguish references from targets with minimal extra tokens.
             </li>
           </ul>
         </div>
@@ -2040,17 +2039,18 @@
                 <th>Source Token Injection</th>
                 <th>T2V (s)</th>
                 <th>TV2V (s)</th>
+                <th>Speedup</th>
               </tr>
             </thead>
             <tbody>
-              <tr><td>Wan 2.2</td><td>5B + 5.68B (UMT5-XXL)</td><td>-</td><td>138.61</td><td>-</td></tr>
-              <tr><td>UniVideo (hidden)</td><td>13B + 7B</td><td>Token Concat</td><td>1792.65</td><td>6140.18</td></tr>
-              <tr><td>OmniWeaving</td><td>8.3B + 7B</td><td>Channel Concat</td><td>824.93</td><td>899.32</td></tr>
-              <tr><td>VINO</td><td>13B + 4B</td><td>Token Concat</td><td>2793.52</td><td>9555.13</td></tr>
-              <tr class="highlight-row"><td><strong>LoomVideo</strong></td><td>5B + 8B</td><td>Scale-and-Add</td><td><strong>132.23</strong> (6.24×)</td><td><strong>166.30</strong> (5.41×)</td></tr>
+              <tr><td>Wan 2.2</td><td>5B + 5.68B (UMT5-XXL)</td><td>-</td><td>138.61</td><td>-</td><td>-</td></tr>
+              <tr><td>UniVideo (hidden)</td><td>13B + 7B</td><td>Token Concat</td><td>1792.65</td><td>6140.18</td><td>-</td></tr>
+              <tr><td>OmniWeaving</td><td>8.3B + 7B</td><td>Channel Concat</td><td>824.93</td><td>899.32</td><td>1.00×</td></tr>
+              <tr><td>VINO</td><td>13B + 4B</td><td>Token Concat</td><td>2793.52</td><td>9555.13</td><td>-</td></tr>
+              <tr class="highlight-row"><td><strong>LoomVideo</strong></td><td>5B + 8B</td><td>Scale-and-Add</td><td><strong>132.23</strong></td><td><strong>166.30</strong></td><td><strong>5.41×</strong></td></tr>
             </tbody>
           </table>
-          <p class="metric-note">Note: All models are tested on the same type of GPU. We measure the average time to generate/edit a single 480×832×97 video. The speedup ratio is calculated relative to OmniWeaving.</p>
+          <p class="metric-note">All models are tested on the same GPU type, generating 480×832×97 videos. Speedup is relative to OmniWeaving.</p>
         </div>
       </div>
     </section>
