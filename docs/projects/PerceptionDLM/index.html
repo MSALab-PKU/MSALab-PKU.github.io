@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PerceptionDLM | Project Page</title>
+  <meta name="description" content="PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    /* Brand / hero logo */
+    .brand-logo { width: 26px; height: 26px; border-radius: 6px; object-fit: cover; vertical-align: middle; }
+    .hero-logo {
+      width: 64px; height: 64px; border-radius: 14px; object-fit: cover;
+      vertical-align: middle; margin-right: 0.5rem;
+      box-shadow: 0 6px 22px rgba(155, 27, 48, 0.18);
+    }
+
+    /* Teaser figure */
+    .teaser-wrap { margin-top: 0.5rem; }
+    .teaser-image { width: 100%; border-radius: 14px; display: block; }
+
+    /* Demo videos */
+    .pdlm-demo-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.3rem;
+      margin-top: 0.6rem;
+    }
+    .pdlm-demo-card {
+      background: rgba(255, 255, 255, 0.55);
+      border: 1px solid rgba(155, 27, 48, 0.08);
+      border-radius: 14px;
+      padding: 0.7rem;
+      box-shadow: 0 4px 18px rgba(26, 26, 46, 0.05);
+    }
+    .pdlm-demo-card video {
+      width: 100%;
+      border-radius: 9px;
+      display: block;
+      background: #0e0e16;
+    }
+    .pdlm-demo-card p {
+      margin: 0.6rem 0.2rem 0.1rem;
+      font-size: 0.86rem;
+      color: #4a4a5e;
+      text-align: center;
+    }
+
+    /* Static region-captioning example */
+    .pdlm-example-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 0.9rem;
+      margin-top: 1.6rem;
+    }
+    .pdlm-example-grid figure { margin: 0; text-align: center; }
+    .pdlm-example-grid img {
+      width: 100%; border-radius: 10px; display: block;
+      border: 1px solid rgba(155, 27, 48, 0.08);
+    }
+    .pdlm-example-grid figcaption {
+      margin-top: 0.4rem; font-size: 0.78rem; color: #6b6b80;
+    }
+
+    .benchmark-image { width: 100%; border-radius: 12px; display: block; }
+
+    @media (max-width: 760px) {
+      .pdlm-demo-grid { grid-template-columns: 1fr; }
+      .pdlm-example-grid { grid-template-columns: repeat(2, 1fr); }
+      .hero-logo { width: 48px; height: 48px; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Aurora mesh background -->
+  <div class="aurora-bg">
+    <div class="aurora-layer aurora-1"></div>
+    <div class="aurora-layer aurora-2"></div>
+    <div class="aurora-layer aurora-3"></div>
+  </div>
+  <canvas id="meshCanvas"></canvas>
+
+  <header class="top-nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">
+        <span class="brand-icon">
+          <img class="brand-logo" src="assets/images/icon.png" alt="PerceptionDLM" />
+        </span>
+        PerceptionDLM
+      </a>
+
+      <nav>
+        <a href="#abstract">Abstract</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#demos">Demos</a>
+        <a href="#leaderboard">Results</a>
+        <a href="#bibtex">BibTeX</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-spotlight"></div>
+      <div class="container hero-inner">
+        <h1 class="hero-title"><img class="hero-logo" src="assets/images/icon.png" alt="" />PerceptionDLM</h1>
+        <p class="hero-subtitle">Parallel Region Perception with Multimodal Diffusion Language Models</p>
+
+        <p class="hero-affiliation">Peking University MSALab · ByteDance</p>
+
+        <div class="link-buttons">
+          <a class="link-btn" href="https://arxiv.org/abs/2606.19534" target="_blank"><i class="ai ai-arxiv"></i> Paper</a>
+          <a class="link-btn" href="https://github.com/MSALab-PKU/PerceptionDLM" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a class="link-btn" href="https://huggingface.co/collections/MSALab/perceptiondlm-model-zoo" target="_blank"><span class="hf-icon">🤗</span> Models</a>
+          <a class="link-btn" href="https://huggingface.co/datasets/MSALab/PerceptionDLM-Data" target="_blank"><span class="hf-icon">🤗</span> Data</a>
+          <a class="link-btn" href="https://huggingface.co/datasets/MSALab/ParaDLC-Bench" target="_blank"><span class="hf-icon">🤗</span> ParaDLC-Bench</a>
+        </div>
+
+        <div class="teaser-wrap">
+          <img class="teaser-image" src="assets/images/teaser.png" alt="PerceptionDLM teaser" />
+        </div>
+      </div>
+    </section>
+
+    <section class="update-note-section">
+      <div class="container narrow">
+        <div class="update-note-card">
+          <p class="update-note-title">News</p>
+          <ul class="update-note-list">
+            <li>📌 PerceptionDLM is the first model to achieve <strong>parallel region captioning and perception</strong> by leveraging the parallel decoding nature of diffusion language models. If you find our work useful, please consider giving our <a href="https://github.com/MSALab-PKU/PerceptionDLM" target="_blank"><strong>GitHub repository</strong></a> a star and citing our paper 🙏</li>
+            <li><span class="notice-date">[2026-06]</span> We release the <a href="https://huggingface.co/collections/MSALab/perceptiondlm-model-zoo" target="_blank"><strong>model weights</strong></a>, <a href="https://huggingface.co/datasets/MSALab/PerceptionDLM-Data" target="_blank"><strong>training data</strong></a>, and <a href="https://huggingface.co/datasets/MSALab/ParaDLC-Bench" target="_blank"><strong>ParaDLC-Bench</strong></a>!</li>
+            <li><span class="notice-date">[2026-06]</span> We release the PerceptionDLM <a href="https://arxiv.org/abs/2606.19534" target="_blank"><strong>paper</strong></a> on arXiv and the <a href="https://github.com/MSALab-PKU/PerceptionDLM" target="_blank"><strong>codebase</strong></a>!</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="abstract" class="section">
+      <div class="container narrow">
+        <h2 class="section-title section-title-compact">Abstract</h2>
+        <div class="glass-card">
+          <p>
+            Multimodal large language models (MLLMs) have achieved remarkable progress in visual understanding tasks. However, most existing MLLMs rely on autoregressive generation, which limits their efficiency for perception tasks that require captioning multiple regions. In this work, we propose <strong>PerceptionDLM</strong>, a multimodal diffusion language model optimized for efficient parallel region perception. Built upon <strong>PerceptionDLM-Base</strong>, a strong foundational baseline that achieves state-of-the-art performance among open-source diffusion MLLMs, our architecture fully leverages the parallel decoding nature of diffusion language models (DLMs). Specifically, we introduce efficient prompting and structured attention masking to enable simultaneous perception of multiple masked regions, allowing the model to generate region descriptions in parallel at both the sequence and token levels. To systematically evaluate the parallelism property of visual perception capability for DLMs, we construct a new <strong>Para</strong>llel <strong>D</strong>etailed <strong>L</strong>ocalized <strong>C</strong>aptioning Benchmark (<strong>ParaDLC-Bench</strong>) by scaling DLC-Bench to include multiple region masks per image, enabling joint evaluation of both caption quality and inference efficiency. Experiments demonstrate that PerceptionDLM maintains competitive performance in region captioning while achieving substantial speed improvements for multi-region perception. To the best of our knowledge, we are the first to achieve parallel region captioning and perception by leveraging the advantages of diffusion language models. Code, models, and datasets are released.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="architecture" class="section architecture-section">
+      <div class="container">
+        <h2 class="section-title section-title-compact">Model Architecture</h2>
+
+        <div class="architecture-figure-wrap">
+          <img class="architecture-image" src="assets/images/architecture.png" alt="PerceptionDLM Architecture" />
+          <p class="figure-caption"><strong>Overall Architecture of PerceptionDLM.</strong> Given an image and multiple region masks, the model perceives and describes all regions within a single denoising process via efficient prompting and structured attention masking.</p>
+        </div>
+
+        <div class="architecture-overview">
+          <p>
+            <strong>PerceptionDLM</strong> couples a visual encoder with a discrete <strong>diffusion language model</strong> (LLaDA-8B-Instruct backbone). Instead of decoding region descriptions one-by-one like autoregressive captioners, it exploits the parallel decoding nature of DLMs through two key designs:
+          </p>
+          <ul class="arch-feature-list">
+            <li>
+              <strong>(1) Efficient parallel prompting.</strong>
+              Multiple masked regions are packed into a single prompt so that all region descriptions are generated simultaneously in one denoising pass, avoiding the linear latency growth of sequential region captioning.
+            </li>
+            <li>
+              <strong>(2) Structured attention masking.</strong>
+              A carefully designed attention mask isolates each region's generation stream while sharing the global image context, enabling parallelism at both the <em>sequence</em> and <em>token</em> levels without cross-region interference.
+            </li>
+            <li>
+              <strong>(3) Strong diffusion VLM baseline.</strong>
+              PerceptionDLM-Base, trained with a multi-stage recipe, outperforms LLaDA-V on <strong>15/16</strong> multimodal benchmarks, providing a solid foundation for parallel region perception.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="demos" class="section">
+      <div class="container">
+        <div class="title-row">
+          <h2 class="section-title section-title-compact">Parallel Decoding Demos</h2>
+        </div>
+        <p style="text-align:center; color:#4a4a5e; max-width:760px; margin:0 auto 1.6rem;">
+          Given multiple region masks, PerceptionDLM generates descriptions for <strong>all regions in parallel</strong> within a single denoising process — visualized below as tokens being filled in simultaneously across regions.
+        </p>
+
+        <div class="pdlm-demo-grid">
+          <div class="pdlm-demo-card">
+            <video controls muted playsinline loop preload="metadata" src="assets/videos/demo_0.mp4"></video>
+            <p>Parallel region captioning — example 1</p>
+          </div>
+          <div class="pdlm-demo-card">
+            <video controls muted playsinline loop preload="metadata" src="assets/videos/demo_1.mp4"></video>
+            <p>Parallel region captioning — example 2</p>
+          </div>
+        </div>
+
+        <div class="pdlm-example-grid">
+          <figure>
+            <img src="assets/images/demo.jpg" alt="Input image" />
+            <figcaption>Input image</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/images/demo_mask_0.jpg" alt="Region mask 1" />
+            <figcaption>Region mask 1</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/images/demo_mask_1.jpg" alt="Region mask 2" />
+            <figcaption>Region mask 2</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/images/demo_mask_2.jpg" alt="Region mask 3" />
+            <figcaption>Region mask 3</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="leaderboard" class="section">
+      <div class="container">
+        <h2 class="section-title section-title-compact">Main Results</h2>
+
+        <!-- Base model: multimodal understanding -->
+        <h3 style="margin-top: 1.4em; margin-bottom: 0.8em; font-size: 1.05rem; color: #1a1a2e; font-weight: 600;">PerceptionDLM-Base — Multimodal Understanding</h3>
+        <p style="color:#4a4a5e; margin-bottom: 1em;">
+          PerceptionDLM-Base establishes a strong open <strong>diffusion</strong> VLM baseline, outperforming LLaDA-V on <strong>15/16</strong> benchmarks and staying competitive with leading AR VLMs (Qwen2.5-VL, InternVL3) at the same scale.
+        </p>
+        <div class="architecture-figure-wrap">
+          <img class="benchmark-image" src="assets/images/benchmark.png" alt="PerceptionDLM-Base multimodal benchmark comparison" />
+          <p class="figure-caption">Evaluation comparison across vision-language models on multimodal understanding benchmarks. <strong>Bold</strong> = best score in each row; <sup>&dagger;</sup>/<sup>&starf;</sup> = re-evaluated by us (official scripts / VLMEvalKit).</p>
+        </div>
+
+        <!-- Parallel model: ParaDLC-Bench -->
+        <h3 style="margin-top: 2.4em; margin-bottom: 0.8em; font-size: 1.05rem; color: #1a1a2e; font-weight: 600;">PerceptionDLM — Parallel Region Perception (ParaDLC-Bench)</h3>
+        <p style="color:#4a4a5e; margin-bottom: 1em;">
+          PerceptionDLM achieves a strong accuracy–efficiency trade-off on multi-region dense captioning, decoding multiple regions per forward pass for substantial speedups.
+        </p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Method</th>
+                <th>Type</th>
+                <th>ParaDLC-Bench Avg (%)</th>
+                <th>TPF &uarr;</th>
+                <th>Time (s) &darr;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>GAR-8B</td><td>AR (sequential)</td><td>69.5</td><td>1.0</td><td>479</td></tr>
+              <tr><td>LLaDA-V-8B</td><td>Diffusion</td><td>35.2</td><td>1.0</td><td>3241</td></tr>
+              <tr class="highlight-row"><td><strong>PerceptionDLM-8B</strong></td><td><strong>Diffusion (parallel)</strong></td><td><strong>62.4</strong></td><td><strong>2.9</strong></td><td><strong>276</strong></td></tr>
+            </tbody>
+          </table>
+          <p class="metric-note">TPF = Tokens Per Forward (higher means more parallel). Full tables and the complete evaluation protocol are reported in the paper.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="bibtex" class="section">
+      <div class="container narrow">
+        <h2 class="section-title section-title-compact">BibTeX</h2>
+        <p style="text-align: left; margin-bottom: 1.2em; color: #4a4a5e; font-size: 1.05em;">If you found this work useful, please consider citing our paper as follows:</p>
+        <p style="text-align: left; margin-bottom: 0.4em; color: #9B1B30; font-weight: 600;">PerceptionDLM</p>
+        <div class="bibtex-box">
+<pre><code>@article{sun2026perceptiondlm,
+  title   = {PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models},
+  author  = {Sun, Yueyi and Wang, Yuhao and Li, Jason and Tian, Ye and Zhang, Tao and Mai, Jacky and Wang, Yihan and Wang, Haochen and Bai, Jinbin and Yang, Ling and Tong, Yunhai},
+  journal = {arXiv preprint arXiv:2606.19534},
+  year    = {2026}
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>PerceptionDLM project page · Peking University MSALab &amp; ByteDance. Website template adapted from the <a href="../LoomVideo/" target="_blank">LoomVideo</a> project page.</p>
+    </div>
+  </footer>
+
+  <script>
+    // ── Animated Mesh Network Background ──
+    (function() {
+      const canvas = document.getElementById('meshCanvas');
+      const ctx = canvas.getContext('2d');
+      let w, h, nodes = [], mouse = { x: -1000, y: -1000 };
+      const NODE_COUNT = 60;
+      const CONNECT_DIST = 150;
+
+      function resize() {
+        w = canvas.width = window.innerWidth;
+        h = canvas.height = window.innerHeight;
+      }
+      resize();
+      window.addEventListener('resize', resize);
+
+      document.addEventListener('mousemove', e => {
+        mouse.x = e.clientX;
+        mouse.y = e.clientY;
+      });
+
+      for (let i = 0; i < NODE_COUNT; i++) {
+        nodes.push({
+          x: Math.random() * w,
+          y: Math.random() * h,
+          vx: (Math.random() - 0.5) * 0.4,
+          vy: (Math.random() - 0.5) * 0.4,
+          r: Math.random() * 1.5 + 0.5
+        });
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, w, h);
+        nodes.forEach(n => {
+          n.x += n.vx;
+          n.y += n.vy;
+          if (n.x < 0 || n.x > w) n.vx *= -1;
+          if (n.y < 0 || n.y > h) n.vy *= -1;
+          const dx = n.x - mouse.x;
+          const dy = n.y - mouse.y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 120) {
+            n.x += dx * 0.01;
+            n.y += dy * 0.01;
+          }
+        });
+        for (let i = 0; i < nodes.length; i++) {
+          for (let j = i + 1; j < nodes.length; j++) {
+            const dx = nodes[i].x - nodes[j].x;
+            const dy = nodes[i].y - nodes[j].y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < CONNECT_DIST) {
+              const alpha = (1 - dist / CONNECT_DIST) * 0.15;
+              ctx.beginPath();
+              ctx.moveTo(nodes[i].x, nodes[i].y);
+              ctx.lineTo(nodes[j].x, nodes[j].y);
+              ctx.strokeStyle = `rgba(155, 27, 48, ${alpha})`;
+              ctx.lineWidth = 0.5;
+              ctx.stroke();
+            }
+          }
+        }
+        nodes.forEach(n => {
+          ctx.beginPath();
+          ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(155, 27, 48, 0.35)`;
+          ctx.fill();
+        });
+        requestAnimationFrame(draw);
+      }
+      draw();
+    })();
+
+    // ── Scroll Reveal ──
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.section, .glass-card, .architecture-figure-wrap, .table-wrap, .update-note-card').forEach(el => {
+      el.classList.add('reveal');
+      revealObserver.observe(el);
+    });
+
+    // ── Navbar transparency on scroll ──
+    const nav = document.querySelector('.top-nav');
+    window.addEventListener('scroll', () => {
+      const st = window.scrollY;
+      nav.style.borderBottomColor = st > 100 ? 'rgba(155, 27, 48, 0.1)' : 'rgba(155, 27, 48, 0.04)';
+    }, { passive: true });
+  </script>
+</body>
+</html>
