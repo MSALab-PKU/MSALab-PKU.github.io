@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Open-o3-Video-v2: Seek, Ground, and Reason with Verifiable Spatio-Temporal Evidence">
+  <meta name="keywords" content="Open-o3-Video-v2, video reasoning, spatio-temporal grounding">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open-o3-Video-v2</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/static/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./assets/static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./assets/static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./assets/static/css/index.css">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./assets/static/js/fontawesome.all.min.js"></script>
+  <script src="./assets/static/js/bulma-carousel.min.js"></script>
+  <script src="./assets/static/js/bulma-slider.min.js"></script>
+  <script defer src="./assets/static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://marinero4972.github.io/projects/Open-o3-Video/" aria-label="Open-o3-Video v1 project page">
+        <span class="icon"><i class="fas fa-home"></i></span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Open-o3-Video-v2: Seek, Ground, and Reason with Verifiable Spatio-Temporal Evidence</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><a href="https://marinero4972.github.io/">Jiahao Meng</a><sup>*</sup>,</span>
+            <span class="author-block"><a href="https://github.com/Lexarymade">Zhongyuan Bao</a><sup>*</sup>,</span>
+            <span class="author-block"><a href="https://tangent0308.github.io/">Yue Tan</a>,</span>
+            <span class="author-block"><a href="https://scholar.google.com/citations?user=hQadNAUAAAAJ&amp;hl=en">Haiquan Wen</a>,</span>
+            <span class="author-block"><a href="https://zrrskywalker.github.io/">Renrui Zhang</a>,</span>
+            <br>
+            <span class="author-block"><span class="author-placeholder">Anna Wang</span>,</span>
+            <span class="author-block"><span class="author-placeholder">Jason Li</span>,</span>
+            <span class="author-block"><a href="https://yanweifu.github.io/index.html">Yanwei Fu</a>,</span>
+            <span class="author-block"><a href="https://scholar.google.com/citations?user=T4gqdPkAAAAJ">Yunhai Tong</a>,</span>
+            <span class="author-block"><a href="https://scholar.google.com/citations?user=p9-ohHsAAAAJ&amp;hl=zh-CN&amp;oi=ao">Ming-Hsuan Yang</a></span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Open-o3-Video Team: PKU</span> &nbsp;&nbsp;&nbsp;
+            <span class="author-block">FDU</span> &nbsp;&nbsp;&nbsp;
+            <span class="author-block">NTU</span> &nbsp;&nbsp;&nbsp;
+            <span class="author-block">UC Merced</span>
+          </div>
+          <div class="is-size-6 publication-authors">* Equal contribution</div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- TODO: replace placeholders with arXiv paper, code, model, and data URLs. -->
+              <span class="link-block"><span class="external-link button is-normal is-rounded is-dark resource-placeholder" title="arXiv paper link to be added"><span class="icon"><i class="ai ai-arxiv"></i></span><span>arXiv Paper (soon)</span></span></span>
+              <span class="link-block"><span class="external-link button is-normal is-rounded is-dark resource-placeholder" title="Code link to be added"><span class="icon"><i class="fab fa-github"></i></span><span>Code (soon)</span></span></span>
+              <span class="link-block"><span class="external-link button is-normal is-rounded is-dark resource-placeholder" title="Model link to be added"><span>🤗 Model (soon)</span></span></span>
+              <span class="link-block"><span class="external-link button is-normal is-rounded is-dark resource-placeholder" title="Data link to be added"><span>🤗 Data (soon)</span></span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div style="height: 60px;"></div>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./assets/teaser.png" alt="Open-o3-Video v1 and v2 comparison, showing adaptive evidence seeking and benchmark results">
+      <p><strong>TL;DR: From grounded reasoning over fixed frames to an agentic system that actively seeks, grounds, and reuses visual evidence.</strong> Open-o3-Video-v2 identifies missing clues, inspects relevant clips, anchors observations to moments and objects, and carries that evidence forward to refine its reasoning and produce a verifiable answer.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Abstract. -->
+<section class="hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="margin-top: 20px">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>Reliable video reasoning requires models to produce correct answers and expose supporting visual evidence. Open-o3-Video enables verifiable reasoning by embedding timestamps and object-level bounding boxes into reasoning traces, but is restricted to frames from an initial sparse sampler. We introduce Open-o3-Video-v2, which formulates video reasoning as <strong>a unified agentic evidence-grounded process</strong>. The model <strong>identifies missing information, acquires additional observations, grounds the moments and objects</strong> supporting its reasoning, and writes this evidence into the trajectory before continuing or answering. To support this behavior, we construct <strong>STGR-v2-CoT-135K, including 52K multi-turn agentic grounded reasoning trajectories</strong>, and STGR-v2-RL-13K for reinforcement learning. We further propose <strong>Clue-Seek GRPO (CS-GRPO)</strong>, which tracks how tool calls change accumulated evidence, rewards clue coverage and step-wise gains, and penalizes excessive, repetitive, or uninformative retrieval. On V-STaR, Open-o3-Video-v2-4B achieves <strong>40.4% mAM and 56.3% mLGM</strong>. It also delivers consistent gains across general video understanding, long-video reasoning, and temporal grounding benchmarks. <strong>These results show that active evidence acquisition and verifiable object-level grounding are complementary for reliable video reasoning.</strong></p>
+        </div>
+      </div>
+    </div>
+    <div style="height: 20px;"></div>
+  </div>
+</section>
+
+<!-- v1 / v2 comparison. -->
+<section class="section" id="whats-new">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">What’s New in Open-o3-Video-v2?</h2>
+        <div class="content has-text-justified">
+          <ul>
+            <li><strong>Agentic evidence-grounded reasoning.</strong> V1 grounds its reasoning in timestamps and object boxes from initially sampled frames, but cannot recover missed evidence. V2 identifies what is still unknown, retrieves a relevant clip, grounds the useful moments and objects in that observation, and uses them as explicit premises for the next reasoning step. Seeking, grounding, and reasoning form one iterative trajectory.</li>
+            <li><strong>Multi-turn grounded data.</strong> V1 uses single-response grounded traces. V2 constructs STGR-v2-CoT-135K, including 52K tool-use QA trajectories that connect sparse observations, targeted cropping, returned frames, object evidence, and final answers. STGR-v2-RL-13K supplies informative rollouts for policy optimization.</li>
+            <li><strong>Clue-Seek GRPO (CS-GRPO).</strong> V1 optimizes answer, format, and grounded thinking in a single response. V2 additionally scores how the accumulated temporal clue evidence changes across tool calls: it rewards final clue coverage and useful gains, and penalizes excessive, repeated, fragmented, or uninformative retrieval. Answer correctness and object-level grounding remain part of the joint objective.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== Demos ===================== -->
+<section class="section" id="demos">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Demos</h2>
+    <style>
+      .demo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+      .demo-box { padding: 1.25rem; border-radius: 14px; box-shadow: 0 6px 18px rgba(0,0,0,.06); background:#fff; }
+      .demo-box img { display: block; width: 100%; height: auto; border-radius: 12px; }
+      @media (max-width: 768px) { .demo-grid { grid-template-columns: 1fr; } }
+      @media (prefers-color-scheme: dark) {
+        .demo-box { background:#111; box-shadow: 0 6px 18px rgba(0,0,0,.25); }
+      }
+    </style>
+    <div class="demo-grid">
+      <div class="demo-box"><img src="./assets/case-03.gif" alt="Open-o3-Video-v2 reasoning demo, case 3" loading="lazy"></div>
+      <div class="demo-box"><img src="./assets/case-05.gif" alt="Open-o3-Video-v2 reasoning demo, case 5" loading="lazy"></div>
+      <div class="demo-box"><img src="./assets/case-04.gif" alt="Open-o3-Video-v2 reasoning demo, case 4" loading="lazy"></div>
+      <div class="demo-box"><img src="./assets/case-06.gif" alt="Open-o3-Video-v2 reasoning demo, case 6" loading="lazy"></div>
+      <div class="demo-box"><img src="./assets/case-01.gif" alt="Open-o3-Video-v2 reasoning demo, case 1" loading="lazy"></div>
+      <div class="demo-box"><img src="./assets/case-02.gif" alt="Open-o3-Video-v2 reasoning demo, case 2" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+<!-- =================== /Demos =================== -->
+
+<!-- Data and training. -->
+<section class="section" style="margin-top:-50px; margin-bottom:-50px;">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3 is-centered">Data Construction</h2>
+          <div class="publication-img"><img src="./assets/data.png" style="width:1000px; margin-top:10px;margin-bottom:10px;" alt="STGR-v2 data construction and dataset composition"></div>
+        </div>
+      </div>
+      <p>The 52K multi-turn grounded QA trajectories are built in four steps:</p>
+      <div class="content has-text-justified">
+        <ol>
+          <li><strong>Filter for useful clues:</strong> remove questions consistently solved from eight sparse frames and questions that remain unanswerable even with the annotated clue clip.</li>
+          <li><strong>Annotate evidence:</strong> identify question-relevant objects and time spans, then use SAM3 to generate object boxes on clue frames.</li>
+          <li><strong>Rewrite the reasoning trajectory:</strong> connect the initial observation, targeted tool calls, returned frames, grounded reasoning, and final answer.</li>
+          <li><strong>Check quality:</strong> verify boxes, timestamp–object matches, tool intervals, and whether each reasoning statement is supported by the cited visual evidence.</li>
+        </ol>
+      </div>
+      <p><strong>Training corpora:</strong> STGR-v2-CoT-135K combines these 52K trajectories with single-turn grounded QA, auxiliary tool-use, temporal and spatial grounding, general video QA, and dense captions. STGR-v2-RL-13K retains questions with both correct and incorrect sampled rollouts, giving reinforcement learning informative comparisons.</p>
+      <div class="columns is-centered has-text-centered" style="margin-top:20px;">
+        <div class="column">
+          <h2 class="title is-3 is-centered">Model Training</h2>
+          <div class="publication-img"><img id="architecture" src="./assets/method.png" style="width:1000px; margin-top:10px;margin-bottom:10px;" alt="Open-o3-Video-v2 multi-turn reasoning and Clue-Seek GRPO overview"></div>
+        </div>
+      </div>
+      <p><strong>Stage 1 — SFT:</strong> Train on STGR-v2-CoT-135K in a conversation format that interleaves assistant reasoning, optional <code>crop_video</code> calls, returned frames, grounded evidence, and a final answer. Only assistant-generated tokens receive the next-token training loss.</p>
+      <p><strong>Stage 2 — CS-GRPO:</strong> Optimize complete interaction trajectories on STGR-v2-RL-13K. For each call, CS-GRPO measures the temporal overlap between all clips retrieved so far and the annotated answer-relevant clue intervals. This accumulated evidence state captures both clue coverage and irrelevant footage.</p>
+      <div class="content has-text-justified">
+        <ul>
+          <li><strong>Reward useful acquisition:</strong> score final clue coverage and give step-wise credit when a later call improves the evidence state by more than 0.1.</li>
+          <li><strong>Discourage wasteful calls:</strong> penalize calls beyond three, near-duplicate intervals (temporal IoU above 0.7), runs of adjacent fragments, and calls that reduce the evidence state by more than 0.1.</li>
+          <li><strong>Optimize the whole trajectory:</strong> combine the tool-use score with answer accuracy, output-format, and grounded-thinking rewards. The tool score guides where to observe; the thinking score checks how retrieved moments and objects support the reasoning.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Experiments Results -->
+<section class="setting teaser">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Experimental Results</h2>
+        <div class="content has-text-justified">
+          <div class="hero-body">
+            <a href="./assets/vstar-results-table.png" target="_blank" rel="noopener"><img src="./assets/vstar-results-table.png" alt="Original V-STaR results table from the paper, without its caption"></a>
+            <p><strong>V-STaR.</strong> The table evaluates both answer correctness and the alignment of cited moments and objects. At the same 4B scale, v2 raises answer accuracy from 59.7 to 62.8, <strong>mAM from 34.6 to 40.4, and mLGM from 47.3 to 56.3</strong> compared with v1. <strong>These combined-metric gains support the benefit of active clue seeking for evidence-grounded answers.</strong></p>
+          </div>
+          <div class="hero-body">
+            <a href="./assets/general-results-table.png" target="_blank" rel="noopener"><img src="./assets/general-results-table.png" alt="Original general video understanding and temporal grounding results table from the paper, without its caption"></a>
+            <p><strong>General video understanding and temporal grounding.</strong> The v2-4B model reaches <strong>53.2 on LVBench, 48.0 on Video-Holmes, and 49.8 mIoU on Charades-TimeLens</strong>. The v2-8B model leads the listed methods on <strong>LVBench, VideoMMMU, VideoMME, VideoMME-v2, and Charades-TimeLens</strong>. <strong>These results show that the grounded, multi-turn approach transfers to long-video reasoning and temporal localization.</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BibTeX -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{meng2026openo3v2,
+  title={Open-o3-Video-v2: Seek, Ground, and Reason with Verifiable Spatio-Temporal Evidence},
+  author={Meng, Jiahao and Bao, Zhongyuan and Tan, Yue and Wen, Haiquan and Zhang, Renrui and Wang, Anna and Li, Jason and Fu, Yanwei and Tong, Yunhai and Yang, Ming-Hsuan},
+  journal={arXiv preprint arXiv:2610.xxxxx},
+  year={2026}
+}</code></pre>
+  </div>
+</section>
+<!-- /BibTeX -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+          <p>Thanks for the project template by <a href="https://github.com/nerfies/nerfies.github.io">Nerfies Project</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
