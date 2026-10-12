@@ -176,3 +176,10 @@ body {
   margin: 0;
   white-space: nowrap;
 }
+.publication-links .modelscope-icon {
+  width: 1.2em;
+  height: 1.2em;
+  padding: 2px;
+  border-radius: 3px;
+  background: #624AFF;
+}
