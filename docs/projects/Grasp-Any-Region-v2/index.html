@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grasp Any Region v2 &amp; GAR-Lite | Project Page</title>
+  <meta name="description" content="Grasp Any Region v2 &amp; GAR-Lite: Scaling Mask-Grounded Regional Experts and Distilling into Native General MLLMs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- Top Sticky Navigation (PerceptionDLM & Open-o3-Video-v2 style) -->
+  <header class="site-nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-brand">
+        <span class="brand-dot"></span>
+        <span>GAR-v2 &amp; GAR-Lite</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#abstract">Abstract</a>
+        <a href="#whats-new">What's New</a>
+        <a href="#demos">Demos</a>
+        <a href="#data-audit">Data Audit</a>
+        <a href="#method">Architecture &amp; OPD</a>
+        <a href="#results">Results</a>
+        <a href="#bibtex">BibTeX</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero Header -->
+    <section class="hero">
+      <div class="venue-pill">Grasp Any Region Series · Extended from ICLR 2026</div>
+      <h1 class="hero-title">
+        <span class="gradient-text">Grasp Any Region v2 &amp; GAR-Lite</span>:<br />
+        Scaling Mask-Grounded Regional Experts and Distilling into Native General MLLMs
+      </h1>
+
+      <div class="authors">
+        <span class="author">Yuhao Wang<sup>1,2*</sup></span>
+        <span class="author">Haobo Yuan<sup>3*</sup></span>
+        <span class="author">Haochen Wang<sup>4*</sup></span>
+        <span class="author">Yueyi Sun<sup>1</sup></span>
+        <span class="author">Zhaoxiang Zhang<sup>4</sup></span>
+        <span class="author">Yunhai Tong<sup>1</sup></span>
+        <span class="author">Xiangtai Li<sup>2&#9993;</sup></span>
+        <span class="author">Lu Qi<sup>2</sup></span>
+      </div>
+
+      <div class="affiliations">
+        <span><sup>1</sup>Peking University</span>
+        <span><sup>2</sup>ByteDance</span>
+        <span><sup>3</sup>UC Merced</span>
+        <span><sup>4</sup>CASIA</span>
+      </div>
+      <div class="author-notes">
+        <span><sup>*</sup>Equal contribution</span>
+        <span><sup>&#9993;</sup>Corresponding author</span>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="cta-row">
+        <a class="cta-btn primary" href="https://github.com/Haochen-Wang409/Grasp-Any-Region" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11.05 11.05 0 0 1 5.78 0c2.2-1.49 3.16-1.18 3.16-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+          <span>Code</span>
+        </a>
+        <a class="cta-btn" href="https://arxiv.org/abs/2510.18876" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          <span>Paper</span>
+        </a>
+        <a class="cta-btn" href="https://huggingface.co/HaochenWang" target="_blank" rel="noopener">
+          <span>🤗 Models</span>
+        </a>
+        <a class="cta-btn" href="https://huggingface.co/HaochenWang" target="_blank" rel="noopener">
+          <span>🤗 Datasets</span>
+        </a>
+        <a class="cta-btn" href="https://huggingface.co/datasets/HaochenWang/GAR-Bench" target="_blank" rel="noopener">
+          <span>🤗 GAR-Bench</span>
+        </a>
+      </div>
+
+      <!-- TL;DR Banner (Open-o3-Video-v2 style) -->
+      <div class="tldr-box">
+        <strong>TL;DR:</strong> We first scale mask-grounded regional comprehension onto native dynamic-resolution Qwen3.5 backbones via single-pass multi-view visual data auditing and expanded relational reasoning supervision (<strong>GAR-v2</strong>). We then distill its privileged mask-grounded expertise into an <em>unmodified</em> general-purpose Qwen3.5 student (<strong>GAR-Lite</strong>) via task-asymmetric <code>Crop50</code> inputs and <strong>two-stage dual-teacher on-policy distillation (OPD)</strong>—acquiring strong regional perception and multi-region reasoning while preserving general multimodal capabilities and native vLLM deployment without custom visual modules.
+      </div>
+
+      <!-- Teaser Figure -->
+      <div class="figure-card hero-figure">
+        <img src="assets/teaser.png" alt="GAR-v2 and GAR-Lite Overview Teaser" />
+        <p class="caption">
+          <strong>Overview of GAR-v2 and GAR-Lite.</strong>
+          <strong>(a–b) GAR-v2</strong> purifies synthetic regional captions via a single-pass multi-view visual audit with Qwen3.5-27B and scales multi-granularity relational reasoning on Qwen3.5 backbones.
+          <strong>(c) GAR-Lite</strong> distills GAR-v2's mask-grounded capabilities into an <em>unmodified</em> Qwen3.5 student via two-stage dual-teacher on-policy distillation (OPD), avoiding both architectural intrusion and catastrophic forgetting.
+        </p>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section class="section-card news-card">
+      <h2 class="section-heading-inline">📰 News</h2>
+      <ul class="news-list">
+        <li>
+          <span class="news-badge">2026-11</span>
+          We release the <strong>GAR-v2</strong> and <strong>GAR-Lite</strong> codebase, two-stage dual-teacher <code>verl</code> OPD pipeline, out-of-tree vLLM plugin, and interactive web demo!
+        </li>
+        <li>
+          <span class="news-badge">2026-01</span>
+          🔥 <strong>Grasp Any Region</strong> has been accepted to <strong>ICLR 2026</strong>!
+        </li>
+      </ul>
+    </section>
+
+    <!-- Abstract -->
+    <section id="abstract" class="section">
+      <h2 class="section-title">Abstract</h2>
+      <div class="abstract-text">
+        <p>
+          While Multimodal Large Language Models (MLLMs) excel at holistic image understanding, comprehending the dense visual world requires analyzing fine-grained regional details alongside global scene context and inter-object relationships. Scaling regional comprehension to stronger foundation backbones and transferring it to standard general-purpose MLLMs face two critical bottlenecks: pervasive annotation noise (category misidentification and mask-external leakage) in automated regional caption corpora, and architectural intrusion coupled with severe catastrophic forgetting when fine-tuning general MLLMs on regional data.
+        </p>
+        <p>
+          We present a unified framework that first strengthens the mask-grounded specialized expert as a privileged teacher (<strong>GAR-v2</strong>) and then distills its regional capabilities into an unmodified general-purpose MLLM (<strong>GAR-Lite</strong>). First, we build <strong>GAR-v2</strong> on native dynamic-resolution Qwen3.5 backbones by introducing a single-pass multi-view visual audit with Qwen3.5-27B that removes noisy caption annotations without text rewriting, paired with expanded multi-granularity relational reasoning supervision. Second, we diagnose local object recognition as the primary bottleneck of box-prompted VLMs and propose a task-asymmetric input protocol (<code>Crop50</code>) alongside a <strong>two-stage dual-teacher on-policy distillation (OPD)</strong> framework. By supervising student rollouts via token-level Top-<em>K</em> forward KL divergence from the frozen GAR-v2 regional teacher and the frozen Qwen3.5 base teacher, GAR-Lite achieves strong regional comprehension while largely retaining general multimodal capabilities in a standard, unmodified MLLM architecture.
+        </p>
+      </div>
+    </section>
+
+    <!-- What's New in GAR-v2 & GAR-Lite (4 Horizontal Cards, 1 Sentence Each) -->
+    <section id="whats-new" class="section">
+      <h2 class="section-title">What’s New in GAR-v2 &amp; GAR-Lite?</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🔍</div>
+          <h3>Multi-View Visual Audit</h3>
+          <p>
+            Audits synthetic regional captions with Qwen3.5-27B over full-image, crop, and binary-mask views to eliminate category misidentification and mask-external leakage without rewriting text.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🏆</div>
+          <h3>Privileged Mask Expert</h3>
+          <p>
+            Scales mask-conditioned prompt encoding and 16&times;16 RoI-Aligned Feature Replay onto dynamic-resolution Qwen3.5 backbones with enriched multi-region relational reasoning supervision.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧩</div>
+          <h3>Dual-Teacher On-Policy Distillation</h3>
+          <p>
+            Transfers mask-grounded expertise into an unmodified Qwen3.5 student via lightweight cold-start SFT and token-level Top-<em>K</em> forward KL from both regional and general teachers.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Drop-In vLLM Deployment</h3>
+          <p>
+            Enables zero-intrusion native vLLM serving for GAR-Lite with bounding boxes and crops, alongside a lightweight out-of-tree vLLM plugin for mask-exact GAR-v2 inference.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Video Demos -->
+    <section id="demos" class="section">
+      <h2 class="section-title">Interactive Demos</h2>
+      <p class="section-subtitle">
+        Interactive demonstrations of single-region detailed description, multi-region relational reasoning, and general visual question answering across point-selected masks and bounding boxes.
+      </p>
+
+      <!-- Demo Filter Tabs -->
+      <div class="demo-tabs" role="tablist">
+        <button class="demo-tab active" data-filter="all">All Demos</button>
+        <button class="demo-tab" data-filter="multi">Multi-Region Interaction &amp; Reasoning</button>
+        <button class="demo-tab" data-filter="single">Single-Region Detailed Description &amp; VQA</button>
+        <button class="demo-tab" data-filter="general">General Holistic VQA Retention</button>
+      </div>
+
+      <div class="demo-grid">
+        <!-- Video 2 -->
+        <article class="demo-card" data-category="multi">
+          <div class="video-wrap">
+            <video controls preload="metadata" playsinline muted loop>
+              <source src="assets/20261111-133154.551-2.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="demo-meta">
+            <h4>Multi-Player Baseball Field Interaction</h4>
+          </div>
+        </article>
+
+        <!-- Video 4 -->
+        <article class="demo-card" data-category="multi">
+          <div class="video-wrap">
+            <video controls preload="metadata" playsinline muted loop>
+              <source src="assets/20261111-133154.551-4.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="demo-meta">
+            <h4>Nested Container &amp; Object Spatial Hierarchy</h4>
+          </div>
+        </article>
+
+        <!-- Video 5 -->
+        <article class="demo-card" data-category="multi">
+          <div class="video-wrap">
+            <video controls preload="metadata" playsinline muted loop>
+              <source src="assets/20261111-133154.551-5.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="demo-meta">
+            <h4>Fine-Grained Sports Action &amp; Small-Object Grounding</h4>
+          </div>
+        </article>
+
+        <!-- Video 7 -->
+        <article class="demo-card" data-category="multi">
+          <div class="video-wrap">
+            <video controls preload="metadata" playsinline muted loop>
+              <source src="assets/20261111-133154.551-7.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="demo-meta">
+            <h4>Localized Appearance with Cross-Region Interaction</h4>
+          </div>
+        </article>
+
+        <!-- Video 0 -->
+        <article class="demo-card" data-category="single">
+          <div class="video-wrap">
+            <video controls preload="metadata" playsinline muted loop>
+              <source src="assets/20261111-133154.551-0.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="demo-meta">
+            <h4>Small-Target Fine-Grained Design &amp; Texture Perception</h4>
+          </div>
+        </article>
+
+        <!-- Video 6 -->
+        <article class="demo-card" data-category="single">
+          <div class="video-wrap">
+            <video controls preload="metadata" playsinline muted loop>
+              <source src="assets/20261111-133154.551-6.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="demo-meta">
+            <h4>Fine-Grained Vehicle Model &amp; Part Recognition</h4>
+          </div>
+        </article>
+
+        <!-- Video 1 -->
+        <article class="demo-card" data-category="single">
+          <div class="video-wrap">
+            <video controls preload="metadata" playsinline muted loop>
+              <source src="assets/20261111-133154.551-1.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="demo-meta">
+            <h4>Box-Prompted Object Identity &amp; Pose Query</h4>
+          </div>
+        </article>
+
+        <!-- Video 3 -->
+        <article class="demo-card" data-category="single">
+          <div class="video-wrap">
+            <video controls preload="metadata" playsinline muted loop>
+              <source src="assets/20261111-133154.551-3.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="demo-meta">
+            <h4>Box-Grounded Pairwise Spatial Reasoning</h4>
+          </div>
+        </article>
+
+        <!-- Video 8 -->
+        <article class="demo-card" data-category="general">
+          <div class="video-wrap">
+            <video controls preload="metadata" playsinline muted loop>
+              <source src="assets/20261111-133154.551-8.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="demo-meta">
+            <h4>Complex Urban Scene &amp; Traffic Signal Comprehension</h4>
+          </div>
+        </article>
+
+        <!-- Video 9 -->
+        <article class="demo-card" data-category="general">
+          <div class="video-wrap">
+            <video controls preload="metadata" playsinline muted loop>
+              <source src="assets/20261111-133154.551-9.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="demo-meta">
+            <h4>Fine-Grained Breed Recognition &amp; Gaze Reasoning</h4>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Data Construction & Multi-View Audit -->
+    <section id="data-audit" class="section">
+      <h2 class="section-title">Single-Pass Multi-View Visual Data Audit</h2>
+      <div class="figure-card">
+        <img src="assets/caption_filter.png" alt="Single-pass multi-view visual audit workflow and examples" />
+        <p class="caption">
+          <strong>Caption Quality Filtering Workflow and Representative Examples.</strong>
+          Existing synthetic regional caption corpora suffer from <strong>(a) category misidentification</strong> on small or occluded masks and <strong>(b) mask-external leakage</strong> that hallucinates surrounding context outside the binary mask. Our single-pass multi-view visual audit with Qwen3.5-27B inspects the full image, tight bounding-box crop, and crop-aligned binary mask simultaneously to retain only boundary-faithful descriptions <strong>(c)</strong>, rejecting 40.8% of DAM and 34.1% of Fine-Grained-456K while improving recognition accuracy and caption quality.
+        </p>
+      </div>
+    </section>
+
+    <!-- Architecture & Two-Stage Dual-Teacher OPD -->
+    <section id="method" class="section">
+      <h2 class="section-title">Task-Asymmetric Dual-Teacher On-Policy Distillation</h2>
+      <div class="figure-card">
+        <img src="assets/region_opd.png" alt="Overview of Two-Stage Dual-Teacher On-Policy Distillation" />
+        <p class="caption">
+          <strong>Overview of Two-Stage Dual-Teacher On-Policy Distillation (OPD).</strong>
+          <strong>Top:</strong> Task-asymmetric student–teacher input protocol. For single-region detailed captioning, the unmodified Qwen3.5 student (<strong>GAR-Lite</strong>) mixes <code>BBox-only</code> and <code>BBox+Crop</code> views (<code>Crop50</code>), while multi-region relational queries use <code>100% BBox</code>; the privileged teacher (<strong>GAR-v2</strong>, &pi;<sub>R</sub>) receives exact binary masks and 16&times;16 RoI-Aligned Feature Replay.
+          <strong>Bottom:</strong> After a 1-epoch lightweight teacher cold-start SFT on 90K prompts (60K regional + 30K general), on-policy student trajectories are supervised via token-level Top-<em>K</em> forward KL divergence from &pi;<sub>R</sub> on regional prompts and the frozen Qwen3.5 base teacher (&pi;<sub>G</sub>) on general prompts.
+        </p>
+      </div>
+
+      <div class="three-col-steps">
+        <div class="step-card">
+          <span class="step-num">Diagnostic Insight</span>
+          <h4>Recognition Bottleneck in Box-Prompted VLMs</h4>
+          <p>
+            Diagnostic evaluation on zero-shot Qwen3.5 shows that once ground-truth object categories are provided, <code>BBox-only</code> inputs match crop-based captioning scores—confirming that box-prompted VLMs are bottlenecked by local foreground recognition rather than language generation.
+          </p>
+        </div>
+        <div class="step-card">
+          <span class="step-num">Stage 1 · Cold-Start</span>
+          <h4>Lightweight Teacher Cold-Start SFT</h4>
+          <p>
+            One epoch of offline SFT on 60K regional responses from &pi;<sub>R</sub> and 30K general responses from &pi;<sub>G</sub> aligns the student with <code>&lt;PromptK&gt;</code> syntax and multi-region formatting without triggering the severe general-capability collapse of full-corpus regional SFT.
+          </p>
+        </div>
+        <div class="step-card">
+          <span class="step-num">Stage 2 · Dual-Teacher OPD</span>
+          <h4>On-Policy Top-<em>K</em> Forward KL Distillation</h4>
+          <p>
+            On student-generated rollouts, token-level Top-<em>K</em> forward KL against &pi;<sub>R</sub> penalizes mask-external hallucinations on the student's own prefixes, while concurrent supervision from &pi;<sub>G</sub> anchors general multimodal reasoning.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experimental Results -->
+    <section id="results" class="section">
+      <h2 class="section-title">Experimental Results</h2>
+      <p class="section-subtitle">
+        Across six regional benchmarks and 11 general multimodal benchmarks, <strong>GAR-v2</strong> achieves state-of-the-art regional perception and multi-entity relational reasoning, outperforming prior specialized region MLLMs and proprietary models. Distilled into an unmodified Qwen3.5 architecture, <strong>GAR-Lite</strong> inherits strong regional comprehension—with GAR-Lite-4B even surpassing PixelRefer-7B and its own GAR-v2-4B teacher on GAR-Bench-VQA—while largely preserving the base model's general multimodal capabilities.
+      </p>
+
+      <div class="table-wrap">
+        <table class="results-table">
+          <thead>
+            <tr>
+              <th>Method</th>
+              <th>Architecture / Input</th>
+              <th>GAR-VQA</th>
+              <th>GAR-Cap</th>
+              <th>DLC-Bench</th>
+              <th>ParaDLC</th>
+              <th>Ferret-Bench</th>
+              <th>MDVP Macro</th>
+              <th>11-General Avg. (&Delta; Base)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="group-row"><td colspan="9"><em>Proprietary &amp; Public General MLLMs</em></td></tr>
+            <tr>
+              <td>GPT-4o</td>
+              <td>General MLLM</td>
+              <td>53.5</td>
+              <td>51.5<sup>&dagger;</sup></td>
+              <td>61.5</td>
+              <td>&mdash;</td>
+              <td>&mdash;</td>
+              <td>&mdash;</td>
+              <td>&mdash;</td>
+            </tr>
+            <tr>
+              <td>Gemini-2.5-Pro</td>
+              <td>General MLLM (Thinking)</td>
+              <td>64.2</td>
+              <td>59.3<sup>&dagger;</sup></td>
+              <td>55.8</td>
+              <td>&mdash;</td>
+              <td>&mdash;</td>
+              <td>&mdash;</td>
+              <td>&mdash;</td>
+            </tr>
+            <tr>
+              <td>Qwen3.5-2B (Base)</td>
+              <td>Native Qwen3.5</td>
+              <td>46.0</td>
+              <td>47.5</td>
+              <td>48.3</td>
+              <td>46.7</td>
+              <td>31.33</td>
+              <td>95.38</td>
+              <td>74.70</td>
+            </tr>
+            <tr>
+              <td>Qwen3.5-4B (Base)</td>
+              <td>Native Qwen3.5</td>
+              <td>53.8</td>
+              <td>52.5</td>
+              <td>47.5</td>
+              <td>44.6</td>
+              <td>32.87</td>
+              <td>96.32</td>
+              <td><strong>80.10</strong></td>
+            </tr>
+            <tr class="group-row"><td colspan="9"><em>Prior Specialized Region MLLMs</em></td></tr>
+            <tr>
+              <td>DAM-3B</td>
+              <td>Focal Prompt + Crop</td>
+              <td>38.2</td>
+              <td>13.7<sup>&dagger;</sup></td>
+              <td>64.5</td>
+              <td>57.2</td>
+              <td>55.0</td>
+              <td>&mdash;</td>
+              <td>&mdash;</td>
+            </tr>
+            <tr>
+              <td>PixelRefer-2B</td>
+              <td>Qwen2.5-VL + Mask</td>
+              <td>56.4</td>
+              <td>52.9</td>
+              <td>66.1</td>
+              <td>59.1</td>
+              <td>&mdash;</td>
+              <td>101.66</td>
+              <td>&mdash;</td>
+            </tr>
+            <tr>
+              <td>PixelRefer-7B</td>
+              <td>Qwen2.5-VL + Mask</td>
+              <td>62.7</td>
+              <td>67.2</td>
+              <td><strong>68.3</strong></td>
+              <td>55.8</td>
+              <td>&mdash;</td>
+              <td>101.12</td>
+              <td>&mdash;</td>
+            </tr>
+            <tr>
+              <td>GAR-1B <em>(ICLR'26)</em></td>
+              <td>InternVL3 + Mask/RoI</td>
+              <td>50.6</td>
+              <td>60.3<sup>&dagger;</sup></td>
+              <td>67.9</td>
+              <td>58.4</td>
+              <td>56.0</td>
+              <td>105.16</td>
+              <td>&mdash;</td>
+            </tr>
+            <tr>
+              <td>GAR-8B <em>(ICLR'26)</em></td>
+              <td>InternVL3 + Mask/RoI</td>
+              <td>59.9</td>
+              <td>65.2<sup>&dagger;</sup></td>
+              <td>67.4</td>
+              <td><strong>59.2</strong></td>
+              <td><strong>64.8</strong></td>
+              <td>116.46</td>
+              <td>&mdash;</td>
+            </tr>
+            <tr class="group-row"><td colspan="9"><em>Ours: Privileged Mask Experts (GAR-v2) &amp; Native Distilled Students (GAR-Lite)</em></td></tr>
+            <tr class="highlight-row-v2">
+              <td><strong>GAR-v2-2B</strong></td>
+              <td>Qwen3.5-2B + Mask/RoI</td>
+              <td>74.5</td>
+              <td>74.0</td>
+              <td>68.0</td>
+              <td>57.8</td>
+              <td>49.40</td>
+              <td>113.06</td>
+              <td>48.13 <span class="delta-neg">(&minus;26.58)</span></td>
+            </tr>
+            <tr class="highlight-row-v2">
+              <td><strong>GAR-v2-4B</strong></td>
+              <td>Qwen3.5-4B + Mask/RoI</td>
+              <td>71.9</td>
+              <td><strong>75.0</strong></td>
+              <td><strong>68.3</strong></td>
+              <td>57.6</td>
+              <td>50.85</td>
+              <td>114.66</td>
+              <td>59.85 <span class="delta-neg">(&minus;20.25)</span></td>
+            </tr>
+            <tr class="highlight-row-v2">
+              <td><strong>GAR-v2-9B</strong></td>
+              <td>Qwen3.5-9B + Mask/RoI</td>
+              <td><strong>75.0</strong></td>
+              <td><strong>75.0</strong></td>
+              <td>67.9</td>
+              <td>58.2</td>
+              <td><strong>51.55</strong></td>
+              <td><strong>117.16</strong></td>
+              <td>&mdash;</td>
+            </tr>
+            <tr class="highlight-row-lite">
+              <td><strong>GAR-Lite-2B</strong></td>
+              <td><strong>Unmodified Qwen3.5-2B</strong></td>
+              <td>67.7</td>
+              <td>70.6</td>
+              <td>61.7</td>
+              <td><strong>58.5</strong></td>
+              <td>46.15</td>
+              <td>108.00</td>
+              <td>72.96 <span class="delta-keep">(&minus;1.74)</span></td>
+            </tr>
+            <tr class="highlight-row-lite">
+              <td><strong>GAR-Lite-4B</strong></td>
+              <td><strong>Unmodified Qwen3.5-4B</strong></td>
+              <td><strong>73.1</strong></td>
+              <td>70.1</td>
+              <td>65.5</td>
+              <td>58.0</td>
+              <td>47.15</td>
+              <td>114.62</td>
+              <td><strong>79.79</strong> <span class="delta-keep">(&minus;0.31)</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- BibTeX -->
+    <section id="bibtex" class="section">
+      <div class="bibtex-header">
+        <h2 class="section-title">BibTeX</h2>
+        <button id="copy-bibtex" class="copy-btn" type="button">Copy BibTeX</button>
+      </div>
+      <pre id="bibtex-code" class="bibtex-block"><code>@article{wang2026garv2,
+  title   = {Grasp Any Region v2: Scaling Mask-Grounded Regional Experts and Distilling into Native General MLLMs},
+  author  = {Wang, Yuhao and Yuan, Haobo and Wang, Haochen and Sun, Yueyi and Zhang, Zhaoxiang and Tong, Yunhai and Li, Xiangtai and Qi, Lu},
+  journal = {arXiv preprint},
+  year    = {2026}
+}
+
+@inproceedings{wang2026gar,
+  title     = {Grasp Any Region: Towards Precise, Contextual Pixel Understanding for Multimodal LLMs},
+  author    = {Wang, Haochen and Wang, Yuhao and Zhang, Tao and Zhou, Yikang and Li, Yanwei and Wang, Jiacong and Tian, Ye and Meng, Jiahao and Huang, Zilong and Mai, Guangcan and Wang, Anran and Tong, Yunhai and Wang, Zhuochen and Li, Xiangtai and Zhang, Zhaoxiang},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2026}
+}</code></pre>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        Grasp Any Region v2 &amp; GAR-Lite Project Page &middot; Peking University MSALab, ByteDance, UC Merced &amp; CASIA.<br />
+        Website layout inspired by <a href="https://msalab-pku.github.io/projects/PerceptionDLM/" target="_blank" rel="noopener">PerceptionDLM</a> and <a href="https://msalab-pku.github.io/projects/Open-o3-Video-v2/" target="_blank" rel="noopener">Open-o3-Video-v2</a>. Released under the <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener">Apache-2.0 License</a>.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Demo category tabs
+    const tabs = document.querySelectorAll('.demo-tab');
+    const cards = document.querySelectorAll('.demo-card');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        const filter = tab.dataset.filter;
+        cards.forEach(card => {
+          if (filter === 'all' || card.dataset.category === filter) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+            const v = card.querySelector('video');
+            if (v) v.pause();
+          }
+        });
+      });
+    });
+
+    // Copy BibTeX button
+    const copyBtn = document.getElementById('copy-bibtex');
+    const bibtexCode = document.getElementById('bibtex-code');
+    if (copyBtn && bibtexCode) {
+      copyBtn.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(bibtexCode.innerText);
+          const orig = copyBtn.textContent;
+          copyBtn.textContent = 'Copied!';
+          setTimeout(() => { copyBtn.textContent = orig; }, 1800);
+        } catch (err) {
+          console.error(err);
+        }
+      });
+    }
+  </script>
+</body>
+</html>
